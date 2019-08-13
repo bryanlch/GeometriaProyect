@@ -47,6 +47,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -72,13 +73,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Modulos\Ecuaciones.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -94,6 +89,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Vistas\PrincipalForm.Designer.vb">
+      <DependentUpon>PrincipalForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\PrincipalForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Triangulo\SubMenuTriangulo.Designer.vb">
+      <DependentUpon>SubMenuTriangulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Triangulo\SubMenuTriangulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -101,6 +108,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\PrincipalForm.resx">
+      <DependentUpon>PrincipalForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Triangulo\SubMenuTriangulo.resx">
+      <DependentUpon>SubMenuTriangulo.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -114,6 +127,10 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagenes\" />
+    <Folder Include="Vistas\Cuadrado\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
