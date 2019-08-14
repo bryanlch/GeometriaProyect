@@ -35,7 +35,7 @@ Public Class PrincipalForm
     'Boton triangulo
 
     Private Sub BtnTriangulo_Click(sender As Object, e As EventArgs) Handles BtnTriangulo.Click
-        NewWindows(Of SubMenuTriangulo)()
+        NewWindows(Of TrianguloEcuacionForm)()
         BtnTriangulo.BackColor = Color.FromArgb(12, 61, 92)
     End Sub
 End Class

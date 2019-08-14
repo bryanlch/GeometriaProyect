@@ -95,10 +95,10 @@
     <Compile Include="Vistas\PrincipalForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vistas\Triangulo\SubMenuTriangulo.Designer.vb">
-      <DependentUpon>SubMenuTriangulo.vb</DependentUpon>
+    <Compile Include="Vistas\Triangulo\TrianguloEcuacionForm.Designer.vb">
+      <DependentUpon>TrianguloEcuacionForm.vb</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Triangulo\SubMenuTriangulo.vb">
+    <Compile Include="Vistas\Triangulo\TrianguloEcuacionForm.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -112,8 +112,8 @@
     <EmbeddedResource Include="Vistas\PrincipalForm.resx">
       <DependentUpon>PrincipalForm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vistas\Triangulo\SubMenuTriangulo.resx">
-      <DependentUpon>SubMenuTriangulo.vb</DependentUpon>
+    <EmbeddedResource Include="Vistas\Triangulo\TrianguloEcuacionForm.resx">
+      <DependentUpon>TrianguloEcuacionForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -129,8 +129,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Imagenes\" />
     <Folder Include="Vistas\Cuadrado\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Triangulos\Triangulo.equilatero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Triangulos\Triangulo.escaleno01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Triangulos\triangulo.isosceles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Triangulos\Triangulo.rectangulo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

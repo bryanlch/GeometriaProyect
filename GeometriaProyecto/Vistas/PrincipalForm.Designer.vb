@@ -231,13 +231,13 @@ Partial Class PrincipalForm
         '
         Me.TableLayoutPanel3.AutoSize = True
         Me.TableLayoutPanel3.ColumnCount = 2
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.38461!))
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84.61539!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.2!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.8!))
+        Me.TableLayoutPanel3.Controls.Add(Me.Button6, 1, 9)
         Me.TableLayoutPanel3.Controls.Add(Me.Label11, 1, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.BtnTriangulo, 1, 1)
         Me.TableLayoutPanel3.Controls.Add(Me.BtnCuadrado, 1, 2)
         Me.TableLayoutPanel3.Controls.Add(Me.BtnVectores, 1, 7)
-        Me.TableLayoutPanel3.Controls.Add(Me.Button6, 1, 9)
         Me.TableLayoutPanel3.Controls.Add(Me.BtnTrapecio, 1, 5)
         Me.TableLayoutPanel3.Controls.Add(Me.BtnRectangulo, 1, 4)
         Me.TableLayoutPanel3.Controls.Add(Me.BtnRomboide, 1, 3)
@@ -249,16 +249,16 @@ Partial Class PrincipalForm
         Me.TableLayoutPanel3.MinimumSize = New System.Drawing.Size(170, 50)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 10
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle())
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
         Me.TableLayoutPanel3.Size = New System.Drawing.Size(250, 561)
         Me.TableLayoutPanel3.TabIndex = 0
         '
@@ -266,10 +266,10 @@ Partial Class PrincipalForm
         '
         Me.Label11.AutoSize = True
         Me.Label11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label11.Location = New System.Drawing.Point(41, 0)
+        Me.Label11.Location = New System.Drawing.Point(25, 0)
         Me.Label11.MinimumSize = New System.Drawing.Size(206, 42)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(206, 56)
+        Me.Label11.Size = New System.Drawing.Size(222, 42)
         Me.Label11.TabIndex = 3
         Me.Label11.Text = "Opciones"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -283,12 +283,12 @@ Partial Class PrincipalForm
         Me.BtnTriangulo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnTriangulo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnTriangulo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnTriangulo.Location = New System.Drawing.Point(45, 63)
+        Me.BtnTriangulo.Location = New System.Drawing.Point(29, 49)
         Me.BtnTriangulo.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnTriangulo.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnTriangulo.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnTriangulo.Name = "BtnTriangulo"
-        Me.BtnTriangulo.Size = New System.Drawing.Size(198, 50)
+        Me.BtnTriangulo.Size = New System.Drawing.Size(214, 50)
         Me.BtnTriangulo.TabIndex = 0
         Me.BtnTriangulo.Text = "Triangulo"
         Me.BtnTriangulo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -303,12 +303,12 @@ Partial Class PrincipalForm
         Me.BtnCuadrado.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnCuadrado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnCuadrado.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnCuadrado.Location = New System.Drawing.Point(45, 119)
+        Me.BtnCuadrado.Location = New System.Drawing.Point(29, 106)
         Me.BtnCuadrado.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnCuadrado.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnCuadrado.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnCuadrado.Name = "BtnCuadrado"
-        Me.BtnCuadrado.Size = New System.Drawing.Size(198, 50)
+        Me.BtnCuadrado.Size = New System.Drawing.Size(214, 50)
         Me.BtnCuadrado.TabIndex = 1
         Me.BtnCuadrado.Text = "Cuadrado"
         Me.BtnCuadrado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -323,12 +323,12 @@ Partial Class PrincipalForm
         Me.BtnVectores.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnVectores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnVectores.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnVectores.Location = New System.Drawing.Point(45, 399)
+        Me.BtnVectores.Location = New System.Drawing.Point(29, 391)
         Me.BtnVectores.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnVectores.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnVectores.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnVectores.Name = "BtnVectores"
-        Me.BtnVectores.Size = New System.Drawing.Size(198, 50)
+        Me.BtnVectores.Size = New System.Drawing.Size(214, 50)
         Me.BtnVectores.TabIndex = 7
         Me.BtnVectores.Text = "Vectores"
         Me.BtnVectores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -343,12 +343,12 @@ Partial Class PrincipalForm
         Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(45, 511)
+        Me.Button6.Location = New System.Drawing.Point(29, 505)
         Me.Button6.Margin = New System.Windows.Forms.Padding(7)
         Me.Button6.MaximumSize = New System.Drawing.Size(0, 300)
         Me.Button6.MinimumSize = New System.Drawing.Size(170, 30)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(198, 43)
+        Me.Button6.Size = New System.Drawing.Size(214, 49)
         Me.Button6.TabIndex = 9
         Me.Button6.Text = "Salir"
         Me.Button6.UseVisualStyleBackColor = False
@@ -362,12 +362,12 @@ Partial Class PrincipalForm
         Me.BtnTrapecio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnTrapecio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnTrapecio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnTrapecio.Location = New System.Drawing.Point(45, 287)
+        Me.BtnTrapecio.Location = New System.Drawing.Point(29, 277)
         Me.BtnTrapecio.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnTrapecio.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnTrapecio.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnTrapecio.Name = "BtnTrapecio"
-        Me.BtnTrapecio.Size = New System.Drawing.Size(198, 50)
+        Me.BtnTrapecio.Size = New System.Drawing.Size(214, 50)
         Me.BtnTrapecio.TabIndex = 6
         Me.BtnTrapecio.Text = "Trapecion"
         Me.BtnTrapecio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -382,12 +382,12 @@ Partial Class PrincipalForm
         Me.BtnRectangulo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnRectangulo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnRectangulo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnRectangulo.Location = New System.Drawing.Point(45, 231)
+        Me.BtnRectangulo.Location = New System.Drawing.Point(29, 220)
         Me.BtnRectangulo.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnRectangulo.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnRectangulo.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnRectangulo.Name = "BtnRectangulo"
-        Me.BtnRectangulo.Size = New System.Drawing.Size(198, 50)
+        Me.BtnRectangulo.Size = New System.Drawing.Size(214, 50)
         Me.BtnRectangulo.TabIndex = 2
         Me.BtnRectangulo.Text = "Rectangulo"
         Me.BtnRectangulo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -402,12 +402,12 @@ Partial Class PrincipalForm
         Me.BtnRomboide.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnRomboide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnRomboide.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnRomboide.Location = New System.Drawing.Point(45, 175)
+        Me.BtnRomboide.Location = New System.Drawing.Point(29, 163)
         Me.BtnRomboide.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnRomboide.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnRomboide.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnRomboide.Name = "BtnRomboide"
-        Me.BtnRomboide.Size = New System.Drawing.Size(198, 50)
+        Me.BtnRomboide.Size = New System.Drawing.Size(214, 50)
         Me.BtnRomboide.TabIndex = 5
         Me.BtnRomboide.Text = "Romboide"
         Me.BtnRomboide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -422,12 +422,12 @@ Partial Class PrincipalForm
         Me.BtnRombo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnRombo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnRombo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnRombo.Location = New System.Drawing.Point(45, 343)
+        Me.BtnRombo.Location = New System.Drawing.Point(29, 334)
         Me.BtnRombo.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnRombo.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnRombo.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnRombo.Name = "BtnRombo"
-        Me.BtnRombo.Size = New System.Drawing.Size(198, 50)
+        Me.BtnRombo.Size = New System.Drawing.Size(214, 50)
         Me.BtnRombo.TabIndex = 4
         Me.BtnRombo.Text = "Rombo"
         Me.BtnRombo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
