@@ -492,6 +492,7 @@ Partial Class PrincipalForm
         Me.Padding = New System.Windows.Forms.Padding(10)
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Principal"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Titulo.ResumeLayout(False)
         Me.Titulo.PerformLayout()
         Me.TableLayoutPanel2.ResumeLayout(False)
