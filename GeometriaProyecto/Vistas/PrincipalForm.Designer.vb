@@ -40,11 +40,11 @@ Partial Class PrincipalForm
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Lateral = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.BtnTriangulo = New System.Windows.Forms.Button()
         Me.BtnCuadrado = New System.Windows.Forms.Button()
         Me.BtnVectores = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.BtnTrapecio = New System.Windows.Forms.Button()
         Me.BtnRectangulo = New System.Windows.Forms.Button()
         Me.BtnRomboide = New System.Windows.Forms.Button()
@@ -85,7 +85,7 @@ Partial Class PrincipalForm
         Me.TableLayoutPanel2.ColumnCount = 3
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.3886!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.6114!))
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 141.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.Label2, 2, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.Label7, 1, 1)
@@ -113,7 +113,7 @@ Partial Class PrincipalForm
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(655, 0)
+        Me.Label2.Location = New System.Drawing.Point(653, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(96, 19)
         Me.Label2.TabIndex = 1
@@ -122,7 +122,7 @@ Partial Class PrincipalForm
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(495, 40)
+        Me.Label7.Location = New System.Drawing.Point(493, 40)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(74, 19)
         Me.Label7.TabIndex = 6
@@ -262,6 +262,25 @@ Partial Class PrincipalForm
         Me.TableLayoutPanel3.Size = New System.Drawing.Size(250, 561)
         Me.TableLayoutPanel3.TabIndex = 0
         '
+        'Button6
+        '
+        Me.Button6.AutoSize = True
+        Me.Button6.BackColor = System.Drawing.Color.Red
+        Me.Button6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Button6.FlatAppearance.BorderSize = 0
+        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
+        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Location = New System.Drawing.Point(29, 505)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(7)
+        Me.Button6.MaximumSize = New System.Drawing.Size(0, 300)
+        Me.Button6.MinimumSize = New System.Drawing.Size(170, 30)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(214, 49)
+        Me.Button6.TabIndex = 9
+        Me.Button6.Text = "Salir"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
         'Label11
         '
         Me.Label11.AutoSize = True
@@ -333,25 +352,6 @@ Partial Class PrincipalForm
         Me.BtnVectores.Text = "Vectores"
         Me.BtnVectores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnVectores.UseVisualStyleBackColor = False
-        '
-        'Button6
-        '
-        Me.Button6.AutoSize = True
-        Me.Button6.BackColor = System.Drawing.Color.Red
-        Me.Button6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
-        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(29, 505)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(7)
-        Me.Button6.MaximumSize = New System.Drawing.Size(0, 300)
-        Me.Button6.MinimumSize = New System.Drawing.Size(170, 30)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(214, 49)
-        Me.Button6.TabIndex = 9
-        Me.Button6.Text = "Salir"
-        Me.Button6.UseVisualStyleBackColor = False
         '
         'BtnTrapecio
         '
@@ -485,7 +485,6 @@ Partial Class PrincipalForm
         Me.Cursor = System.Windows.Forms.Cursors.Default
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Adobe Gothic Std B", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ForeColor = System.Drawing.Color.White
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "PrincipalForm"

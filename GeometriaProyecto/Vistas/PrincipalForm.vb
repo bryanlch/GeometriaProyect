@@ -14,6 +14,7 @@ Public Class PrincipalForm
             Formulario.TopLevel = False
             Formulario.FormBorderStyle = FormBorderStyle.None
             Formulario.Dock = DockStyle.Fill
+            Formulario.AutoSize = True
             Contenedor.Controls.Add(Formulario)
             Contenedor.Tag = Formulario
             Formulario.Show()
