@@ -1,9 +1,9 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class PrincipalForm
-    Inherits DevComponents.DotNetBar.Metro.MetroForm
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class FormPrincipal
+    Inherits System.Windows.Forms.Form
 
-    'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    'Form reemplaza a Dispose para limpiar la lista de componentes.
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -14,17 +14,14 @@ Partial Class PrincipalForm
         End Try
     End Sub
 
-    'Required by the Windows Form Designer
+    'Requerido por el Diseñador de Windows Forms
     Private components As System.ComponentModel.IContainer
 
-    'NOTE: The following procedure is required by the Windows Form Designer
-    'It can be modified using the Windows Form Designer.  
-    'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
+    'Se puede modificar usando el Diseñador de Windows Forms.  
+    'No lo modifique con el editor de código.
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PrincipalForm))
-        Me.StyleManager1 = New DevComponents.DotNetBar.StyleManager(Me.components)
         Me.Titulo = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -56,11 +53,6 @@ Partial Class PrincipalForm
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'StyleManager1
-        '
-        Me.StyleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Dark
-        Me.StyleManager1.MetroColorParameters = New DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer)), System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(122, Byte), Integer), CType(CType(204, Byte), Integer)))
-        '
         'Titulo
         '
         Me.Titulo.BackColor = System.Drawing.Color.Transparent
@@ -68,13 +60,13 @@ Partial Class PrincipalForm
         Me.Titulo.Controls.Add(Me.TableLayoutPanel1)
         Me.Titulo.Dock = System.Windows.Forms.DockStyle.Top
         Me.Titulo.ForeColor = System.Drawing.Color.White
-        Me.Titulo.Location = New System.Drawing.Point(10, 10)
+        Me.Titulo.Location = New System.Drawing.Point(0, 0)
         Me.Titulo.MaximumSize = New System.Drawing.Size(1900, 120)
         Me.Titulo.MinimumSize = New System.Drawing.Size(1244, 100)
         Me.Titulo.Name = "Titulo"
         Me.Titulo.Padding = New System.Windows.Forms.Padding(10)
-        Me.Titulo.Size = New System.Drawing.Size(1268, 100)
-        Me.Titulo.TabIndex = 0
+        Me.Titulo.Size = New System.Drawing.Size(1288, 100)
+        Me.Titulo.TabIndex = 1
         '
         'TableLayoutPanel2
         '
@@ -95,7 +87,7 @@ Partial Class PrincipalForm
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(816, 80)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(836, 80)
         Me.TableLayoutPanel2.TabIndex = 7
         '
         'Label1
@@ -113,9 +105,9 @@ Partial Class PrincipalForm
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(674, 0)
+        Me.Label2.Location = New System.Drawing.Point(694, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(96, 19)
+        Me.Label2.Size = New System.Drawing.Size(66, 13)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Integrantes :"
         '
@@ -123,9 +115,9 @@ Partial Class PrincipalForm
         '
         Me.Label7.AutoSize = True
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(509, 40)
+        Me.Label7.Location = New System.Drawing.Point(524, 40)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(74, 19)
+        Me.Label7.Size = New System.Drawing.Size(58, 13)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Seccion :  " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -135,7 +127,7 @@ Partial Class PrincipalForm
         Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(3, 40)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(128, 19)
+        Me.Label6.Size = New System.Drawing.Size(92, 13)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Profesora:    Luisa"
         '
@@ -153,7 +145,7 @@ Partial Class PrincipalForm
         Me.TableLayoutPanel1.Controls.Add(Me.Label10, 1, 2)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right
         Me.TableLayoutPanel1.ForeColor = System.Drawing.Color.White
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(826, 10)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(846, 10)
         Me.TableLayoutPanel1.MinimumSize = New System.Drawing.Size(432, 80)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 3
@@ -169,7 +161,7 @@ Partial Class PrincipalForm
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(3, 48)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(23, 19)
+        Me.Label5.Size = New System.Drawing.Size(16, 13)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "3-"
         '
@@ -179,7 +171,7 @@ Partial Class PrincipalForm
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(3, 24)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(23, 19)
+        Me.Label4.Size = New System.Drawing.Size(16, 13)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "2-"
         '
@@ -189,7 +181,7 @@ Partial Class PrincipalForm
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(3, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(23, 19)
+        Me.Label3.Size = New System.Drawing.Size(16, 13)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "1-"
         '
@@ -199,7 +191,7 @@ Partial Class PrincipalForm
         Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Location = New System.Drawing.Point(64, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(55, 19)
+        Me.Label8.Size = New System.Drawing.Size(39, 13)
         Me.Label8.TabIndex = 5
         Me.Label8.Text = "Label8"
         '
@@ -209,7 +201,7 @@ Partial Class PrincipalForm
         Me.Label9.ForeColor = System.Drawing.Color.White
         Me.Label9.Location = New System.Drawing.Point(64, 24)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(55, 19)
+        Me.Label9.Size = New System.Drawing.Size(39, 13)
         Me.Label9.TabIndex = 6
         Me.Label9.Text = "Label9"
         '
@@ -219,7 +211,7 @@ Partial Class PrincipalForm
         Me.Label10.ForeColor = System.Drawing.Color.White
         Me.Label10.Location = New System.Drawing.Point(64, 48)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(64, 19)
+        Me.Label10.Size = New System.Drawing.Size(45, 13)
         Me.Label10.TabIndex = 7
         Me.Label10.Text = "Label10"
         '
@@ -230,19 +222,19 @@ Partial Class PrincipalForm
         Me.Lateral.Controls.Add(Me.TableLayoutPanel3)
         Me.Lateral.Dock = System.Windows.Forms.DockStyle.Left
         Me.Lateral.ForeColor = System.Drawing.Color.White
-        Me.Lateral.Location = New System.Drawing.Point(10, 110)
+        Me.Lateral.Location = New System.Drawing.Point(0, 100)
         Me.Lateral.MaximumSize = New System.Drawing.Size(250, 0)
         Me.Lateral.MinimumSize = New System.Drawing.Size(250, 561)
         Me.Lateral.Name = "Lateral"
-        Me.Lateral.Size = New System.Drawing.Size(250, 732)
-        Me.Lateral.TabIndex = 1
+        Me.Lateral.Size = New System.Drawing.Size(250, 752)
+        Me.Lateral.TabIndex = 2
         '
         'TableLayoutPanel3
         '
         Me.TableLayoutPanel3.AutoSize = True
         Me.TableLayoutPanel3.ColumnCount = 2
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.2!))
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.8!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.0!))
         Me.TableLayoutPanel3.Controls.Add(Me.Button6, 1, 9)
         Me.TableLayoutPanel3.Controls.Add(Me.Label11, 1, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.BtnTriangulo, 1, 1)
@@ -258,34 +250,35 @@ Partial Class PrincipalForm
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 10
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle())
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70.0!))
         Me.TableLayoutPanel3.Size = New System.Drawing.Size(250, 700)
         Me.TableLayoutPanel3.TabIndex = 0
         '
         'Button6
         '
         Me.Button6.AutoSize = True
-        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Button6.BackColor = System.Drawing.Color.Crimson
         Me.Button6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button6.FlatAppearance.BorderSize = 0
         Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Font = New System.Drawing.Font("Candara", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.White
-        Me.Button6.Location = New System.Drawing.Point(29, 633)
+        Me.Button6.Location = New System.Drawing.Point(32, 637)
         Me.Button6.Margin = New System.Windows.Forms.Padding(7)
         Me.Button6.MaximumSize = New System.Drawing.Size(0, 300)
         Me.Button6.MinimumSize = New System.Drawing.Size(170, 30)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(214, 60)
+        Me.Button6.Size = New System.Drawing.Size(211, 56)
         Me.Button6.TabIndex = 9
         Me.Button6.Text = "Salir"
         Me.Button6.UseVisualStyleBackColor = False
@@ -295,10 +288,10 @@ Partial Class PrincipalForm
         Me.Label11.AutoSize = True
         Me.Label11.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label11.ForeColor = System.Drawing.Color.White
-        Me.Label11.Location = New System.Drawing.Point(25, 0)
+        Me.Label11.Location = New System.Drawing.Point(28, 0)
         Me.Label11.MinimumSize = New System.Drawing.Size(206, 42)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(222, 42)
+        Me.Label11.Size = New System.Drawing.Size(219, 42)
         Me.Label11.TabIndex = 3
         Me.Label11.Text = "Opciones"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -306,19 +299,20 @@ Partial Class PrincipalForm
         'BtnTriangulo
         '
         Me.BtnTriangulo.AutoSize = True
-        Me.BtnTriangulo.BackColor = System.Drawing.Color.OrangeRed
+        Me.BtnTriangulo.BackColor = System.Drawing.Color.DodgerBlue
         Me.BtnTriangulo.Dock = System.Windows.Forms.DockStyle.Fill
         Me.BtnTriangulo.FlatAppearance.BorderSize = 0
         Me.BtnTriangulo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnTriangulo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnTriangulo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnTriangulo.Font = New System.Drawing.Font("Candara", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnTriangulo.ForeColor = System.Drawing.Color.White
-        Me.BtnTriangulo.Location = New System.Drawing.Point(29, 49)
+        Me.BtnTriangulo.Location = New System.Drawing.Point(32, 49)
         Me.BtnTriangulo.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnTriangulo.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnTriangulo.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnTriangulo.Name = "BtnTriangulo"
-        Me.BtnTriangulo.Size = New System.Drawing.Size(214, 59)
+        Me.BtnTriangulo.Size = New System.Drawing.Size(211, 56)
         Me.BtnTriangulo.TabIndex = 0
         Me.BtnTriangulo.Text = "Triangulo"
         Me.BtnTriangulo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -327,19 +321,20 @@ Partial Class PrincipalForm
         'BtnCuadrado
         '
         Me.BtnCuadrado.AutoSize = True
-        Me.BtnCuadrado.BackColor = System.Drawing.Color.DarkOrange
+        Me.BtnCuadrado.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.BtnCuadrado.Dock = System.Windows.Forms.DockStyle.Fill
         Me.BtnCuadrado.FlatAppearance.BorderSize = 0
         Me.BtnCuadrado.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnCuadrado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnCuadrado.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCuadrado.Font = New System.Drawing.Font("Candara", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnCuadrado.ForeColor = System.Drawing.Color.White
-        Me.BtnCuadrado.Location = New System.Drawing.Point(29, 122)
+        Me.BtnCuadrado.Location = New System.Drawing.Point(32, 119)
         Me.BtnCuadrado.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnCuadrado.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnCuadrado.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnCuadrado.Name = "BtnCuadrado"
-        Me.BtnCuadrado.Size = New System.Drawing.Size(214, 59)
+        Me.BtnCuadrado.Size = New System.Drawing.Size(211, 56)
         Me.BtnCuadrado.TabIndex = 1
         Me.BtnCuadrado.Text = "Poligonos"
         Me.BtnCuadrado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -348,19 +343,20 @@ Partial Class PrincipalForm
         'BtnVectores
         '
         Me.BtnVectores.AutoSize = True
-        Me.BtnVectores.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.BtnVectores.BackColor = System.Drawing.Color.OrangeRed
         Me.BtnVectores.Dock = System.Windows.Forms.DockStyle.Fill
         Me.BtnVectores.FlatAppearance.BorderSize = 0
         Me.BtnVectores.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnVectores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnVectores.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnVectores.Font = New System.Drawing.Font("Candara", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnVectores.ForeColor = System.Drawing.Color.White
-        Me.BtnVectores.Location = New System.Drawing.Point(29, 487)
+        Me.BtnVectores.Location = New System.Drawing.Point(32, 490)
         Me.BtnVectores.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnVectores.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnVectores.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnVectores.Name = "BtnVectores"
-        Me.BtnVectores.Size = New System.Drawing.Size(214, 59)
+        Me.BtnVectores.Size = New System.Drawing.Size(211, 56)
         Me.BtnVectores.TabIndex = 7
         Me.BtnVectores.Text = "Vectores"
         Me.BtnVectores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -375,13 +371,14 @@ Partial Class PrincipalForm
         Me.BtnRomboide.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson
         Me.BtnRomboide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BtnRomboide.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnRomboide.Font = New System.Drawing.Font("Candara", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnRomboide.ForeColor = System.Drawing.Color.White
-        Me.BtnRomboide.Location = New System.Drawing.Point(29, 195)
+        Me.BtnRomboide.Location = New System.Drawing.Point(32, 189)
         Me.BtnRomboide.Margin = New System.Windows.Forms.Padding(7)
         Me.BtnRomboide.MaximumSize = New System.Drawing.Size(0, 300)
         Me.BtnRomboide.MinimumSize = New System.Drawing.Size(170, 50)
         Me.BtnRomboide.Name = "BtnRomboide"
-        Me.BtnRomboide.Size = New System.Drawing.Size(214, 59)
+        Me.BtnRomboide.Size = New System.Drawing.Size(211, 56)
         Me.BtnRomboide.TabIndex = 5
         Me.BtnRomboide.Text = "Solidos"
         Me.BtnRomboide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -395,12 +392,12 @@ Partial Class PrincipalForm
         Me.Panel1.Controls.Add(Me.Contenedor)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.ForeColor = System.Drawing.Color.White
-        Me.Panel1.Location = New System.Drawing.Point(260, 110)
+        Me.Panel1.Location = New System.Drawing.Point(250, 100)
         Me.Panel1.MinimumSize = New System.Drawing.Size(900, 560)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Padding = New System.Windows.Forms.Padding(0, 10, 0, 10)
-        Me.Panel1.Size = New System.Drawing.Size(1018, 732)
-        Me.Panel1.TabIndex = 2
+        Me.Panel1.Size = New System.Drawing.Size(1038, 752)
+        Me.Panel1.TabIndex = 3
         '
         'Contenedor
         '
@@ -413,12 +410,12 @@ Partial Class PrincipalForm
         Me.Contenedor.Margin = New System.Windows.Forms.Padding(10)
         Me.Contenedor.MinimumSize = New System.Drawing.Size(952, 709)
         Me.Contenedor.Name = "Contenedor"
-        Me.Contenedor.Size = New System.Drawing.Size(1016, 710)
+        Me.Contenedor.Size = New System.Drawing.Size(1036, 730)
         Me.Contenedor.TabIndex = 1
         '
-        'PrincipalForm
+        'FormPrincipal
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
@@ -426,15 +423,8 @@ Partial Class PrincipalForm
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Lateral)
         Me.Controls.Add(Me.Titulo)
-        Me.Cursor = System.Windows.Forms.Cursors.Default
-        Me.DoubleBuffered = True
-        Me.Font = New System.Drawing.Font("Adobe Gothic Std B", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ForeColor = System.Drawing.Color.White
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(5)
-        Me.Name = "PrincipalForm"
-        Me.Padding = New System.Windows.Forms.Padding(10)
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Name = "FormPrincipal"
+        Me.Text = "FormPrincipal"
         Me.Titulo.ResumeLayout(False)
         Me.Titulo.PerformLayout()
         Me.TableLayoutPanel2.ResumeLayout(False)
@@ -452,28 +442,27 @@ Partial Class PrincipalForm
 
     End Sub
 
-    Friend WithEvents StyleManager1 As DevComponents.DotNetBar.StyleManager
     Friend WithEvents Titulo As Panel
+    Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Lateral As Panel
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
+    Friend WithEvents Lateral As Panel
     Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Label11 As Label
     Friend WithEvents BtnTriangulo As Button
     Friend WithEvents BtnCuadrado As Button
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Contenedor As Panel
-    Friend WithEvents BtnRomboide As Button
     Friend WithEvents BtnVectores As Button
-    Friend WithEvents Button6 As Button
+    Friend WithEvents BtnRomboide As Button
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Contenedor As Panel
 End Class

@@ -95,6 +95,12 @@
     <Compile Include="Vistas\Cuadrado\CuadradoForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Vistas\FormPrincipal.Designer.vb">
+      <DependentUpon>FormPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FormPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Vistas\PrincipalForm.Designer.vb">
       <DependentUpon>PrincipalForm.vb</DependentUpon>
     </Compile>
@@ -117,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Cuadrado\CuadradoForm.resx">
       <DependentUpon>CuadradoForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\PrincipalForm.resx">
       <DependentUpon>PrincipalForm.vb</DependentUpon>
