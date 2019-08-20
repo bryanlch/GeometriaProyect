@@ -1,4 +1,4 @@
-Public Class TrianguloEcuacionForm
+﻿Public Class TrianguloForm
     Public BANDERA As Boolean
     Private formula As New Ecuaciones
     Public a, b, c, d, Re As Int16
