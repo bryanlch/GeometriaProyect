@@ -37,7 +37,7 @@
         End If
         If Validacion() = True Then
             a = A3C1.Text
-            Radio1.Text = a
+            Radio2.Text = a
             b = A3C2.Text
             R2 = (PI * (a ^ 2))
             R3 = (PI * b * a)
@@ -135,7 +135,7 @@
         End If
         If Validacion() = True Then
             a = A1C1.Text
-            Radio2.Text = a
+            Radio1.Text = a
             b = A1C2.Text
             c = a
             R2 = ((2 * PI) * a)
