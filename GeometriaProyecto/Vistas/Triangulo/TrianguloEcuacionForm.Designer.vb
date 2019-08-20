@@ -52,11 +52,13 @@ Partial Class TrianguloEcuacionForm
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Resultado2 = New System.Windows.Forms.Label()
         Me.PanelImagen1 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label59 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.Label41 = New System.Windows.Forms.Label()
         Me.T2A2 = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
@@ -78,7 +80,6 @@ Partial Class TrianguloEcuacionForm
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
-        Me.Label41 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.LabelT2A = New System.Windows.Forms.Label()
         Me.Panel8 = New System.Windows.Forms.Panel()
@@ -93,10 +94,38 @@ Partial Class TrianguloEcuacionForm
         Me.T2P1 = New System.Windows.Forms.TextBox()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.PanelImagen2 = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.RespuestaT3A = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label84 = New System.Windows.Forms.Label()
+        Me.Label85 = New System.Windows.Forms.Label()
+        Me.Label86 = New System.Windows.Forms.Label()
+        Me.T3A2 = New System.Windows.Forms.TextBox()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label77 = New System.Windows.Forms.Label()
+        Me.Label82 = New System.Windows.Forms.Label()
+        Me.T3A1 = New System.Windows.Forms.TextBox()
+        Me.Label72 = New System.Windows.Forms.Label()
+        Me.Label76 = New System.Windows.Forms.Label()
+        Me.Label80 = New System.Windows.Forms.Label()
+        Me.Label81 = New System.Windows.Forms.Label()
+        Me.Label83 = New System.Windows.Forms.Label()
+        Me.T3A3 = New System.Windows.Forms.TextBox()
+        Me.Label78 = New System.Windows.Forms.Label()
+        Me.Label79 = New System.Windows.Forms.Label()
+        Me.T3A4 = New System.Windows.Forms.TextBox()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label73 = New System.Windows.Forms.Label()
+        Me.Label74 = New System.Windows.Forms.Label()
+        Me.Label75 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Panel9 = New System.Windows.Forms.Panel()
         Me.T3P3 = New System.Windows.Forms.TextBox()
         Me.T3P2 = New System.Windows.Forms.TextBox()
@@ -110,6 +139,7 @@ Partial Class TrianguloEcuacionForm
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.PanelImagen3 = New System.Windows.Forms.Panel()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
@@ -144,55 +174,29 @@ Partial Class TrianguloEcuacionForm
         Me.T4P1 = New System.Windows.Forms.TextBox()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.StyleManager1 = New DevComponents.DotNetBar.StyleManager(Me.components)
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label75 = New System.Windows.Forms.Label()
-        Me.Label74 = New System.Windows.Forms.Label()
-        Me.Label73 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.T3A4 = New System.Windows.Forms.TextBox()
-        Me.Label79 = New System.Windows.Forms.Label()
-        Me.Label78 = New System.Windows.Forms.Label()
-        Me.T3A3 = New System.Windows.Forms.TextBox()
-        Me.Label83 = New System.Windows.Forms.Label()
-        Me.Label81 = New System.Windows.Forms.Label()
-        Me.Label80 = New System.Windows.Forms.Label()
-        Me.Label76 = New System.Windows.Forms.Label()
-        Me.Label72 = New System.Windows.Forms.Label()
-        Me.T3A1 = New System.Windows.Forms.TextBox()
-        Me.Label82 = New System.Windows.Forms.Label()
-        Me.Label77 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.T3A2 = New System.Windows.Forms.TextBox()
-        Me.Label86 = New System.Windows.Forms.Label()
-        Me.Label85 = New System.Windows.Forms.Label()
-        Me.Label84 = New System.Windows.Forms.Label()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.RespuestaT3A = New System.Windows.Forms.Label()
-        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.StyleManager1 = New DevComponents.DotNetBar.StyleManager(Me.components)
         Me.Panel1.SuspendLayout()
         Me.TableLayoutPanel9.SuspendLayout()
         Me.TableLayoutPanel8.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel7.SuspendLayout()
         Me.PanelImagen1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.Panel11.SuspendLayout()
         Me.Panel8.SuspendLayout()
         Me.PanelImagen2.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
         Me.TableLayoutPanel4.SuspendLayout()
         Me.TableLayoutPanel5.SuspendLayout()
+        Me.Panel10.SuspendLayout()
         Me.Panel9.SuspendLayout()
         Me.PanelImagen3.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.TableLayoutPanel6.SuspendLayout()
@@ -201,10 +205,6 @@ Partial Class TrianguloEcuacionForm
         Me.Panel12.SuspendLayout()
         Me.Panel5.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel10.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -570,6 +570,20 @@ Partial Class TrianguloEcuacionForm
         Me.PanelImagen1.Size = New System.Drawing.Size(200, 158)
         Me.PanelImagen1.TabIndex = 0
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox1.ForeColor = System.Drawing.Color.White
+        Me.PictureBox1.Image = Global.GeometriaProyecto.My.Resources.Resources.Triangulo_rectangulo
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.MinimumSize = New System.Drawing.Size(200, 158)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(200, 158)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
         'Panel2
         '
         Me.Panel2.AutoSize = True
@@ -666,6 +680,18 @@ Partial Class TrianguloEcuacionForm
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(369, 110)
         Me.Panel11.TabIndex = 4
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.BackColor = System.Drawing.Color.Transparent
+        Me.Label41.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.ForeColor = System.Drawing.Color.White
+        Me.Label41.Location = New System.Drawing.Point(-2, 0)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(52, 25)
+        Me.Label41.TabIndex = 6
+        Me.Label41.Text = "Area"
         '
         'T2A2
         '
@@ -907,18 +933,6 @@ Partial Class TrianguloEcuacionForm
         Me.Label39.TabIndex = 17
         Me.Label39.Text = "-"
         '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.BackColor = System.Drawing.Color.Transparent
-        Me.Label41.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.ForeColor = System.Drawing.Color.White
-        Me.Label41.Location = New System.Drawing.Point(-2, 0)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(52, 25)
-        Me.Label41.TabIndex = 6
-        Me.Label41.Text = "Area"
-        '
         'Button6
         '
         Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
@@ -1098,6 +1112,20 @@ Partial Class TrianguloEcuacionForm
         Me.PanelImagen2.Size = New System.Drawing.Size(200, 158)
         Me.PanelImagen2.TabIndex = 0
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox2.ForeColor = System.Drawing.Color.White
+        Me.PictureBox2.Image = Global.GeometriaProyecto.My.Resources.Resources.triangulo_isosceles
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox2.MinimumSize = New System.Drawing.Size(200, 157)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(200, 158)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 1
+        Me.PictureBox2.TabStop = False
+        '
         'Panel3
         '
         Me.Panel3.AutoSize = True
@@ -1157,6 +1185,346 @@ Partial Class TrianguloEcuacionForm
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel5.Size = New System.Drawing.Size(724, 124)
         Me.TableLayoutPanel5.TabIndex = 4
+        '
+        'Panel10
+        '
+        Me.Panel10.AutoSize = True
+        Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel10.Controls.Add(Me.RespuestaT3A)
+        Me.Panel10.Controls.Add(Me.Label29)
+        Me.Panel10.Controls.Add(Me.Label84)
+        Me.Panel10.Controls.Add(Me.Label85)
+        Me.Panel10.Controls.Add(Me.Label86)
+        Me.Panel10.Controls.Add(Me.T3A2)
+        Me.Panel10.Controls.Add(Me.Label31)
+        Me.Panel10.Controls.Add(Me.Label77)
+        Me.Panel10.Controls.Add(Me.Label82)
+        Me.Panel10.Controls.Add(Me.T3A1)
+        Me.Panel10.Controls.Add(Me.Label72)
+        Me.Panel10.Controls.Add(Me.Label76)
+        Me.Panel10.Controls.Add(Me.Label80)
+        Me.Panel10.Controls.Add(Me.Label81)
+        Me.Panel10.Controls.Add(Me.Label83)
+        Me.Panel10.Controls.Add(Me.T3A3)
+        Me.Panel10.Controls.Add(Me.Label78)
+        Me.Panel10.Controls.Add(Me.Label79)
+        Me.Panel10.Controls.Add(Me.T3A4)
+        Me.Panel10.Controls.Add(Me.Label32)
+        Me.Panel10.Controls.Add(Me.Label73)
+        Me.Panel10.Controls.Add(Me.Label74)
+        Me.Panel10.Controls.Add(Me.Label75)
+        Me.Panel10.Controls.Add(Me.Label33)
+        Me.Panel10.Controls.Add(Me.Label34)
+        Me.Panel10.Controls.Add(Me.Button5)
+        Me.Panel10.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel10.ForeColor = System.Drawing.Color.White
+        Me.Panel10.Location = New System.Drawing.Point(291, 7)
+        Me.Panel10.Margin = New System.Windows.Forms.Padding(7)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(426, 110)
+        Me.Panel10.TabIndex = 5
+        '
+        'RespuestaT3A
+        '
+        Me.RespuestaT3A.AutoSize = True
+        Me.RespuestaT3A.BackColor = System.Drawing.Color.Transparent
+        Me.RespuestaT3A.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RespuestaT3A.ForeColor = System.Drawing.Color.White
+        Me.RespuestaT3A.Location = New System.Drawing.Point(343, 48)
+        Me.RespuestaT3A.Name = "RespuestaT3A"
+        Me.RespuestaT3A.Size = New System.Drawing.Size(25, 25)
+        Me.RespuestaT3A.TabIndex = 50
+        Me.RespuestaT3A.Text = "="
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.BackColor = System.Drawing.Color.Transparent
+        Me.Label29.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.ForeColor = System.Drawing.Color.White
+        Me.Label29.Location = New System.Drawing.Point(18, 24)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(17, 19)
+        Me.Label29.TabIndex = 49
+        Me.Label29.Text = "P"
+        '
+        'Label84
+        '
+        Me.Label84.AutoSize = True
+        Me.Label84.BackColor = System.Drawing.Color.Transparent
+        Me.Label84.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label84.ForeColor = System.Drawing.Color.White
+        Me.Label84.Location = New System.Drawing.Point(248, 24)
+        Me.Label84.Name = "Label84"
+        Me.Label84.Size = New System.Drawing.Size(18, 19)
+        Me.Label84.TabIndex = 48
+        Me.Label84.Text = "C"
+        '
+        'Label85
+        '
+        Me.Label85.AutoSize = True
+        Me.Label85.BackColor = System.Drawing.Color.Transparent
+        Me.Label85.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label85.ForeColor = System.Drawing.Color.White
+        Me.Label85.Location = New System.Drawing.Point(171, 24)
+        Me.Label85.Name = "Label85"
+        Me.Label85.Size = New System.Drawing.Size(17, 19)
+        Me.Label85.TabIndex = 47
+        Me.Label85.Text = "B"
+        '
+        'Label86
+        '
+        Me.Label86.AutoSize = True
+        Me.Label86.BackColor = System.Drawing.Color.Transparent
+        Me.Label86.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label86.ForeColor = System.Drawing.Color.White
+        Me.Label86.Location = New System.Drawing.Point(96, 24)
+        Me.Label86.Name = "Label86"
+        Me.Label86.Size = New System.Drawing.Size(18, 19)
+        Me.Label86.TabIndex = 46
+        Me.Label86.Text = "A"
+        '
+        'T3A2
+        '
+        Me.T3A2.BackColor = System.Drawing.Color.Black
+        Me.T3A2.ForeColor = System.Drawing.Color.White
+        Me.T3A2.Location = New System.Drawing.Point(82, 48)
+        Me.T3A2.Name = "T3A2"
+        Me.T3A2.Size = New System.Drawing.Size(30, 22)
+        Me.T3A2.TabIndex = 40
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.BackColor = System.Drawing.Color.Transparent
+        Me.Label31.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.ForeColor = System.Drawing.Color.White
+        Me.Label31.Location = New System.Drawing.Point(133, 49)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(17, 19)
+        Me.Label31.TabIndex = 37
+        Me.Label31.Text = "P"
+        '
+        'Label77
+        '
+        Me.Label77.AutoSize = True
+        Me.Label77.BackColor = System.Drawing.Color.Transparent
+        Me.Label77.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.ForeColor = System.Drawing.Color.White
+        Me.Label77.Location = New System.Drawing.Point(120, 41)
+        Me.Label77.Name = "Label77"
+        Me.Label77.Size = New System.Drawing.Size(20, 30)
+        Me.Label77.TabIndex = 39
+        Me.Label77.Text = "("
+        '
+        'Label82
+        '
+        Me.Label82.AutoSize = True
+        Me.Label82.BackColor = System.Drawing.Color.Transparent
+        Me.Label82.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label82.ForeColor = System.Drawing.Color.White
+        Me.Label82.Location = New System.Drawing.Point(110, 41)
+        Me.Label82.Name = "Label82"
+        Me.Label82.Size = New System.Drawing.Size(20, 30)
+        Me.Label82.TabIndex = 43
+        Me.Label82.Text = ")"
+        '
+        'T3A1
+        '
+        Me.T3A1.BackColor = System.Drawing.Color.Black
+        Me.T3A1.ForeColor = System.Drawing.Color.White
+        Me.T3A1.Location = New System.Drawing.Point(13, 48)
+        Me.T3A1.Name = "T3A1"
+        Me.T3A1.Size = New System.Drawing.Size(30, 22)
+        Me.T3A1.TabIndex = 45
+        '
+        'Label72
+        '
+        Me.Label72.AutoSize = True
+        Me.Label72.BackColor = System.Drawing.Color.Transparent
+        Me.Label72.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label72.ForeColor = System.Drawing.Color.White
+        Me.Label72.Location = New System.Drawing.Point(214, 48)
+        Me.Label72.Name = "Label72"
+        Me.Label72.Size = New System.Drawing.Size(17, 19)
+        Me.Label72.TabIndex = 22
+        Me.Label72.Text = "P"
+        '
+        'Label76
+        '
+        Me.Label76.AutoSize = True
+        Me.Label76.BackColor = System.Drawing.Color.Transparent
+        Me.Label76.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label76.ForeColor = System.Drawing.Color.White
+        Me.Label76.Location = New System.Drawing.Point(201, 41)
+        Me.Label76.Name = "Label76"
+        Me.Label76.Size = New System.Drawing.Size(20, 30)
+        Me.Label76.TabIndex = 34
+        Me.Label76.Text = "("
+        '
+        'Label80
+        '
+        Me.Label80.AutoSize = True
+        Me.Label80.BackColor = System.Drawing.Color.Transparent
+        Me.Label80.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.ForeColor = System.Drawing.Color.White
+        Me.Label80.Location = New System.Drawing.Point(54, 49)
+        Me.Label80.Name = "Label80"
+        Me.Label80.Size = New System.Drawing.Size(17, 19)
+        Me.Label80.TabIndex = 42
+        Me.Label80.Text = "P"
+        '
+        'Label81
+        '
+        Me.Label81.AutoSize = True
+        Me.Label81.BackColor = System.Drawing.Color.Transparent
+        Me.Label81.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label81.ForeColor = System.Drawing.Color.White
+        Me.Label81.Location = New System.Drawing.Point(41, 41)
+        Me.Label81.Name = "Label81"
+        Me.Label81.Size = New System.Drawing.Size(20, 30)
+        Me.Label81.TabIndex = 44
+        Me.Label81.Text = "("
+        '
+        'Label83
+        '
+        Me.Label83.AutoSize = True
+        Me.Label83.BackColor = System.Drawing.Color.Transparent
+        Me.Label83.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label83.ForeColor = System.Drawing.Color.White
+        Me.Label83.Location = New System.Drawing.Point(64, 44)
+        Me.Label83.Name = "Label83"
+        Me.Label83.Size = New System.Drawing.Size(22, 30)
+        Me.Label83.TabIndex = 41
+        Me.Label83.Text = "-"
+        '
+        'T3A3
+        '
+        Me.T3A3.BackColor = System.Drawing.Color.Black
+        Me.T3A3.ForeColor = System.Drawing.Color.White
+        Me.T3A3.Location = New System.Drawing.Point(162, 48)
+        Me.T3A3.Name = "T3A3"
+        Me.T3A3.Size = New System.Drawing.Size(30, 22)
+        Me.T3A3.TabIndex = 35
+        '
+        'Label78
+        '
+        Me.Label78.AutoSize = True
+        Me.Label78.BackColor = System.Drawing.Color.Transparent
+        Me.Label78.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label78.ForeColor = System.Drawing.Color.White
+        Me.Label78.Location = New System.Drawing.Point(191, 41)
+        Me.Label78.Name = "Label78"
+        Me.Label78.Size = New System.Drawing.Size(20, 30)
+        Me.Label78.TabIndex = 38
+        Me.Label78.Text = ")"
+        '
+        'Label79
+        '
+        Me.Label79.AutoSize = True
+        Me.Label79.BackColor = System.Drawing.Color.Transparent
+        Me.Label79.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.ForeColor = System.Drawing.Color.White
+        Me.Label79.Location = New System.Drawing.Point(143, 44)
+        Me.Label79.Name = "Label79"
+        Me.Label79.Size = New System.Drawing.Size(22, 30)
+        Me.Label79.TabIndex = 36
+        Me.Label79.Text = "-"
+        '
+        'T3A4
+        '
+        Me.T3A4.BackColor = System.Drawing.Color.Black
+        Me.T3A4.ForeColor = System.Drawing.Color.White
+        Me.T3A4.Location = New System.Drawing.Point(241, 47)
+        Me.T3A4.Name = "T3A4"
+        Me.T3A4.Size = New System.Drawing.Size(30, 22)
+        Me.T3A4.TabIndex = 16
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.BackColor = System.Drawing.Color.Transparent
+        Me.Label32.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.ForeColor = System.Drawing.Color.White
+        Me.Label32.Location = New System.Drawing.Point(270, 39)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(20, 30)
+        Me.Label32.TabIndex = 33
+        Me.Label32.Text = ")"
+        '
+        'Label73
+        '
+        Me.Label73.AutoSize = True
+        Me.Label73.BackColor = System.Drawing.Color.Transparent
+        Me.Label73.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.ForeColor = System.Drawing.Color.White
+        Me.Label73.Location = New System.Drawing.Point(294, 25)
+        Me.Label73.Name = "Label73"
+        Me.Label73.Size = New System.Drawing.Size(22, 13)
+        Me.Label73.TabIndex = 31
+        Me.Label73.Text = "1/2"
+        '
+        'Label74
+        '
+        Me.Label74.AutoSize = True
+        Me.Label74.BackColor = System.Drawing.Color.Transparent
+        Me.Label74.Font = New System.Drawing.Font("Segoe UI Semibold", 28.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.ForeColor = System.Drawing.Color.White
+        Me.Label74.Location = New System.Drawing.Point(-8, 28)
+        Me.Label74.Name = "Label74"
+        Me.Label74.Size = New System.Drawing.Size(35, 51)
+        Me.Label74.TabIndex = 30
+        Me.Label74.Text = "("
+        '
+        'Label75
+        '
+        Me.Label75.AutoSize = True
+        Me.Label75.BackColor = System.Drawing.Color.Transparent
+        Me.Label75.Font = New System.Drawing.Font("Segoe UI Semibold", 28.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.ForeColor = System.Drawing.Color.White
+        Me.Label75.Location = New System.Drawing.Point(277, 25)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(35, 51)
+        Me.Label75.TabIndex = 29
+        Me.Label75.Text = ")"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.BackColor = System.Drawing.Color.Transparent
+        Me.Label33.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.ForeColor = System.Drawing.Color.White
+        Me.Label33.Location = New System.Drawing.Point(223, 44)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(22, 30)
+        Me.Label33.TabIndex = 17
+        Me.Label33.Text = "-"
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.BackColor = System.Drawing.Color.Transparent
+        Me.Label34.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.ForeColor = System.Drawing.Color.White
+        Me.Label34.Location = New System.Drawing.Point(-2, 0)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(52, 25)
+        Me.Label34.TabIndex = 6
+        Me.Label34.Text = "Area"
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Button5.FlatAppearance.BorderSize = 0
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.ForeColor = System.Drawing.Color.White
+        Me.Button5.Location = New System.Drawing.Point(346, -1)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(80, 23)
+        Me.Button5.TabIndex = 4
+        Me.Button5.Text = "Resolver"
+        Me.Button5.UseVisualStyleBackColor = False
         '
         'Panel9
         '
@@ -1318,6 +1686,20 @@ Partial Class TrianguloEcuacionForm
         Me.PanelImagen3.Name = "PanelImagen3"
         Me.PanelImagen3.Size = New System.Drawing.Size(200, 158)
         Me.PanelImagen3.TabIndex = 0
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox3.ForeColor = System.Drawing.Color.White
+        Me.PictureBox3.Image = Global.GeometriaProyecto.My.Resources.Resources.Triangulo_escaleno01
+        Me.PictureBox3.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox3.MinimumSize = New System.Drawing.Size(200, 158)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(200, 158)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 1
+        Me.PictureBox3.TabStop = False
         '
         'TableLayoutPanel1
         '
@@ -1770,11 +2152,6 @@ Partial Class TrianguloEcuacionForm
         Me.Panel5.Size = New System.Drawing.Size(200, 172)
         Me.Panel5.TabIndex = 0
         '
-        'StyleManager1
-        '
-        Me.StyleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Dark
-        Me.StyleManager1.MetroColorParameters = New DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer)), System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(122, Byte), Integer), CType(CType(204, Byte), Integer)))
-        '
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
@@ -1789,387 +2166,10 @@ Partial Class TrianguloEcuacionForm
         Me.PictureBox4.TabIndex = 1
         Me.PictureBox4.TabStop = False
         '
-        'PictureBox1
+        'StyleManager1
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox1.ForeColor = System.Drawing.Color.White
-        Me.PictureBox1.Image = Global.GeometriaProyecto.My.Resources.Resources.Triangulo_rectangulo
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.MinimumSize = New System.Drawing.Size(200, 158)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(200, 158)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox3.ForeColor = System.Drawing.Color.White
-        Me.PictureBox3.Image = Global.GeometriaProyecto.My.Resources.Resources.Triangulo_escaleno01
-        Me.PictureBox3.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox3.MinimumSize = New System.Drawing.Size(200, 158)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(200, 158)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 1
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox2.ForeColor = System.Drawing.Color.White
-        Me.PictureBox2.Image = Global.GeometriaProyecto.My.Resources.Resources.triangulo_isosceles
-        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox2.MinimumSize = New System.Drawing.Size(200, 157)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(200, 158)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 1
-        Me.PictureBox2.TabStop = False
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(346, -1)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(80, 23)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Resolver"
-        Me.Button5.UseVisualStyleBackColor = False
-        '
-        'Label34
-        '
-        Me.Label34.AutoSize = True
-        Me.Label34.BackColor = System.Drawing.Color.Transparent
-        Me.Label34.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.ForeColor = System.Drawing.Color.White
-        Me.Label34.Location = New System.Drawing.Point(-2, 0)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(52, 25)
-        Me.Label34.TabIndex = 6
-        Me.Label34.Text = "Area"
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.BackColor = System.Drawing.Color.Transparent
-        Me.Label33.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.ForeColor = System.Drawing.Color.White
-        Me.Label33.Location = New System.Drawing.Point(223, 44)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(22, 30)
-        Me.Label33.TabIndex = 17
-        Me.Label33.Text = "-"
-        '
-        'Label75
-        '
-        Me.Label75.AutoSize = True
-        Me.Label75.BackColor = System.Drawing.Color.Transparent
-        Me.Label75.Font = New System.Drawing.Font("Segoe UI Semibold", 28.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.ForeColor = System.Drawing.Color.White
-        Me.Label75.Location = New System.Drawing.Point(277, 25)
-        Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(35, 51)
-        Me.Label75.TabIndex = 29
-        Me.Label75.Text = ")"
-        '
-        'Label74
-        '
-        Me.Label74.AutoSize = True
-        Me.Label74.BackColor = System.Drawing.Color.Transparent
-        Me.Label74.Font = New System.Drawing.Font("Segoe UI Semibold", 28.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.ForeColor = System.Drawing.Color.White
-        Me.Label74.Location = New System.Drawing.Point(-8, 28)
-        Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(35, 51)
-        Me.Label74.TabIndex = 30
-        Me.Label74.Text = "("
-        '
-        'Label73
-        '
-        Me.Label73.AutoSize = True
-        Me.Label73.BackColor = System.Drawing.Color.Transparent
-        Me.Label73.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.ForeColor = System.Drawing.Color.White
-        Me.Label73.Location = New System.Drawing.Point(294, 25)
-        Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(22, 13)
-        Me.Label73.TabIndex = 31
-        Me.Label73.Text = "1/2"
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.BackColor = System.Drawing.Color.Transparent
-        Me.Label32.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.ForeColor = System.Drawing.Color.White
-        Me.Label32.Location = New System.Drawing.Point(270, 39)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(20, 30)
-        Me.Label32.TabIndex = 33
-        Me.Label32.Text = ")"
-        '
-        'T3A4
-        '
-        Me.T3A4.BackColor = System.Drawing.Color.Black
-        Me.T3A4.ForeColor = System.Drawing.Color.White
-        Me.T3A4.Location = New System.Drawing.Point(241, 47)
-        Me.T3A4.Name = "T3A4"
-        Me.T3A4.Size = New System.Drawing.Size(30, 22)
-        Me.T3A4.TabIndex = 16
-        '
-        'Label79
-        '
-        Me.Label79.AutoSize = True
-        Me.Label79.BackColor = System.Drawing.Color.Transparent
-        Me.Label79.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label79.ForeColor = System.Drawing.Color.White
-        Me.Label79.Location = New System.Drawing.Point(143, 44)
-        Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(22, 30)
-        Me.Label79.TabIndex = 36
-        Me.Label79.Text = "-"
-        '
-        'Label78
-        '
-        Me.Label78.AutoSize = True
-        Me.Label78.BackColor = System.Drawing.Color.Transparent
-        Me.Label78.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label78.ForeColor = System.Drawing.Color.White
-        Me.Label78.Location = New System.Drawing.Point(191, 41)
-        Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(20, 30)
-        Me.Label78.TabIndex = 38
-        Me.Label78.Text = ")"
-        '
-        'T3A3
-        '
-        Me.T3A3.BackColor = System.Drawing.Color.Black
-        Me.T3A3.ForeColor = System.Drawing.Color.White
-        Me.T3A3.Location = New System.Drawing.Point(162, 48)
-        Me.T3A3.Name = "T3A3"
-        Me.T3A3.Size = New System.Drawing.Size(30, 22)
-        Me.T3A3.TabIndex = 35
-        '
-        'Label83
-        '
-        Me.Label83.AutoSize = True
-        Me.Label83.BackColor = System.Drawing.Color.Transparent
-        Me.Label83.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label83.ForeColor = System.Drawing.Color.White
-        Me.Label83.Location = New System.Drawing.Point(64, 44)
-        Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(22, 30)
-        Me.Label83.TabIndex = 41
-        Me.Label83.Text = "-"
-        '
-        'Label81
-        '
-        Me.Label81.AutoSize = True
-        Me.Label81.BackColor = System.Drawing.Color.Transparent
-        Me.Label81.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label81.ForeColor = System.Drawing.Color.White
-        Me.Label81.Location = New System.Drawing.Point(41, 41)
-        Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(20, 30)
-        Me.Label81.TabIndex = 44
-        Me.Label81.Text = "("
-        '
-        'Label80
-        '
-        Me.Label80.AutoSize = True
-        Me.Label80.BackColor = System.Drawing.Color.Transparent
-        Me.Label80.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.ForeColor = System.Drawing.Color.White
-        Me.Label80.Location = New System.Drawing.Point(54, 49)
-        Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(17, 19)
-        Me.Label80.TabIndex = 42
-        Me.Label80.Text = "P"
-        '
-        'Label76
-        '
-        Me.Label76.AutoSize = True
-        Me.Label76.BackColor = System.Drawing.Color.Transparent
-        Me.Label76.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label76.ForeColor = System.Drawing.Color.White
-        Me.Label76.Location = New System.Drawing.Point(201, 41)
-        Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(20, 30)
-        Me.Label76.TabIndex = 34
-        Me.Label76.Text = "("
-        '
-        'Label72
-        '
-        Me.Label72.AutoSize = True
-        Me.Label72.BackColor = System.Drawing.Color.Transparent
-        Me.Label72.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.ForeColor = System.Drawing.Color.White
-        Me.Label72.Location = New System.Drawing.Point(214, 48)
-        Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(17, 19)
-        Me.Label72.TabIndex = 22
-        Me.Label72.Text = "P"
-        '
-        'T3A1
-        '
-        Me.T3A1.BackColor = System.Drawing.Color.Black
-        Me.T3A1.ForeColor = System.Drawing.Color.White
-        Me.T3A1.Location = New System.Drawing.Point(13, 48)
-        Me.T3A1.Name = "T3A1"
-        Me.T3A1.Size = New System.Drawing.Size(30, 22)
-        Me.T3A1.TabIndex = 45
-        '
-        'Label82
-        '
-        Me.Label82.AutoSize = True
-        Me.Label82.BackColor = System.Drawing.Color.Transparent
-        Me.Label82.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label82.ForeColor = System.Drawing.Color.White
-        Me.Label82.Location = New System.Drawing.Point(110, 41)
-        Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(20, 30)
-        Me.Label82.TabIndex = 43
-        Me.Label82.Text = ")"
-        '
-        'Label77
-        '
-        Me.Label77.AutoSize = True
-        Me.Label77.BackColor = System.Drawing.Color.Transparent
-        Me.Label77.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.ForeColor = System.Drawing.Color.White
-        Me.Label77.Location = New System.Drawing.Point(120, 41)
-        Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(20, 30)
-        Me.Label77.TabIndex = 39
-        Me.Label77.Text = "("
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.Color.Transparent
-        Me.Label31.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.ForeColor = System.Drawing.Color.White
-        Me.Label31.Location = New System.Drawing.Point(133, 49)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(17, 19)
-        Me.Label31.TabIndex = 37
-        Me.Label31.Text = "P"
-        '
-        'T3A2
-        '
-        Me.T3A2.BackColor = System.Drawing.Color.Black
-        Me.T3A2.ForeColor = System.Drawing.Color.White
-        Me.T3A2.Location = New System.Drawing.Point(82, 48)
-        Me.T3A2.Name = "T3A2"
-        Me.T3A2.Size = New System.Drawing.Size(30, 22)
-        Me.T3A2.TabIndex = 40
-        '
-        'Label86
-        '
-        Me.Label86.AutoSize = True
-        Me.Label86.BackColor = System.Drawing.Color.Transparent
-        Me.Label86.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label86.ForeColor = System.Drawing.Color.White
-        Me.Label86.Location = New System.Drawing.Point(96, 24)
-        Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(18, 19)
-        Me.Label86.TabIndex = 46
-        Me.Label86.Text = "A"
-        '
-        'Label85
-        '
-        Me.Label85.AutoSize = True
-        Me.Label85.BackColor = System.Drawing.Color.Transparent
-        Me.Label85.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label85.ForeColor = System.Drawing.Color.White
-        Me.Label85.Location = New System.Drawing.Point(171, 24)
-        Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(17, 19)
-        Me.Label85.TabIndex = 47
-        Me.Label85.Text = "B"
-        '
-        'Label84
-        '
-        Me.Label84.AutoSize = True
-        Me.Label84.BackColor = System.Drawing.Color.Transparent
-        Me.Label84.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label84.ForeColor = System.Drawing.Color.White
-        Me.Label84.Location = New System.Drawing.Point(248, 24)
-        Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(18, 19)
-        Me.Label84.TabIndex = 48
-        Me.Label84.Text = "C"
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.BackColor = System.Drawing.Color.Transparent
-        Me.Label29.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.ForeColor = System.Drawing.Color.White
-        Me.Label29.Location = New System.Drawing.Point(18, 24)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(17, 19)
-        Me.Label29.TabIndex = 49
-        Me.Label29.Text = "P"
-        '
-        'RespuestaT3A
-        '
-        Me.RespuestaT3A.AutoSize = True
-        Me.RespuestaT3A.BackColor = System.Drawing.Color.Transparent
-        Me.RespuestaT3A.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RespuestaT3A.ForeColor = System.Drawing.Color.White
-        Me.RespuestaT3A.Location = New System.Drawing.Point(343, 48)
-        Me.RespuestaT3A.Name = "RespuestaT3A"
-        Me.RespuestaT3A.Size = New System.Drawing.Size(25, 25)
-        Me.RespuestaT3A.TabIndex = 50
-        Me.RespuestaT3A.Text = "="
-        '
-        'Panel10
-        '
-        Me.Panel10.AutoSize = True
-        Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel10.Controls.Add(Me.RespuestaT3A)
-        Me.Panel10.Controls.Add(Me.Label29)
-        Me.Panel10.Controls.Add(Me.Label84)
-        Me.Panel10.Controls.Add(Me.Label85)
-        Me.Panel10.Controls.Add(Me.Label86)
-        Me.Panel10.Controls.Add(Me.T3A2)
-        Me.Panel10.Controls.Add(Me.Label31)
-        Me.Panel10.Controls.Add(Me.Label77)
-        Me.Panel10.Controls.Add(Me.Label82)
-        Me.Panel10.Controls.Add(Me.T3A1)
-        Me.Panel10.Controls.Add(Me.Label72)
-        Me.Panel10.Controls.Add(Me.Label76)
-        Me.Panel10.Controls.Add(Me.Label80)
-        Me.Panel10.Controls.Add(Me.Label81)
-        Me.Panel10.Controls.Add(Me.Label83)
-        Me.Panel10.Controls.Add(Me.T3A3)
-        Me.Panel10.Controls.Add(Me.Label78)
-        Me.Panel10.Controls.Add(Me.Label79)
-        Me.Panel10.Controls.Add(Me.T3A4)
-        Me.Panel10.Controls.Add(Me.Label32)
-        Me.Panel10.Controls.Add(Me.Label73)
-        Me.Panel10.Controls.Add(Me.Label74)
-        Me.Panel10.Controls.Add(Me.Label75)
-        Me.Panel10.Controls.Add(Me.Label33)
-        Me.Panel10.Controls.Add(Me.Label34)
-        Me.Panel10.Controls.Add(Me.Button5)
-        Me.Panel10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel10.ForeColor = System.Drawing.Color.White
-        Me.Panel10.Location = New System.Drawing.Point(291, 7)
-        Me.Panel10.Margin = New System.Windows.Forms.Padding(7)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(426, 110)
-        Me.Panel10.TabIndex = 5
+        Me.StyleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Dark
+        Me.StyleManager1.MetroColorParameters = New DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer)), System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(122, Byte), Integer), CType(CType(204, Byte), Integer)))
         '
         'TrianguloEcuacionForm
         '
@@ -2198,6 +2198,7 @@ Partial Class TrianguloEcuacionForm
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout()
         Me.PanelImagen1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.TableLayoutPanel3.ResumeLayout(False)
@@ -2209,15 +2210,19 @@ Partial Class TrianguloEcuacionForm
         Me.Panel8.ResumeLayout(False)
         Me.Panel8.PerformLayout()
         Me.PanelImagen2.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.TableLayoutPanel4.ResumeLayout(False)
         Me.TableLayoutPanel4.PerformLayout()
         Me.TableLayoutPanel5.ResumeLayout(False)
         Me.TableLayoutPanel5.PerformLayout()
+        Me.Panel10.ResumeLayout(False)
+        Me.Panel10.PerformLayout()
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout()
         Me.PanelImagen3.ResumeLayout(False)
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.Panel4.ResumeLayout(False)
@@ -2232,11 +2237,6 @@ Partial Class TrianguloEcuacionForm
         Me.Panel12.PerformLayout()
         Me.Panel5.ResumeLayout(False)
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel10.ResumeLayout(False)
-        Me.Panel10.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
