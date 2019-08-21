@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class SolidosForm
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class SolidosForm
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SolidosForm))
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
@@ -172,7 +172,6 @@ Partial Class SolidosForm
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel29.SuspendLayout()
         Me.TableLayoutPanel30.SuspendLayout()
@@ -1760,7 +1759,6 @@ Partial Class SolidosForm
         Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel9.Controls.Add(Me.MaskedTextBox1, 1, 2)
         Me.TableLayoutPanel9.Controls.Add(Me.Label38, 1, 1)
         Me.TableLayoutPanel9.Controls.Add(Me.Label37, 0, 1)
         Me.TableLayoutPanel9.Controls.Add(Me.Label39, 2, 1)
@@ -2320,14 +2318,6 @@ Partial Class SolidosForm
         Me.Button1.Text = "Resultado"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'MaskedTextBox1
-        '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(76, 43)
-        Me.MaskedTextBox1.Mask = "000000.005"
-        Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(67, 20)
-        Me.MaskedTextBox1.TabIndex = 1
-        '
         'SolidosForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2582,5 +2572,4 @@ Partial Class SolidosForm
     Friend WithEvents V1 As Label
     Friend WithEvents V1C2 As TextBox
     Friend WithEvents Label65 As Label
-    Friend WithEvents MaskedTextBox1 As MaskedTextBox
 End Class

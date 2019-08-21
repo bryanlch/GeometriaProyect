@@ -437,7 +437,7 @@ Partial Class TrianguloForm
         Me.Button8.ForeColor = System.Drawing.Color.White
         Me.Button8.Location = New System.Drawing.Point(289, 5)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(80, 23)
+        Me.Button8.Size = New System.Drawing.Size(80, 25)
         Me.Button8.TabIndex = 4
         Me.Button8.Text = "Resolver"
         Me.Button8.UseVisualStyleBackColor = False
@@ -533,7 +533,7 @@ Partial Class TrianguloForm
         Me.Button7.ForeColor = System.Drawing.Color.White
         Me.Button7.Location = New System.Drawing.Point(141, 2)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 23)
+        Me.Button7.Size = New System.Drawing.Size(80, 25)
         Me.Button7.TabIndex = 6
         Me.Button7.Text = "Resolver"
         Me.Button7.UseVisualStyleBackColor = False
@@ -713,7 +713,7 @@ Partial Class TrianguloForm
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(140, 3)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(80, 25)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "Resolver"
         Me.Button2.UseVisualStyleBackColor = False
@@ -865,7 +865,7 @@ Partial Class TrianguloForm
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(286, 1)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(80, 23)
+        Me.Button1.Size = New System.Drawing.Size(80, 25)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Resolver"
         Me.Button1.UseVisualStyleBackColor = False
@@ -1250,7 +1250,7 @@ Partial Class TrianguloForm
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Location = New System.Drawing.Point(289, 1)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(80, 23)
+        Me.Button5.Size = New System.Drawing.Size(80, 25)
         Me.Button5.TabIndex = 4
         Me.Button5.Text = "Resolver"
         Me.Button5.UseVisualStyleBackColor = False
@@ -1392,7 +1392,7 @@ Partial Class TrianguloForm
         Me.Button4.ForeColor = System.Drawing.Color.White
         Me.Button4.Location = New System.Drawing.Point(141, 1)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.Size = New System.Drawing.Size(80, 25)
         Me.Button4.TabIndex = 6
         Me.Button4.Text = "Resolver"
         Me.Button4.UseVisualStyleBackColor = False
@@ -1739,7 +1739,7 @@ Partial Class TrianguloForm
         Me.Button6.ForeColor = System.Drawing.Color.White
         Me.Button6.Location = New System.Drawing.Point(286, 1)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(80, 23)
+        Me.Button6.Size = New System.Drawing.Size(80, 25)
         Me.Button6.TabIndex = 4
         Me.Button6.Text = "Resolver"
         Me.Button6.UseVisualStyleBackColor = False
@@ -1875,7 +1875,7 @@ Partial Class TrianguloForm
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Location = New System.Drawing.Point(140, -1)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(80, 25)
         Me.Button3.TabIndex = 6
         Me.Button3.Text = "Resolver"
         Me.Button3.UseVisualStyleBackColor = False

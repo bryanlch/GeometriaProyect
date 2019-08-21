@@ -400,6 +400,7 @@ Partial Class FormPrincipal
         Me.Name = "FormPrincipal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Proyecto De Geometria"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Titulo.ResumeLayout(False)
         Me.Titulo.PerformLayout()
         Me.TableLayoutPanel2.ResumeLayout(False)
