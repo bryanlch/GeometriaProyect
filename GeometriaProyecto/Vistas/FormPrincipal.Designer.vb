@@ -64,7 +64,7 @@ Partial Class FormPrincipal
         Me.Titulo.MinimumSize = New System.Drawing.Size(1244, 100)
         Me.Titulo.Name = "Titulo"
         Me.Titulo.Padding = New System.Windows.Forms.Padding(10)
-        Me.Titulo.Size = New System.Drawing.Size(1288, 100)
+        Me.Titulo.Size = New System.Drawing.Size(1244, 100)
         Me.Titulo.TabIndex = 1
         '
         'TableLayoutPanel2
@@ -73,7 +73,7 @@ Partial Class FormPrincipal
         Me.TableLayoutPanel2.ColumnCount = 3
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.3886!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.6114!))
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 121.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.Label2, 2, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.Label6, 0, 1)
@@ -85,7 +85,7 @@ Partial Class FormPrincipal
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(836, 80)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(792, 80)
         Me.TableLayoutPanel2.TabIndex = 7
         '
         'Label1
@@ -104,7 +104,7 @@ Partial Class FormPrincipal
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(718, 0)
+        Me.Label2.Location = New System.Drawing.Point(673, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(112, 20)
         Me.Label2.TabIndex = 1
@@ -135,7 +135,7 @@ Partial Class FormPrincipal
         Me.TableLayoutPanel1.Controls.Add(Me.Label10, 1, 2)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right
         Me.TableLayoutPanel1.ForeColor = System.Drawing.Color.White
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(846, 10)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(802, 10)
         Me.TableLayoutPanel1.MinimumSize = New System.Drawing.Size(432, 80)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 3
@@ -183,7 +183,7 @@ Partial Class FormPrincipal
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(37, 0)
+        Me.Label8.Location = New System.Drawing.Point(36, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(328, 20)
         Me.Label8.TabIndex = 5
@@ -194,7 +194,7 @@ Partial Class FormPrincipal
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(37, 24)
+        Me.Label9.Location = New System.Drawing.Point(36, 24)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(335, 20)
         Me.Label9.TabIndex = 6
@@ -205,7 +205,7 @@ Partial Class FormPrincipal
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(37, 48)
+        Me.Label10.Location = New System.Drawing.Point(36, 48)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(296, 20)
         Me.Label10.TabIndex = 7
@@ -222,7 +222,7 @@ Partial Class FormPrincipal
         Me.Lateral.MaximumSize = New System.Drawing.Size(250, 0)
         Me.Lateral.MinimumSize = New System.Drawing.Size(250, 561)
         Me.Lateral.Name = "Lateral"
-        Me.Lateral.Size = New System.Drawing.Size(250, 752)
+        Me.Lateral.Size = New System.Drawing.Size(250, 581)
         Me.Lateral.TabIndex = 2
         '
         'TableLayoutPanel3
@@ -254,7 +254,7 @@ Partial Class FormPrincipal
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(250, 700)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(250, 581)
         Me.TableLayoutPanel3.TabIndex = 0
         '
         'Button6
@@ -268,12 +268,12 @@ Partial Class FormPrincipal
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Candara", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.White
-        Me.Button6.Location = New System.Drawing.Point(32, 637)
+        Me.Button6.Location = New System.Drawing.Point(32, 517)
         Me.Button6.Margin = New System.Windows.Forms.Padding(7)
         Me.Button6.MaximumSize = New System.Drawing.Size(0, 300)
         Me.Button6.MinimumSize = New System.Drawing.Size(170, 30)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(211, 56)
+        Me.Button6.Size = New System.Drawing.Size(211, 57)
         Me.Button6.TabIndex = 9
         Me.Button6.Text = "Salir"
         Me.Button6.UseVisualStyleBackColor = False
@@ -369,20 +369,21 @@ Partial Class FormPrincipal
         Me.Panel1.MinimumSize = New System.Drawing.Size(900, 560)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Padding = New System.Windows.Forms.Padding(0, 10, 0, 10)
-        Me.Panel1.Size = New System.Drawing.Size(1038, 752)
+        Me.Panel1.Size = New System.Drawing.Size(934, 581)
         Me.Panel1.TabIndex = 3
         '
         'Contenedor
         '
+        Me.Contenedor.AutoScrollMargin = New System.Drawing.Size(0, 700)
         Me.Contenedor.AutoSize = True
         Me.Contenedor.BackColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Contenedor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Contenedor.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Contenedor.ForeColor = System.Drawing.Color.White
         Me.Contenedor.Location = New System.Drawing.Point(0, 10)
-        Me.Contenedor.Margin = New System.Windows.Forms.Padding(10)
+        Me.Contenedor.Margin = New System.Windows.Forms.Padding(0)
         Me.Contenedor.Name = "Contenedor"
-        Me.Contenedor.Size = New System.Drawing.Size(1036, 730)
+        Me.Contenedor.Size = New System.Drawing.Size(932, 559)
         Me.Contenedor.TabIndex = 1
         '
         'FormPrincipal
@@ -391,7 +392,7 @@ Partial Class FormPrincipal
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1288, 852)
+        Me.ClientSize = New System.Drawing.Size(1184, 681)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Lateral)
         Me.Controls.Add(Me.Titulo)

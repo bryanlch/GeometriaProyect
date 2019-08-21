@@ -172,6 +172,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel29.SuspendLayout()
         Me.TableLayoutPanel30.SuspendLayout()
@@ -252,7 +253,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1020, 691)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(916, 521)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'TableLayoutPanel29
@@ -264,12 +265,12 @@ Partial Class SolidosForm
         Me.TableLayoutPanel29.Controls.Add(Me.TableLayoutPanel30, 0, 1)
         Me.TableLayoutPanel29.Controls.Add(Me.TableLayoutPanel31, 0, 0)
         Me.TableLayoutPanel29.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel29.Location = New System.Drawing.Point(588, 555)
+        Me.TableLayoutPanel29.Location = New System.Drawing.Point(536, 419)
         Me.TableLayoutPanel29.Name = "TableLayoutPanel29"
         Me.TableLayoutPanel29.RowCount = 2
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.TableLayoutPanel29.Size = New System.Drawing.Size(429, 133)
+        Me.TableLayoutPanel29.Size = New System.Drawing.Size(377, 99)
         Me.TableLayoutPanel29.TabIndex = 14
         '
         'TableLayoutPanel30
@@ -290,13 +291,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel30.Controls.Add(Me.Label23, 2, 1)
         Me.TableLayoutPanel30.Controls.Add(Me.Label25, 4, 1)
         Me.TableLayoutPanel30.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel30.Location = New System.Drawing.Point(4, 44)
+        Me.TableLayoutPanel30.Location = New System.Drawing.Point(4, 33)
         Me.TableLayoutPanel30.Name = "TableLayoutPanel30"
         Me.TableLayoutPanel30.RowCount = 3
         Me.TableLayoutPanel30.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel30.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel30.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel30.Size = New System.Drawing.Size(421, 85)
+        Me.TableLayoutPanel30.Size = New System.Drawing.Size(369, 62)
         Me.TableLayoutPanel30.TabIndex = 0
         '
         'Label20
@@ -304,7 +305,7 @@ Partial Class SolidosForm
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.White
-        Me.Label20.Location = New System.Drawing.Point(3, 28)
+        Me.Label20.Location = New System.Drawing.Point(3, 20)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(33, 20)
         Me.Label20.TabIndex = 2
@@ -314,25 +315,25 @@ Partial Class SolidosForm
         'V5P1
         '
         Me.V5P1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.V5P1.Location = New System.Drawing.Point(66, 31)
+        Me.V5P1.Location = New System.Drawing.Point(58, 23)
         Me.V5P1.Name = "V5P1"
-        Me.V5P1.Size = New System.Drawing.Size(57, 20)
+        Me.V5P1.Size = New System.Drawing.Size(49, 20)
         Me.V5P1.TabIndex = 6
         '
         'V5P2
         '
         Me.V5P2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.V5P2.Location = New System.Drawing.Point(180, 31)
+        Me.V5P2.Location = New System.Drawing.Point(158, 23)
         Me.V5P2.Name = "V5P2"
-        Me.V5P2.Size = New System.Drawing.Size(57, 20)
+        Me.V5P2.Size = New System.Drawing.Size(49, 20)
         Me.V5P2.TabIndex = 7
         '
         'V5P3
         '
         Me.V5P3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.V5P3.Location = New System.Drawing.Point(294, 31)
+        Me.V5P3.Location = New System.Drawing.Point(258, 23)
         Me.V5P3.Name = "V5P3"
-        Me.V5P3.Size = New System.Drawing.Size(57, 20)
+        Me.V5P3.Size = New System.Drawing.Size(49, 20)
         Me.V5P3.TabIndex = 8
         '
         'V5
@@ -341,9 +342,9 @@ Partial Class SolidosForm
         Me.V5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.V5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.V5.ForeColor = System.Drawing.Color.White
-        Me.V5.Location = New System.Drawing.Point(357, 28)
+        Me.V5.Location = New System.Drawing.Point(313, 20)
         Me.V5.Name = "V5"
-        Me.V5.Size = New System.Drawing.Size(61, 28)
+        Me.V5.Size = New System.Drawing.Size(53, 20)
         Me.V5.TabIndex = 9
         Me.V5.Text = "="
         Me.V5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -354,9 +355,9 @@ Partial Class SolidosForm
         Me.Label23.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label23.ForeColor = System.Drawing.Color.White
-        Me.Label23.Location = New System.Drawing.Point(129, 28)
+        Me.Label23.Location = New System.Drawing.Point(113, 20)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(45, 28)
+        Me.Label23.Size = New System.Drawing.Size(39, 20)
         Me.Label23.TabIndex = 10
         Me.Label23.Text = "*"
         Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -367,9 +368,9 @@ Partial Class SolidosForm
         Me.Label25.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label25.ForeColor = System.Drawing.Color.White
-        Me.Label25.Location = New System.Drawing.Point(243, 28)
+        Me.Label25.Location = New System.Drawing.Point(213, 20)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(45, 28)
+        Me.Label25.Size = New System.Drawing.Size(39, 20)
         Me.Label25.TabIndex = 11
         Me.Label25.Text = "*"
         Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -386,7 +387,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel31.Name = "TableLayoutPanel31"
         Me.TableLayoutPanel31.RowCount = 1
         Me.TableLayoutPanel31.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel31.Size = New System.Drawing.Size(323, 33)
+        Me.TableLayoutPanel31.Size = New System.Drawing.Size(323, 22)
         Me.TableLayoutPanel31.TabIndex = 6
         '
         'Label10
@@ -397,7 +398,7 @@ Partial Class SolidosForm
         Me.Label10.ForeColor = System.Drawing.Color.White
         Me.Label10.Location = New System.Drawing.Point(3, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(220, 33)
+        Me.Label10.Size = New System.Drawing.Size(220, 22)
         Me.Label10.TabIndex = 1
         Me.Label10.Text = "Volumen Del Paralepipedo"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -415,7 +416,7 @@ Partial Class SolidosForm
         Me.Button10.ForeColor = System.Drawing.Color.White
         Me.Button10.Location = New System.Drawing.Point(229, 3)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(91, 27)
+        Me.Button10.Size = New System.Drawing.Size(91, 16)
         Me.Button10.TabIndex = 2
         Me.Button10.Text = "Resultado"
         Me.Button10.UseVisualStyleBackColor = False
@@ -428,12 +429,12 @@ Partial Class SolidosForm
         Me.TableLayoutPanel26.Controls.Add(Me.TableLayoutPanel27, 0, 1)
         Me.TableLayoutPanel26.Controls.Add(Me.TableLayoutPanel28, 0, 0)
         Me.TableLayoutPanel26.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel26.Location = New System.Drawing.Point(154, 555)
+        Me.TableLayoutPanel26.Location = New System.Drawing.Point(154, 419)
         Me.TableLayoutPanel26.Name = "TableLayoutPanel26"
         Me.TableLayoutPanel26.RowCount = 2
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.TableLayoutPanel26.Size = New System.Drawing.Size(428, 133)
+        Me.TableLayoutPanel26.Size = New System.Drawing.Size(376, 99)
         Me.TableLayoutPanel26.TabIndex = 13
         '
         'TableLayoutPanel27
@@ -462,13 +463,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel27.Controls.Add(Me.TableLayoutPanel39, 3, 1)
         Me.TableLayoutPanel27.Controls.Add(Me.Label31, 1, 1)
         Me.TableLayoutPanel27.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel27.Location = New System.Drawing.Point(3, 42)
+        Me.TableLayoutPanel27.Location = New System.Drawing.Point(3, 32)
         Me.TableLayoutPanel27.Name = "TableLayoutPanel27"
         Me.TableLayoutPanel27.RowCount = 3
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.70588!))
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.94118!))
-        Me.TableLayoutPanel27.Size = New System.Drawing.Size(422, 88)
+        Me.TableLayoutPanel27.Size = New System.Drawing.Size(370, 64)
         Me.TableLayoutPanel27.TabIndex = 0
         '
         'TableLayoutPanel38
@@ -480,11 +481,11 @@ Partial Class SolidosForm
         Me.TableLayoutPanel38.Controls.Add(Me.letraA1, 0, 0)
         Me.TableLayoutPanel38.Controls.Add(Me.Label21, 0, 0)
         Me.TableLayoutPanel38.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel38.Location = New System.Drawing.Point(107, 32)
+        Me.TableLayoutPanel38.Location = New System.Drawing.Point(95, 24)
         Me.TableLayoutPanel38.Name = "TableLayoutPanel38"
         Me.TableLayoutPanel38.RowCount = 1
         Me.TableLayoutPanel38.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel38.Size = New System.Drawing.Size(46, 28)
+        Me.TableLayoutPanel38.Size = New System.Drawing.Size(40, 19)
         Me.TableLayoutPanel38.TabIndex = 0
         '
         'letraA1
@@ -493,9 +494,9 @@ Partial Class SolidosForm
         Me.letraA1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.letraA1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.letraA1.ForeColor = System.Drawing.Color.White
-        Me.letraA1.Location = New System.Drawing.Point(26, 0)
+        Me.letraA1.Location = New System.Drawing.Point(23, 0)
         Me.letraA1.Name = "letraA1"
-        Me.letraA1.Size = New System.Drawing.Size(17, 28)
+        Me.letraA1.Size = New System.Drawing.Size(14, 19)
         Me.letraA1.TabIndex = 4
         Me.letraA1.Text = "a"
         Me.letraA1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -508,7 +509,7 @@ Partial Class SolidosForm
         Me.Label21.ForeColor = System.Drawing.Color.White
         Me.Label21.Location = New System.Drawing.Point(3, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(17, 28)
+        Me.Label21.Size = New System.Drawing.Size(14, 19)
         Me.Label21.TabIndex = 3
         Me.Label21.Text = "("
         Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -522,11 +523,11 @@ Partial Class SolidosForm
         Me.TableLayoutPanel42.Controls.Add(Me.Label29, 0, 0)
         Me.TableLayoutPanel42.Controls.Add(Me.letraC2, 0, 0)
         Me.TableLayoutPanel42.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel42.Location = New System.Drawing.Point(315, 32)
+        Me.TableLayoutPanel42.Location = New System.Drawing.Point(279, 24)
         Me.TableLayoutPanel42.Name = "TableLayoutPanel42"
         Me.TableLayoutPanel42.RowCount = 1
         Me.TableLayoutPanel42.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel42.Size = New System.Drawing.Size(46, 28)
+        Me.TableLayoutPanel42.Size = New System.Drawing.Size(40, 19)
         Me.TableLayoutPanel42.TabIndex = 2
         '
         'Label29
@@ -535,9 +536,9 @@ Partial Class SolidosForm
         Me.Label29.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.White
-        Me.Label29.Location = New System.Drawing.Point(26, 0)
+        Me.Label29.Location = New System.Drawing.Point(23, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(17, 28)
+        Me.Label29.Size = New System.Drawing.Size(14, 19)
         Me.Label29.TabIndex = 5
         Me.Label29.Text = ")"
         Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -550,7 +551,7 @@ Partial Class SolidosForm
         Me.letraC2.ForeColor = System.Drawing.Color.White
         Me.letraC2.Location = New System.Drawing.Point(3, 0)
         Me.letraC2.Name = "letraC2"
-        Me.letraC2.Size = New System.Drawing.Size(17, 28)
+        Me.letraC2.Size = New System.Drawing.Size(14, 19)
         Me.letraC2.TabIndex = 4
         Me.letraC2.Text = "c"
         Me.letraC2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -560,7 +561,7 @@ Partial Class SolidosForm
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.White
-        Me.Label19.Location = New System.Drawing.Point(263, 0)
+        Me.Label19.Location = New System.Drawing.Point(233, 0)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(30, 20)
         Me.Label19.TabIndex = 3
@@ -572,7 +573,7 @@ Partial Class SolidosForm
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.White
-        Me.Label16.Location = New System.Drawing.Point(3, 29)
+        Me.Label16.Location = New System.Drawing.Point(3, 21)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(33, 20)
         Me.Label16.TabIndex = 1
@@ -584,7 +585,7 @@ Partial Class SolidosForm
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.White
-        Me.Label17.Location = New System.Drawing.Point(55, 0)
+        Me.Label17.Location = New System.Drawing.Point(49, 0)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(31, 20)
         Me.Label17.TabIndex = 2
@@ -596,7 +597,7 @@ Partial Class SolidosForm
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.White
-        Me.Label18.Location = New System.Drawing.Point(159, 0)
+        Me.Label18.Location = New System.Drawing.Point(141, 0)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(31, 20)
         Me.Label18.TabIndex = 3
@@ -609,9 +610,9 @@ Partial Class SolidosForm
         Me.AR4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.AR4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.AR4.ForeColor = System.Drawing.Color.White
-        Me.AR4.Location = New System.Drawing.Point(367, 29)
+        Me.AR4.Location = New System.Drawing.Point(325, 21)
         Me.AR4.Name = "AR4"
-        Me.AR4.Size = New System.Drawing.Size(52, 34)
+        Me.AR4.Size = New System.Drawing.Size(42, 25)
         Me.AR4.TabIndex = 4
         Me.AR4.Text = "="
         Me.AR4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -619,25 +620,25 @@ Partial Class SolidosForm
         'A4P1
         '
         Me.A4P1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.A4P1.Location = New System.Drawing.Point(107, 3)
+        Me.A4P1.Location = New System.Drawing.Point(95, 3)
         Me.A4P1.Name = "A4P1"
-        Me.A4P1.Size = New System.Drawing.Size(46, 20)
+        Me.A4P1.Size = New System.Drawing.Size(40, 20)
         Me.A4P1.TabIndex = 5
         '
         'A4P2
         '
         Me.A4P2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.A4P2.Location = New System.Drawing.Point(211, 3)
+        Me.A4P2.Location = New System.Drawing.Point(187, 3)
         Me.A4P2.Name = "A4P2"
-        Me.A4P2.Size = New System.Drawing.Size(46, 20)
+        Me.A4P2.Size = New System.Drawing.Size(40, 20)
         Me.A4P2.TabIndex = 6
         '
         'A4P3
         '
         Me.A4P3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.A4P3.Location = New System.Drawing.Point(315, 3)
+        Me.A4P3.Location = New System.Drawing.Point(279, 3)
         Me.A4P3.Name = "A4P3"
-        Me.A4P3.Size = New System.Drawing.Size(46, 20)
+        Me.A4P3.Size = New System.Drawing.Size(40, 20)
         Me.A4P3.TabIndex = 7
         '
         'TableLayoutPanel41
@@ -649,11 +650,11 @@ Partial Class SolidosForm
         Me.TableLayoutPanel41.Controls.Add(Me.letraB2, 0, 0)
         Me.TableLayoutPanel41.Controls.Add(Me.Label28, 0, 0)
         Me.TableLayoutPanel41.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel41.Location = New System.Drawing.Point(263, 32)
+        Me.TableLayoutPanel41.Location = New System.Drawing.Point(233, 24)
         Me.TableLayoutPanel41.Name = "TableLayoutPanel41"
         Me.TableLayoutPanel41.RowCount = 1
         Me.TableLayoutPanel41.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel41.Size = New System.Drawing.Size(46, 28)
+        Me.TableLayoutPanel41.Size = New System.Drawing.Size(40, 19)
         Me.TableLayoutPanel41.TabIndex = 2
         '
         'letraB2
@@ -662,9 +663,9 @@ Partial Class SolidosForm
         Me.letraB2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.letraB2.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.letraB2.ForeColor = System.Drawing.Color.White
-        Me.letraB2.Location = New System.Drawing.Point(26, 0)
+        Me.letraB2.Location = New System.Drawing.Point(23, 0)
         Me.letraB2.Name = "letraB2"
-        Me.letraB2.Size = New System.Drawing.Size(17, 28)
+        Me.letraB2.Size = New System.Drawing.Size(14, 19)
         Me.letraB2.TabIndex = 5
         Me.letraB2.Text = "b"
         Me.letraB2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -677,7 +678,7 @@ Partial Class SolidosForm
         Me.Label28.ForeColor = System.Drawing.Color.White
         Me.Label28.Location = New System.Drawing.Point(3, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(17, 28)
+        Me.Label28.Size = New System.Drawing.Size(14, 19)
         Me.Label28.TabIndex = 4
         Me.Label28.Text = "+"
         Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -691,11 +692,11 @@ Partial Class SolidosForm
         Me.TableLayoutPanel40.Controls.Add(Me.LetraC1, 0, 0)
         Me.TableLayoutPanel40.Controls.Add(Me.letraA2, 0, 0)
         Me.TableLayoutPanel40.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel40.Location = New System.Drawing.Point(211, 32)
+        Me.TableLayoutPanel40.Location = New System.Drawing.Point(187, 24)
         Me.TableLayoutPanel40.Name = "TableLayoutPanel40"
         Me.TableLayoutPanel40.RowCount = 1
         Me.TableLayoutPanel40.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel40.Size = New System.Drawing.Size(46, 28)
+        Me.TableLayoutPanel40.Size = New System.Drawing.Size(40, 19)
         Me.TableLayoutPanel40.TabIndex = 2
         '
         'LetraC1
@@ -704,9 +705,9 @@ Partial Class SolidosForm
         Me.LetraC1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LetraC1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LetraC1.ForeColor = System.Drawing.Color.White
-        Me.LetraC1.Location = New System.Drawing.Point(26, 0)
+        Me.LetraC1.Location = New System.Drawing.Point(23, 0)
         Me.LetraC1.Name = "LetraC1"
-        Me.LetraC1.Size = New System.Drawing.Size(17, 28)
+        Me.LetraC1.Size = New System.Drawing.Size(14, 19)
         Me.LetraC1.TabIndex = 5
         Me.LetraC1.Text = "c"
         Me.LetraC1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -719,7 +720,7 @@ Partial Class SolidosForm
         Me.letraA2.ForeColor = System.Drawing.Color.White
         Me.letraA2.Location = New System.Drawing.Point(3, 0)
         Me.letraA2.Name = "letraA2"
-        Me.letraA2.Size = New System.Drawing.Size(17, 28)
+        Me.letraA2.Size = New System.Drawing.Size(14, 19)
         Me.letraA2.TabIndex = 4
         Me.letraA2.Text = "a"
         Me.letraA2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -733,11 +734,11 @@ Partial Class SolidosForm
         Me.TableLayoutPanel39.Controls.Add(Me.Label24, 0, 0)
         Me.TableLayoutPanel39.Controls.Add(Me.letraB1, 0, 0)
         Me.TableLayoutPanel39.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel39.Location = New System.Drawing.Point(159, 32)
+        Me.TableLayoutPanel39.Location = New System.Drawing.Point(141, 24)
         Me.TableLayoutPanel39.Name = "TableLayoutPanel39"
         Me.TableLayoutPanel39.RowCount = 1
         Me.TableLayoutPanel39.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel39.Size = New System.Drawing.Size(46, 28)
+        Me.TableLayoutPanel39.Size = New System.Drawing.Size(40, 19)
         Me.TableLayoutPanel39.TabIndex = 1
         '
         'Label24
@@ -746,9 +747,9 @@ Partial Class SolidosForm
         Me.Label24.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label24.ForeColor = System.Drawing.Color.White
-        Me.Label24.Location = New System.Drawing.Point(26, 0)
+        Me.Label24.Location = New System.Drawing.Point(23, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(17, 28)
+        Me.Label24.Size = New System.Drawing.Size(14, 19)
         Me.Label24.TabIndex = 5
         Me.Label24.Text = "+"
         Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -761,7 +762,7 @@ Partial Class SolidosForm
         Me.letraB1.ForeColor = System.Drawing.Color.White
         Me.letraB1.Location = New System.Drawing.Point(3, 0)
         Me.letraB1.Name = "letraB1"
-        Me.letraB1.Size = New System.Drawing.Size(17, 28)
+        Me.letraB1.Size = New System.Drawing.Size(14, 19)
         Me.letraB1.TabIndex = 4
         Me.letraB1.Text = "b"
         Me.letraB1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -772,9 +773,9 @@ Partial Class SolidosForm
         Me.Label31.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label31.ForeColor = System.Drawing.Color.White
-        Me.Label31.Location = New System.Drawing.Point(55, 29)
+        Me.Label31.Location = New System.Drawing.Point(49, 21)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(46, 34)
+        Me.Label31.Size = New System.Drawing.Size(40, 25)
         Me.Label31.TabIndex = 8
         Me.Label31.Text = "2"
         Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -791,7 +792,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel28.Name = "TableLayoutPanel28"
         Me.TableLayoutPanel28.RowCount = 1
         Me.TableLayoutPanel28.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel28.Size = New System.Drawing.Size(310, 33)
+        Me.TableLayoutPanel28.Size = New System.Drawing.Size(310, 23)
         Me.TableLayoutPanel28.TabIndex = 6
         '
         'Label9
@@ -802,7 +803,7 @@ Partial Class SolidosForm
         Me.Label9.ForeColor = System.Drawing.Color.White
         Me.Label9.Location = New System.Drawing.Point(3, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(211, 33)
+        Me.Label9.Size = New System.Drawing.Size(211, 23)
         Me.Label9.TabIndex = 1
         Me.Label9.Text = "Area Del Paralepipedo"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -820,7 +821,7 @@ Partial Class SolidosForm
         Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(220, 3)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(87, 27)
+        Me.Button9.Size = New System.Drawing.Size(87, 17)
         Me.Button9.TabIndex = 2
         Me.Button9.Text = "Resultado"
         Me.Button9.UseVisualStyleBackColor = False
@@ -833,12 +834,12 @@ Partial Class SolidosForm
         Me.TableLayoutPanel23.Controls.Add(Me.TableLayoutPanel24, 0, 1)
         Me.TableLayoutPanel23.Controls.Add(Me.TableLayoutPanel25, 0, 0)
         Me.TableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel23.Location = New System.Drawing.Point(588, 417)
+        Me.TableLayoutPanel23.Location = New System.Drawing.Point(536, 315)
         Me.TableLayoutPanel23.Name = "TableLayoutPanel23"
         Me.TableLayoutPanel23.RowCount = 2
         Me.TableLayoutPanel23.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel23.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.TableLayoutPanel23.Size = New System.Drawing.Size(429, 132)
+        Me.TableLayoutPanel23.Size = New System.Drawing.Size(377, 98)
         Me.TableLayoutPanel23.TabIndex = 12
         '
         'TableLayoutPanel24
@@ -852,13 +853,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel24.Controls.Add(Me.V4C1, 1, 1)
         Me.TableLayoutPanel24.Controls.Add(Me.V4, 2, 1)
         Me.TableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel24.Location = New System.Drawing.Point(3, 42)
+        Me.TableLayoutPanel24.Location = New System.Drawing.Point(3, 32)
         Me.TableLayoutPanel24.Name = "TableLayoutPanel24"
         Me.TableLayoutPanel24.RowCount = 3
         Me.TableLayoutPanel24.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel24.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel24.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel24.Size = New System.Drawing.Size(423, 87)
+        Me.TableLayoutPanel24.Size = New System.Drawing.Size(371, 63)
         Me.TableLayoutPanel24.TabIndex = 0
         '
         'Label13
@@ -867,9 +868,9 @@ Partial Class SolidosForm
         Me.Label13.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.White
-        Me.Label13.Location = New System.Drawing.Point(3, 29)
+        Me.Label13.Location = New System.Drawing.Point(3, 21)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(134, 29)
+        Me.Label13.Size = New System.Drawing.Size(117, 21)
         Me.Label13.TabIndex = 0
         Me.Label13.Text = "V="
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -880,9 +881,9 @@ Partial Class SolidosForm
         Me.Label14.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.White
-        Me.Label14.Location = New System.Drawing.Point(143, 0)
+        Me.Label14.Location = New System.Drawing.Point(126, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(61, 29)
+        Me.Label14.Size = New System.Drawing.Size(52, 21)
         Me.Label14.TabIndex = 1
         Me.Label14.Text = "3"
         Me.Label14.TextAlign = System.Drawing.ContentAlignment.BottomRight
@@ -890,9 +891,9 @@ Partial Class SolidosForm
         'V4C1
         '
         Me.V4C1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.V4C1.Location = New System.Drawing.Point(143, 32)
+        Me.V4C1.Location = New System.Drawing.Point(126, 24)
         Me.V4C1.Name = "V4C1"
-        Me.V4C1.Size = New System.Drawing.Size(61, 20)
+        Me.V4C1.Size = New System.Drawing.Size(52, 20)
         Me.V4C1.TabIndex = 2
         '
         'V4
@@ -901,9 +902,9 @@ Partial Class SolidosForm
         Me.V4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.V4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.V4.ForeColor = System.Drawing.Color.White
-        Me.V4.Location = New System.Drawing.Point(210, 29)
+        Me.V4.Location = New System.Drawing.Point(184, 21)
         Me.V4.Name = "V4"
-        Me.V4.Size = New System.Drawing.Size(210, 29)
+        Me.V4.Size = New System.Drawing.Size(184, 21)
         Me.V4.TabIndex = 3
         Me.V4.Text = "="
         Me.V4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -920,7 +921,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel25.Name = "TableLayoutPanel25"
         Me.TableLayoutPanel25.RowCount = 1
         Me.TableLayoutPanel25.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel25.Size = New System.Drawing.Size(310, 33)
+        Me.TableLayoutPanel25.Size = New System.Drawing.Size(310, 23)
         Me.TableLayoutPanel25.TabIndex = 6
         '
         'Label8
@@ -931,7 +932,7 @@ Partial Class SolidosForm
         Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Location = New System.Drawing.Point(3, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(211, 33)
+        Me.Label8.Size = New System.Drawing.Size(211, 23)
         Me.Label8.TabIndex = 1
         Me.Label8.Text = "Volumen Del Cubo"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -949,7 +950,7 @@ Partial Class SolidosForm
         Me.Button8.ForeColor = System.Drawing.Color.White
         Me.Button8.Location = New System.Drawing.Point(220, 3)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(87, 27)
+        Me.Button8.Size = New System.Drawing.Size(87, 17)
         Me.Button8.TabIndex = 2
         Me.Button8.Text = "Resultado"
         Me.Button8.UseVisualStyleBackColor = False
@@ -963,12 +964,12 @@ Partial Class SolidosForm
         Me.TableLayoutPanel20.Controls.Add(Me.TableLayoutPanel21, 0, 1)
         Me.TableLayoutPanel20.Controls.Add(Me.TableLayoutPanel22, 0, 0)
         Me.TableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel20.Location = New System.Drawing.Point(154, 417)
+        Me.TableLayoutPanel20.Location = New System.Drawing.Point(154, 315)
         Me.TableLayoutPanel20.Name = "TableLayoutPanel20"
         Me.TableLayoutPanel20.RowCount = 2
         Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.TableLayoutPanel20.Size = New System.Drawing.Size(428, 132)
+        Me.TableLayoutPanel20.Size = New System.Drawing.Size(376, 98)
         Me.TableLayoutPanel20.TabIndex = 11
         '
         'TableLayoutPanel21
@@ -984,13 +985,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel21.Controls.Add(Me.A4, 3, 1)
         Me.TableLayoutPanel21.Controls.Add(Me.Label35, 2, 0)
         Me.TableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel21.Location = New System.Drawing.Point(4, 43)
+        Me.TableLayoutPanel21.Location = New System.Drawing.Point(4, 33)
         Me.TableLayoutPanel21.Name = "TableLayoutPanel21"
         Me.TableLayoutPanel21.RowCount = 3
         Me.TableLayoutPanel21.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel21.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel21.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel21.Size = New System.Drawing.Size(420, 85)
+        Me.TableLayoutPanel21.Size = New System.Drawing.Size(368, 61)
         Me.TableLayoutPanel21.TabIndex = 7
         '
         'Label32
@@ -998,7 +999,7 @@ Partial Class SolidosForm
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label32.ForeColor = System.Drawing.Color.White
-        Me.Label32.Location = New System.Drawing.Point(3, 28)
+        Me.Label32.Location = New System.Drawing.Point(3, 20)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(29, 20)
         Me.Label32.TabIndex = 2
@@ -1011,9 +1012,9 @@ Partial Class SolidosForm
         Me.Label33.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label33.ForeColor = System.Drawing.Color.White
-        Me.Label33.Location = New System.Drawing.Point(108, 28)
+        Me.Label33.Location = New System.Drawing.Point(95, 20)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(99, 28)
+        Me.Label33.Size = New System.Drawing.Size(86, 20)
         Me.Label33.TabIndex = 3
         Me.Label33.Text = "6"
         Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1021,9 +1022,9 @@ Partial Class SolidosForm
         'A4C1
         '
         Me.A4C1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.A4C1.Location = New System.Drawing.Point(213, 31)
+        Me.A4C1.Location = New System.Drawing.Point(187, 23)
         Me.A4C1.Name = "A4C1"
-        Me.A4C1.Size = New System.Drawing.Size(99, 20)
+        Me.A4C1.Size = New System.Drawing.Size(86, 20)
         Me.A4C1.TabIndex = 6
         '
         'A4
@@ -1032,9 +1033,9 @@ Partial Class SolidosForm
         Me.A4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.A4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.A4.ForeColor = System.Drawing.Color.White
-        Me.A4.Location = New System.Drawing.Point(318, 28)
+        Me.A4.Location = New System.Drawing.Point(279, 20)
         Me.A4.Name = "A4"
-        Me.A4.Size = New System.Drawing.Size(99, 28)
+        Me.A4.Size = New System.Drawing.Size(86, 20)
         Me.A4.TabIndex = 7
         Me.A4.Text = "="
         Me.A4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1045,9 +1046,9 @@ Partial Class SolidosForm
         Me.Label35.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label35.ForeColor = System.Drawing.Color.White
-        Me.Label35.Location = New System.Drawing.Point(213, 0)
+        Me.Label35.Location = New System.Drawing.Point(187, 0)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(99, 28)
+        Me.Label35.Size = New System.Drawing.Size(86, 20)
         Me.Label35.TabIndex = 8
         Me.Label35.Text = "2"
         Me.Label35.TextAlign = System.Drawing.ContentAlignment.BottomRight
@@ -1064,7 +1065,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel22.Name = "TableLayoutPanel22"
         Me.TableLayoutPanel22.RowCount = 1
         Me.TableLayoutPanel22.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel22.Size = New System.Drawing.Size(310, 32)
+        Me.TableLayoutPanel22.Size = New System.Drawing.Size(310, 22)
         Me.TableLayoutPanel22.TabIndex = 6
         '
         'Label7
@@ -1075,7 +1076,7 @@ Partial Class SolidosForm
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(3, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(211, 32)
+        Me.Label7.Size = New System.Drawing.Size(211, 22)
         Me.Label7.TabIndex = 1
         Me.Label7.Text = "Area Del Cubo"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1093,7 +1094,7 @@ Partial Class SolidosForm
         Me.Button7.ForeColor = System.Drawing.Color.White
         Me.Button7.Location = New System.Drawing.Point(220, 3)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(87, 26)
+        Me.Button7.Size = New System.Drawing.Size(87, 16)
         Me.Button7.TabIndex = 2
         Me.Button7.Text = "Resultado"
         Me.Button7.UseVisualStyleBackColor = False
@@ -1107,12 +1108,12 @@ Partial Class SolidosForm
         Me.TableLayoutPanel17.Controls.Add(Me.TableLayoutPanel18, 0, 1)
         Me.TableLayoutPanel17.Controls.Add(Me.TableLayoutPanel19, 0, 0)
         Me.TableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel17.Location = New System.Drawing.Point(588, 279)
+        Me.TableLayoutPanel17.Location = New System.Drawing.Point(536, 211)
         Me.TableLayoutPanel17.Name = "TableLayoutPanel17"
         Me.TableLayoutPanel17.RowCount = 2
         Me.TableLayoutPanel17.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel17.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.TableLayoutPanel17.Size = New System.Drawing.Size(429, 132)
+        Me.TableLayoutPanel17.Size = New System.Drawing.Size(377, 98)
         Me.TableLayoutPanel17.TabIndex = 10
         '
         'TableLayoutPanel18
@@ -1126,13 +1127,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel18.Controls.Add(Me.V3, 2, 0)
         Me.TableLayoutPanel18.Controls.Add(Me.Panel1, 1, 1)
         Me.TableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel18.Location = New System.Drawing.Point(1, 40)
+        Me.TableLayoutPanel18.Location = New System.Drawing.Point(1, 30)
         Me.TableLayoutPanel18.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel18.Name = "TableLayoutPanel18"
         Me.TableLayoutPanel18.RowCount = 2
         Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.7027!))
         Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.2973!))
-        Me.TableLayoutPanel18.Size = New System.Drawing.Size(427, 91)
+        Me.TableLayoutPanel18.Size = New System.Drawing.Size(375, 67)
         Me.TableLayoutPanel18.TabIndex = 0
         '
         'TableLayoutPanel12
@@ -1149,13 +1150,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel12.Controls.Add(Me.Label27, 0, 1)
         Me.TableLayoutPanel12.Controls.Add(Me.Label36, 2, 1)
         Me.TableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel12.Location = New System.Drawing.Point(71, 0)
+        Me.TableLayoutPanel12.Location = New System.Drawing.Point(62, 0)
         Me.TableLayoutPanel12.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel12.Name = "TableLayoutPanel12"
         Me.TableLayoutPanel12.RowCount = 2
         Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.0!))
         Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.0!))
-        Me.TableLayoutPanel12.Size = New System.Drawing.Size(228, 47)
+        Me.TableLayoutPanel12.Size = New System.Drawing.Size(200, 35)
         Me.TableLayoutPanel12.TabIndex = 0
         '
         'Label30
@@ -1164,9 +1165,9 @@ Partial Class SolidosForm
         Me.Label30.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label30.ForeColor = System.Drawing.Color.White
-        Me.Label30.Location = New System.Drawing.Point(60, 0)
+        Me.Label30.Location = New System.Drawing.Point(53, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(51, 18)
+        Me.Label30.Size = New System.Drawing.Size(44, 14)
         Me.Label30.TabIndex = 5
         Me.Label30.Text = "2"
         Me.Label30.TextAlign = System.Drawing.ContentAlignment.BottomRight
@@ -1174,17 +1175,17 @@ Partial Class SolidosForm
         'V3C2
         '
         Me.V3C2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.V3C2.Location = New System.Drawing.Point(174, 21)
+        Me.V3C2.Location = New System.Drawing.Point(153, 17)
         Me.V3C2.Name = "V3C2"
-        Me.V3C2.Size = New System.Drawing.Size(51, 20)
+        Me.V3C2.Size = New System.Drawing.Size(44, 20)
         Me.V3C2.TabIndex = 6
         '
         'V3C1
         '
         Me.V3C1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.V3C1.Location = New System.Drawing.Point(60, 21)
+        Me.V3C1.Location = New System.Drawing.Point(53, 17)
         Me.V3C1.Name = "V3C1"
-        Me.V3C1.Size = New System.Drawing.Size(51, 20)
+        Me.V3C1.Size = New System.Drawing.Size(44, 20)
         Me.V3C1.TabIndex = 7
         '
         'Label27
@@ -1193,9 +1194,9 @@ Partial Class SolidosForm
         Me.Label27.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label27.ForeColor = System.Drawing.Color.White
-        Me.Label27.Location = New System.Drawing.Point(3, 18)
+        Me.Label27.Location = New System.Drawing.Point(3, 14)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(51, 29)
+        Me.Label27.Size = New System.Drawing.Size(44, 21)
         Me.Label27.TabIndex = 4
         Me.Label27.Text = "Pi"
         Me.Label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1206,9 +1207,9 @@ Partial Class SolidosForm
         Me.Label36.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label36.ForeColor = System.Drawing.Color.White
-        Me.Label36.Location = New System.Drawing.Point(117, 18)
+        Me.Label36.Location = New System.Drawing.Point(103, 14)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(51, 29)
+        Me.Label36.Size = New System.Drawing.Size(44, 21)
         Me.Label36.TabIndex = 8
         Me.Label36.Text = "*"
         Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1231,9 +1232,9 @@ Partial Class SolidosForm
         Me.V3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.V3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.V3.ForeColor = System.Drawing.Color.White
-        Me.V3.Location = New System.Drawing.Point(302, 0)
+        Me.V3.Location = New System.Drawing.Point(265, 0)
         Me.V3.Name = "V3"
-        Me.V3.Size = New System.Drawing.Size(122, 47)
+        Me.V3.Size = New System.Drawing.Size(107, 35)
         Me.V3.TabIndex = 4
         Me.V3.Text = "="
         Me.V3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1244,9 +1245,9 @@ Partial Class SolidosForm
         Me.Panel1.Controls.Add(Me.Label22)
         Me.Panel1.Controls.Add(Me.Label15)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(74, 50)
+        Me.Panel1.Location = New System.Drawing.Point(65, 38)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(222, 38)
+        Me.Panel1.Size = New System.Drawing.Size(194, 26)
         Me.Panel1.TabIndex = 8
         '
         'Label22
@@ -1285,7 +1286,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel19.Name = "TableLayoutPanel19"
         Me.TableLayoutPanel19.RowCount = 1
         Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel19.Size = New System.Drawing.Size(310, 32)
+        Me.TableLayoutPanel19.Size = New System.Drawing.Size(310, 22)
         Me.TableLayoutPanel19.TabIndex = 6
         '
         'Label6
@@ -1296,7 +1297,7 @@ Partial Class SolidosForm
         Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(3, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(211, 32)
+        Me.Label6.Size = New System.Drawing.Size(211, 22)
         Me.Label6.TabIndex = 1
         Me.Label6.Text = "Volumen Del Cono"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1314,7 +1315,7 @@ Partial Class SolidosForm
         Me.Button6.ForeColor = System.Drawing.Color.White
         Me.Button6.Location = New System.Drawing.Point(220, 3)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(87, 26)
+        Me.Button6.Size = New System.Drawing.Size(87, 16)
         Me.Button6.TabIndex = 2
         Me.Button6.Text = "Resultado"
         Me.Button6.UseVisualStyleBackColor = False
@@ -1327,12 +1328,12 @@ Partial Class SolidosForm
         Me.TableLayoutPanel14.Controls.Add(Me.TableLayoutPanel15, 0, 1)
         Me.TableLayoutPanel14.Controls.Add(Me.TableLayoutPanel16, 0, 0)
         Me.TableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel14.Location = New System.Drawing.Point(154, 279)
+        Me.TableLayoutPanel14.Location = New System.Drawing.Point(154, 211)
         Me.TableLayoutPanel14.Name = "TableLayoutPanel14"
         Me.TableLayoutPanel14.RowCount = 2
         Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.TableLayoutPanel14.Size = New System.Drawing.Size(428, 132)
+        Me.TableLayoutPanel14.Size = New System.Drawing.Size(376, 98)
         Me.TableLayoutPanel14.TabIndex = 9
         '
         'TableLayoutPanel15
@@ -1354,13 +1355,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel15.Controls.Add(Me.Label53, 2, 0)
         Me.TableLayoutPanel15.Controls.Add(Me.Radio2, 5, 1)
         Me.TableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel15.Location = New System.Drawing.Point(3, 42)
+        Me.TableLayoutPanel15.Location = New System.Drawing.Point(3, 32)
         Me.TableLayoutPanel15.Name = "TableLayoutPanel15"
         Me.TableLayoutPanel15.RowCount = 3
         Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel15.Size = New System.Drawing.Size(422, 87)
+        Me.TableLayoutPanel15.Size = New System.Drawing.Size(370, 63)
         Me.TableLayoutPanel15.TabIndex = 0
         '
         'Label49
@@ -1368,7 +1369,7 @@ Partial Class SolidosForm
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label49.ForeColor = System.Drawing.Color.White
-        Me.Label49.Location = New System.Drawing.Point(3, 29)
+        Me.Label49.Location = New System.Drawing.Point(3, 21)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(29, 20)
         Me.Label49.TabIndex = 6
@@ -1381,9 +1382,9 @@ Partial Class SolidosForm
         Me.Label50.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label50.ForeColor = System.Drawing.Color.White
-        Me.Label50.Location = New System.Drawing.Point(63, 29)
+        Me.Label50.Location = New System.Drawing.Point(55, 21)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(54, 29)
+        Me.Label50.Size = New System.Drawing.Size(46, 21)
         Me.Label50.TabIndex = 8
         Me.Label50.Text = "Pi"
         Me.Label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1391,17 +1392,17 @@ Partial Class SolidosForm
         'A3C1
         '
         Me.A3C1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.A3C1.Location = New System.Drawing.Point(123, 32)
+        Me.A3C1.Location = New System.Drawing.Point(107, 24)
         Me.A3C1.Name = "A3C1"
-        Me.A3C1.Size = New System.Drawing.Size(54, 20)
+        Me.A3C1.Size = New System.Drawing.Size(46, 20)
         Me.A3C1.TabIndex = 9
         '
         'A3C2
         '
         Me.A3C2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.A3C2.Location = New System.Drawing.Point(243, 32)
+        Me.A3C2.Location = New System.Drawing.Point(211, 24)
         Me.A3C2.Name = "A3C2"
-        Me.A3C2.Size = New System.Drawing.Size(54, 20)
+        Me.A3C2.Size = New System.Drawing.Size(46, 20)
         Me.A3C2.TabIndex = 10
         '
         'Label51
@@ -1410,9 +1411,9 @@ Partial Class SolidosForm
         Me.Label51.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label51.ForeColor = System.Drawing.Color.White
-        Me.Label51.Location = New System.Drawing.Point(183, 29)
+        Me.Label51.Location = New System.Drawing.Point(159, 21)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(54, 29)
+        Me.Label51.Size = New System.Drawing.Size(46, 21)
         Me.Label51.TabIndex = 11
         Me.Label51.Text = "+ Pi"
         Me.Label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1423,9 +1424,9 @@ Partial Class SolidosForm
         Me.A3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.A3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.A3.ForeColor = System.Drawing.Color.White
-        Me.A3.Location = New System.Drawing.Point(363, 29)
+        Me.A3.Location = New System.Drawing.Point(315, 21)
         Me.A3.Name = "A3"
-        Me.A3.Size = New System.Drawing.Size(56, 29)
+        Me.A3.Size = New System.Drawing.Size(52, 21)
         Me.A3.TabIndex = 13
         Me.A3.Text = "="
         Me.A3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1436,9 +1437,9 @@ Partial Class SolidosForm
         Me.Label53.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label53.ForeColor = System.Drawing.Color.White
-        Me.Label53.Location = New System.Drawing.Point(123, 0)
+        Me.Label53.Location = New System.Drawing.Point(107, 0)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(54, 29)
+        Me.Label53.Size = New System.Drawing.Size(46, 21)
         Me.Label53.TabIndex = 14
         Me.Label53.Text = "2"
         Me.Label53.TextAlign = System.Drawing.ContentAlignment.BottomRight
@@ -1448,7 +1449,7 @@ Partial Class SolidosForm
         Me.Radio2.AutoSize = True
         Me.Radio2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Radio2.ForeColor = System.Drawing.Color.White
-        Me.Radio2.Location = New System.Drawing.Point(303, 29)
+        Me.Radio2.Location = New System.Drawing.Point(263, 21)
         Me.Radio2.Name = "Radio2"
         Me.Radio2.Size = New System.Drawing.Size(21, 20)
         Me.Radio2.TabIndex = 15
@@ -1467,7 +1468,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel16.Name = "TableLayoutPanel16"
         Me.TableLayoutPanel16.RowCount = 1
         Me.TableLayoutPanel16.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel16.Size = New System.Drawing.Size(310, 33)
+        Me.TableLayoutPanel16.Size = New System.Drawing.Size(310, 23)
         Me.TableLayoutPanel16.TabIndex = 6
         '
         'Label5
@@ -1478,7 +1479,7 @@ Partial Class SolidosForm
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(3, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(211, 33)
+        Me.Label5.Size = New System.Drawing.Size(211, 23)
         Me.Label5.TabIndex = 1
         Me.Label5.Text = "Area Del Cono"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1496,7 +1497,7 @@ Partial Class SolidosForm
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Location = New System.Drawing.Point(220, 3)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(87, 27)
+        Me.Button5.Size = New System.Drawing.Size(87, 17)
         Me.Button5.TabIndex = 2
         Me.Button5.Text = "Resultado"
         Me.Button5.UseVisualStyleBackColor = False
@@ -1509,12 +1510,12 @@ Partial Class SolidosForm
         Me.TableLayoutPanel11.Controls.Add(Me.TableLayoutPanel43, 0, 1)
         Me.TableLayoutPanel11.Controls.Add(Me.TableLayoutPanel13, 0, 0)
         Me.TableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel11.Location = New System.Drawing.Point(588, 141)
+        Me.TableLayoutPanel11.Location = New System.Drawing.Point(536, 107)
         Me.TableLayoutPanel11.Name = "TableLayoutPanel11"
         Me.TableLayoutPanel11.RowCount = 2
         Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.TableLayoutPanel11.Size = New System.Drawing.Size(429, 132)
+        Me.TableLayoutPanel11.Size = New System.Drawing.Size(377, 98)
         Me.TableLayoutPanel11.TabIndex = 8
         '
         'TableLayoutPanel43
@@ -1527,11 +1528,11 @@ Partial Class SolidosForm
         Me.TableLayoutPanel43.Controls.Add(Me.Label42, 0, 0)
         Me.TableLayoutPanel43.Controls.Add(Me.TableLayoutPanel44, 1, 0)
         Me.TableLayoutPanel43.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel43.Location = New System.Drawing.Point(3, 42)
+        Me.TableLayoutPanel43.Location = New System.Drawing.Point(3, 32)
         Me.TableLayoutPanel43.Name = "TableLayoutPanel43"
         Me.TableLayoutPanel43.RowCount = 1
         Me.TableLayoutPanel43.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel43.Size = New System.Drawing.Size(423, 87)
+        Me.TableLayoutPanel43.Size = New System.Drawing.Size(371, 63)
         Me.TableLayoutPanel43.TabIndex = 1
         '
         'V2
@@ -1540,9 +1541,9 @@ Partial Class SolidosForm
         Me.V2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.V2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.V2.ForeColor = System.Drawing.Color.White
-        Me.V2.Location = New System.Drawing.Point(283, 0)
+        Me.V2.Location = New System.Drawing.Point(249, 0)
         Me.V2.Name = "V2"
-        Me.V2.Size = New System.Drawing.Size(137, 87)
+        Me.V2.Size = New System.Drawing.Size(119, 63)
         Me.V2.TabIndex = 6
         Me.V2.Text = "="
         Me.V2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1555,7 +1556,7 @@ Partial Class SolidosForm
         Me.Label42.ForeColor = System.Drawing.Color.White
         Me.Label42.Location = New System.Drawing.Point(3, 0)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(78, 87)
+        Me.Label42.Size = New System.Drawing.Size(68, 63)
         Me.Label42.TabIndex = 4
         Me.Label42.Text = "V ="
         Me.Label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1568,11 +1569,11 @@ Partial Class SolidosForm
         Me.TableLayoutPanel44.Controls.Add(Me.TableLayoutPanel46, 0, 0)
         Me.TableLayoutPanel44.Controls.Add(Me.TableLayoutPanel45, 0, 0)
         Me.TableLayoutPanel44.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel44.Location = New System.Drawing.Point(87, 3)
+        Me.TableLayoutPanel44.Location = New System.Drawing.Point(77, 3)
         Me.TableLayoutPanel44.Name = "TableLayoutPanel44"
         Me.TableLayoutPanel44.RowCount = 1
         Me.TableLayoutPanel44.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel44.Size = New System.Drawing.Size(190, 81)
+        Me.TableLayoutPanel44.Size = New System.Drawing.Size(166, 57)
         Me.TableLayoutPanel44.TabIndex = 5
         '
         'TableLayoutPanel46
@@ -1583,13 +1584,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel46.Controls.Add(Me.Label47, 0, 1)
         Me.TableLayoutPanel46.Controls.Add(Me.V2E, 1, 1)
         Me.TableLayoutPanel46.Controls.Add(Me.Label48, 1, 0)
-        Me.TableLayoutPanel46.Location = New System.Drawing.Point(54, 3)
+        Me.TableLayoutPanel46.Location = New System.Drawing.Point(47, 3)
         Me.TableLayoutPanel46.Name = "TableLayoutPanel46"
         Me.TableLayoutPanel46.RowCount = 3
         Me.TableLayoutPanel46.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel46.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel46.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel46.Size = New System.Drawing.Size(119, 56)
+        Me.TableLayoutPanel46.Size = New System.Drawing.Size(116, 51)
         Me.TableLayoutPanel46.TabIndex = 1
         '
         'Label47
@@ -1598,9 +1599,9 @@ Partial Class SolidosForm
         Me.Label47.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label47.ForeColor = System.Drawing.Color.White
-        Me.Label47.Location = New System.Drawing.Point(3, 16)
+        Me.Label47.Location = New System.Drawing.Point(3, 11)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(36, 20)
+        Me.Label47.Size = New System.Drawing.Size(35, 20)
         Me.Label47.TabIndex = 5
         Me.Label47.Text = "Pi"
         Me.Label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1608,9 +1609,9 @@ Partial Class SolidosForm
         'V2E
         '
         Me.V2E.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.V2E.Location = New System.Drawing.Point(45, 19)
+        Me.V2E.Location = New System.Drawing.Point(44, 14)
         Me.V2E.Name = "V2E"
-        Me.V2E.Size = New System.Drawing.Size(71, 20)
+        Me.V2E.Size = New System.Drawing.Size(69, 20)
         Me.V2E.TabIndex = 8
         '
         'Label48
@@ -1619,9 +1620,9 @@ Partial Class SolidosForm
         Me.Label48.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label48.ForeColor = System.Drawing.Color.White
-        Me.Label48.Location = New System.Drawing.Point(45, 0)
+        Me.Label48.Location = New System.Drawing.Point(44, 0)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(71, 16)
+        Me.Label48.Size = New System.Drawing.Size(69, 11)
         Me.Label48.TabIndex = 9
         Me.Label48.Text = "3"
         Me.Label48.TextAlign = System.Drawing.ContentAlignment.BottomRight
@@ -1639,7 +1640,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel45.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel45.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel45.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel45.Size = New System.Drawing.Size(40, 56)
+        Me.TableLayoutPanel45.Size = New System.Drawing.Size(38, 51)
         Me.TableLayoutPanel45.TabIndex = 0
         '
         'Label45
@@ -1648,9 +1649,9 @@ Partial Class SolidosForm
         Me.Label45.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label45.ForeColor = System.Drawing.Color.White
-        Me.Label45.Location = New System.Drawing.Point(3, 36)
+        Me.Label45.Location = New System.Drawing.Point(3, 30)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(34, 20)
+        Me.Label45.Size = New System.Drawing.Size(32, 21)
         Me.Label45.TabIndex = 7
         Me.Label45.Text = "3"
         Me.Label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1663,7 +1664,7 @@ Partial Class SolidosForm
         Me.Label43.ForeColor = System.Drawing.Color.White
         Me.Label43.Location = New System.Drawing.Point(3, 0)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(34, 18)
+        Me.Label43.Size = New System.Drawing.Size(32, 15)
         Me.Label43.TabIndex = 5
         Me.Label43.Text = "4"
         Me.Label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1671,9 +1672,9 @@ Partial Class SolidosForm
         'Panel2
         '
         Me.Panel2.Controls.Add(Me.Label44)
-        Me.Panel2.Location = New System.Drawing.Point(3, 21)
+        Me.Panel2.Location = New System.Drawing.Point(3, 18)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(34, 12)
+        Me.Panel2.Size = New System.Drawing.Size(32, 9)
         Me.Panel2.TabIndex = 6
         '
         'Label44
@@ -1700,7 +1701,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel13.Name = "TableLayoutPanel13"
         Me.TableLayoutPanel13.RowCount = 1
         Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel13.Size = New System.Drawing.Size(310, 33)
+        Me.TableLayoutPanel13.Size = New System.Drawing.Size(310, 23)
         Me.TableLayoutPanel13.TabIndex = 6
         '
         'Label4
@@ -1711,7 +1712,7 @@ Partial Class SolidosForm
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(3, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(211, 33)
+        Me.Label4.Size = New System.Drawing.Size(211, 23)
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "Volumen De La Esfera"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1729,7 +1730,7 @@ Partial Class SolidosForm
         Me.Button4.ForeColor = System.Drawing.Color.White
         Me.Button4.Location = New System.Drawing.Point(220, 3)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(87, 27)
+        Me.Button4.Size = New System.Drawing.Size(87, 17)
         Me.Button4.TabIndex = 2
         Me.Button4.Text = "Resultado"
         Me.Button4.UseVisualStyleBackColor = False
@@ -1743,12 +1744,12 @@ Partial Class SolidosForm
         Me.TableLayoutPanel8.Controls.Add(Me.TableLayoutPanel9, 0, 1)
         Me.TableLayoutPanel8.Controls.Add(Me.TableLayoutPanel10, 0, 0)
         Me.TableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel8.Location = New System.Drawing.Point(154, 141)
+        Me.TableLayoutPanel8.Location = New System.Drawing.Point(154, 107)
         Me.TableLayoutPanel8.Name = "TableLayoutPanel8"
         Me.TableLayoutPanel8.RowCount = 2
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.TableLayoutPanel8.Size = New System.Drawing.Size(428, 132)
+        Me.TableLayoutPanel8.Size = New System.Drawing.Size(376, 98)
         Me.TableLayoutPanel8.TabIndex = 7
         '
         'TableLayoutPanel9
@@ -1759,6 +1760,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel9.Controls.Add(Me.MaskedTextBox1, 1, 2)
         Me.TableLayoutPanel9.Controls.Add(Me.Label38, 1, 1)
         Me.TableLayoutPanel9.Controls.Add(Me.Label37, 0, 1)
         Me.TableLayoutPanel9.Controls.Add(Me.Label39, 2, 1)
@@ -1766,13 +1768,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel9.Controls.Add(Me.Label41, 3, 0)
         Me.TableLayoutPanel9.Controls.Add(Me.A2E, 3, 1)
         Me.TableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel9.Location = New System.Drawing.Point(4, 43)
+        Me.TableLayoutPanel9.Location = New System.Drawing.Point(4, 33)
         Me.TableLayoutPanel9.Name = "TableLayoutPanel9"
         Me.TableLayoutPanel9.RowCount = 3
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel9.Size = New System.Drawing.Size(420, 85)
+        Me.TableLayoutPanel9.Size = New System.Drawing.Size(368, 61)
         Me.TableLayoutPanel9.TabIndex = 0
         '
         'Label38
@@ -1781,9 +1783,9 @@ Partial Class SolidosForm
         Me.Label38.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label38.ForeColor = System.Drawing.Color.White
-        Me.Label38.Location = New System.Drawing.Point(87, 28)
+        Me.Label38.Location = New System.Drawing.Point(76, 20)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(78, 28)
+        Me.Label38.Size = New System.Drawing.Size(67, 20)
         Me.Label38.TabIndex = 6
         Me.Label38.Text = "4"
         Me.Label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1793,7 +1795,7 @@ Partial Class SolidosForm
         Me.Label37.AutoSize = True
         Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label37.ForeColor = System.Drawing.Color.White
-        Me.Label37.Location = New System.Drawing.Point(3, 28)
+        Me.Label37.Location = New System.Drawing.Point(3, 20)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(29, 20)
         Me.Label37.TabIndex = 5
@@ -1806,9 +1808,9 @@ Partial Class SolidosForm
         Me.Label39.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label39.ForeColor = System.Drawing.Color.White
-        Me.Label39.Location = New System.Drawing.Point(171, 28)
+        Me.Label39.Location = New System.Drawing.Point(149, 20)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(78, 28)
+        Me.Label39.Size = New System.Drawing.Size(67, 20)
         Me.Label39.TabIndex = 7
         Me.Label39.Text = "Pi"
         Me.Label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1819,9 +1821,9 @@ Partial Class SolidosForm
         Me.A2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.A2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.A2.ForeColor = System.Drawing.Color.White
-        Me.A2.Location = New System.Drawing.Point(339, 28)
+        Me.A2.Location = New System.Drawing.Point(295, 20)
         Me.A2.Name = "A2"
-        Me.A2.Size = New System.Drawing.Size(78, 28)
+        Me.A2.Size = New System.Drawing.Size(70, 20)
         Me.A2.TabIndex = 9
         Me.A2.Text = "="
         Me.A2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1832,9 +1834,9 @@ Partial Class SolidosForm
         Me.Label41.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label41.ForeColor = System.Drawing.Color.White
-        Me.Label41.Location = New System.Drawing.Point(255, 0)
+        Me.Label41.Location = New System.Drawing.Point(222, 0)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(78, 28)
+        Me.Label41.Size = New System.Drawing.Size(67, 20)
         Me.Label41.TabIndex = 10
         Me.Label41.Text = "2"
         Me.Label41.TextAlign = System.Drawing.ContentAlignment.BottomRight
@@ -1842,9 +1844,9 @@ Partial Class SolidosForm
         'A2E
         '
         Me.A2E.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.A2E.Location = New System.Drawing.Point(255, 31)
+        Me.A2E.Location = New System.Drawing.Point(222, 23)
         Me.A2E.Name = "A2E"
-        Me.A2E.Size = New System.Drawing.Size(78, 20)
+        Me.A2E.Size = New System.Drawing.Size(67, 20)
         Me.A2E.TabIndex = 8
         '
         'TableLayoutPanel10
@@ -1859,7 +1861,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel10.Name = "TableLayoutPanel10"
         Me.TableLayoutPanel10.RowCount = 1
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel10.Size = New System.Drawing.Size(310, 32)
+        Me.TableLayoutPanel10.Size = New System.Drawing.Size(310, 22)
         Me.TableLayoutPanel10.TabIndex = 6
         '
         'Label3
@@ -1870,7 +1872,7 @@ Partial Class SolidosForm
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(3, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(211, 32)
+        Me.Label3.Size = New System.Drawing.Size(211, 22)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Area De La Esfera"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1888,7 +1890,7 @@ Partial Class SolidosForm
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Location = New System.Drawing.Point(220, 3)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(87, 26)
+        Me.Button3.Size = New System.Drawing.Size(87, 16)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Resultado"
         Me.Button3.UseVisualStyleBackColor = False
@@ -1902,12 +1904,12 @@ Partial Class SolidosForm
         Me.TableLayoutPanel5.Controls.Add(Me.TableLayoutPanel6, 0, 1)
         Me.TableLayoutPanel5.Controls.Add(Me.TableLayoutPanel7, 0, 0)
         Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel5.Location = New System.Drawing.Point(588, 3)
+        Me.TableLayoutPanel5.Location = New System.Drawing.Point(536, 3)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 2
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.TableLayoutPanel5.Size = New System.Drawing.Size(429, 132)
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(377, 98)
         Me.TableLayoutPanel5.TabIndex = 6
         '
         'TableLayoutPanel6
@@ -1927,13 +1929,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel6.Controls.Add(Me.V1C2, 4, 1)
         Me.TableLayoutPanel6.Controls.Add(Me.Label65, 3, 1)
         Me.TableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel6.Location = New System.Drawing.Point(4, 43)
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(4, 33)
         Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
         Me.TableLayoutPanel6.RowCount = 3
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel6.Size = New System.Drawing.Size(421, 85)
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(369, 61)
         Me.TableLayoutPanel6.TabIndex = 8
         '
         'Label61
@@ -1941,7 +1943,7 @@ Partial Class SolidosForm
         Me.Label61.AutoSize = True
         Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label61.ForeColor = System.Drawing.Color.White
-        Me.Label61.Location = New System.Drawing.Point(3, 28)
+        Me.Label61.Location = New System.Drawing.Point(3, 20)
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(29, 20)
         Me.Label61.TabIndex = 2
@@ -1954,9 +1956,9 @@ Partial Class SolidosForm
         Me.Label62.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label62.ForeColor = System.Drawing.Color.White
-        Me.Label62.Location = New System.Drawing.Point(73, 28)
+        Me.Label62.Location = New System.Drawing.Point(64, 20)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(64, 28)
+        Me.Label62.Size = New System.Drawing.Size(55, 20)
         Me.Label62.TabIndex = 3
         Me.Label62.Text = "Pi"
         Me.Label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1964,9 +1966,9 @@ Partial Class SolidosForm
         'V1C1
         '
         Me.V1C1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.V1C1.Location = New System.Drawing.Point(143, 31)
+        Me.V1C1.Location = New System.Drawing.Point(125, 23)
         Me.V1C1.Name = "V1C1"
-        Me.V1C1.Size = New System.Drawing.Size(64, 20)
+        Me.V1C1.Size = New System.Drawing.Size(55, 20)
         Me.V1C1.TabIndex = 6
         '
         'Label64
@@ -1975,9 +1977,9 @@ Partial Class SolidosForm
         Me.Label64.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label64.ForeColor = System.Drawing.Color.White
-        Me.Label64.Location = New System.Drawing.Point(143, 0)
+        Me.Label64.Location = New System.Drawing.Point(125, 0)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(64, 28)
+        Me.Label64.Size = New System.Drawing.Size(55, 20)
         Me.Label64.TabIndex = 8
         Me.Label64.Text = "2"
         Me.Label64.TextAlign = System.Drawing.ContentAlignment.BottomRight
@@ -1988,9 +1990,9 @@ Partial Class SolidosForm
         Me.V1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.V1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.V1.ForeColor = System.Drawing.Color.White
-        Me.V1.Location = New System.Drawing.Point(353, 28)
+        Me.V1.Location = New System.Drawing.Point(308, 20)
         Me.V1.Name = "V1"
-        Me.V1.Size = New System.Drawing.Size(65, 28)
+        Me.V1.Size = New System.Drawing.Size(58, 20)
         Me.V1.TabIndex = 7
         Me.V1.Text = "="
         Me.V1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1998,9 +2000,9 @@ Partial Class SolidosForm
         'V1C2
         '
         Me.V1C2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.V1C2.Location = New System.Drawing.Point(283, 31)
+        Me.V1C2.Location = New System.Drawing.Point(247, 23)
         Me.V1C2.Name = "V1C2"
-        Me.V1C2.Size = New System.Drawing.Size(64, 20)
+        Me.V1C2.Size = New System.Drawing.Size(55, 20)
         Me.V1C2.TabIndex = 9
         '
         'Label65
@@ -2009,9 +2011,9 @@ Partial Class SolidosForm
         Me.Label65.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label65.ForeColor = System.Drawing.Color.White
-        Me.Label65.Location = New System.Drawing.Point(213, 28)
+        Me.Label65.Location = New System.Drawing.Point(186, 20)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(64, 28)
+        Me.Label65.Size = New System.Drawing.Size(55, 20)
         Me.Label65.TabIndex = 10
         Me.Label65.Text = "*"
         Me.Label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2028,7 +2030,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
         Me.TableLayoutPanel7.RowCount = 1
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel7.Size = New System.Drawing.Size(310, 32)
+        Me.TableLayoutPanel7.Size = New System.Drawing.Size(310, 22)
         Me.TableLayoutPanel7.TabIndex = 6
         '
         'Label2
@@ -2039,7 +2041,7 @@ Partial Class SolidosForm
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(3, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(211, 32)
+        Me.Label2.Size = New System.Drawing.Size(211, 22)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Volumen Del Cilindro"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2057,7 +2059,7 @@ Partial Class SolidosForm
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(220, 3)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(87, 26)
+        Me.Button2.Size = New System.Drawing.Size(87, 16)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Resultado"
         Me.Button2.UseVisualStyleBackColor = False
@@ -2069,7 +2071,7 @@ Partial Class SolidosForm
         Me.PictureBox1.Location = New System.Drawing.Point(10, 10)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(10)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(131, 118)
+        Me.PictureBox1.Size = New System.Drawing.Size(131, 84)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -2078,10 +2080,10 @@ Partial Class SolidosForm
         '
         Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(10, 148)
+        Me.PictureBox2.Location = New System.Drawing.Point(10, 114)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(10)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(131, 118)
+        Me.PictureBox2.Size = New System.Drawing.Size(131, 84)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 1
         Me.PictureBox2.TabStop = False
@@ -2090,10 +2092,10 @@ Partial Class SolidosForm
         '
         Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(10, 286)
+        Me.PictureBox3.Location = New System.Drawing.Point(10, 218)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(10)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(131, 118)
+        Me.PictureBox3.Size = New System.Drawing.Size(131, 84)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 2
         Me.PictureBox3.TabStop = False
@@ -2102,10 +2104,10 @@ Partial Class SolidosForm
         '
         Me.PictureBox4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(10, 424)
+        Me.PictureBox4.Location = New System.Drawing.Point(10, 322)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(10)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(131, 118)
+        Me.PictureBox4.Size = New System.Drawing.Size(131, 84)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 3
         Me.PictureBox4.TabStop = False
@@ -2114,10 +2116,10 @@ Partial Class SolidosForm
         '
         Me.PictureBox5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(10, 562)
+        Me.PictureBox5.Location = New System.Drawing.Point(10, 426)
         Me.PictureBox5.Margin = New System.Windows.Forms.Padding(10)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(131, 119)
+        Me.PictureBox5.Size = New System.Drawing.Size(131, 85)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 4
         Me.PictureBox5.TabStop = False
@@ -2135,7 +2137,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(428, 132)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(376, 98)
         Me.TableLayoutPanel2.TabIndex = 5
         '
         'TableLayoutPanel3
@@ -2160,13 +2162,13 @@ Partial Class SolidosForm
         Me.TableLayoutPanel3.Controls.Add(Me.Label60, 7, 1)
         Me.TableLayoutPanel3.Controls.Add(Me.Radio1, 6, 1)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 42)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 32)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 3
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(422, 87)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(370, 63)
         Me.TableLayoutPanel3.TabIndex = 7
         '
         'Label54
@@ -2174,7 +2176,7 @@ Partial Class SolidosForm
         Me.Label54.AutoSize = True
         Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label54.ForeColor = System.Drawing.Color.White
-        Me.Label54.Location = New System.Drawing.Point(3, 29)
+        Me.Label54.Location = New System.Drawing.Point(3, 21)
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(29, 20)
         Me.Label54.TabIndex = 6
@@ -2187,25 +2189,25 @@ Partial Class SolidosForm
         Me.Label55.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label55.ForeColor = System.Drawing.Color.White
-        Me.Label55.Location = New System.Drawing.Point(49, 29)
+        Me.Label55.Location = New System.Drawing.Point(44, 21)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(40, 29)
+        Me.Label55.Size = New System.Drawing.Size(35, 21)
         Me.Label55.TabIndex = 8
         Me.Label55.Text = "2 Pi"
         Me.Label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'A1C1
         '
-        Me.A1C1.Location = New System.Drawing.Point(95, 32)
+        Me.A1C1.Location = New System.Drawing.Point(85, 24)
         Me.A1C1.Name = "A1C1"
-        Me.A1C1.Size = New System.Drawing.Size(36, 20)
+        Me.A1C1.Size = New System.Drawing.Size(35, 20)
         Me.A1C1.TabIndex = 9
         '
         'A1C2
         '
-        Me.A1C2.Location = New System.Drawing.Point(187, 32)
+        Me.A1C2.Location = New System.Drawing.Point(167, 24)
         Me.A1C2.Name = "A1C2"
-        Me.A1C2.Size = New System.Drawing.Size(36, 20)
+        Me.A1C2.Size = New System.Drawing.Size(35, 20)
         Me.A1C2.TabIndex = 10
         '
         'Label56
@@ -2214,9 +2216,9 @@ Partial Class SolidosForm
         Me.Label56.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label56.ForeColor = System.Drawing.Color.White
-        Me.Label56.Location = New System.Drawing.Point(141, 29)
+        Me.Label56.Location = New System.Drawing.Point(126, 21)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(40, 29)
+        Me.Label56.Size = New System.Drawing.Size(35, 21)
         Me.Label56.TabIndex = 11
         Me.Label56.Text = "("
         Me.Label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2227,9 +2229,9 @@ Partial Class SolidosForm
         Me.A1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.A1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.A1.ForeColor = System.Drawing.Color.White
-        Me.A1.Location = New System.Drawing.Point(371, 29)
+        Me.A1.Location = New System.Drawing.Point(331, 21)
         Me.A1.Name = "A1"
-        Me.A1.Size = New System.Drawing.Size(48, 29)
+        Me.A1.Size = New System.Drawing.Size(36, 21)
         Me.A1.TabIndex = 13
         Me.A1.Text = "="
         Me.A1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2240,9 +2242,9 @@ Partial Class SolidosForm
         Me.Label59.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label59.ForeColor = System.Drawing.Color.White
-        Me.Label59.Location = New System.Drawing.Point(233, 29)
+        Me.Label59.Location = New System.Drawing.Point(208, 21)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(40, 29)
+        Me.Label59.Size = New System.Drawing.Size(35, 21)
         Me.Label59.TabIndex = 15
         Me.Label59.Text = "+ "
         Me.Label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2253,9 +2255,9 @@ Partial Class SolidosForm
         Me.Label60.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label60.ForeColor = System.Drawing.Color.White
-        Me.Label60.Location = New System.Drawing.Point(325, 29)
+        Me.Label60.Location = New System.Drawing.Point(290, 21)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(40, 29)
+        Me.Label60.Size = New System.Drawing.Size(35, 21)
         Me.Label60.TabIndex = 16
         Me.Label60.Text = ")"
         Me.Label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2265,7 +2267,7 @@ Partial Class SolidosForm
         Me.Radio1.AutoSize = True
         Me.Radio1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Radio1.ForeColor = System.Drawing.Color.White
-        Me.Radio1.Location = New System.Drawing.Point(279, 29)
+        Me.Radio1.Location = New System.Drawing.Point(249, 21)
         Me.Radio1.Name = "Radio1"
         Me.Radio1.Size = New System.Drawing.Size(21, 20)
         Me.Radio1.TabIndex = 17
@@ -2284,7 +2286,7 @@ Partial Class SolidosForm
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 1
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(310, 33)
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(310, 23)
         Me.TableLayoutPanel4.TabIndex = 6
         '
         'Label1
@@ -2295,7 +2297,7 @@ Partial Class SolidosForm
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(3, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(211, 33)
+        Me.Label1.Size = New System.Drawing.Size(211, 23)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Area De Cilindro"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2313,18 +2315,27 @@ Partial Class SolidosForm
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(220, 3)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(87, 27)
+        Me.Button1.Size = New System.Drawing.Size(87, 17)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Resultado"
         Me.Button1.UseVisualStyleBackColor = False
+        '
+        'MaskedTextBox1
+        '
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(76, 43)
+        Me.MaskedTextBox1.Mask = "000000.005"
+        Me.MaskedTextBox1.Name = "MaskedTextBox1"
+        Me.MaskedTextBox1.Size = New System.Drawing.Size(67, 20)
+        Me.MaskedTextBox1.TabIndex = 1
         '
         'SolidosForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScrollMinSize = New System.Drawing.Size(0, 700)
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1020, 691)
+        Me.ClientSize = New System.Drawing.Size(916, 521)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "SolidosForm"
@@ -2571,4 +2582,5 @@ Partial Class SolidosForm
     Friend WithEvents V1 As Label
     Friend WithEvents V1C2 As TextBox
     Friend WithEvents Label65 As Label
+    Friend WithEvents MaskedTextBox1 As MaskedTextBox
 End Class
