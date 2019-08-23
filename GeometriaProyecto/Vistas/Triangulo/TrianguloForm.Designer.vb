@@ -54,6 +54,7 @@ Partial Class TrianguloForm
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.T1P2 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -61,21 +62,20 @@ Partial Class TrianguloForm
         Me.Label3 = New System.Windows.Forms.Label()
         Me.T1P3 = New System.Windows.Forms.TextBox()
         Me.Resultado1 = New System.Windows.Forms.Label()
-        Me.T1P2 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.T1P1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
         Me.T1A2 = New System.Windows.Forms.TextBox()
         Me.T1A1 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Resultado2 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Resultado2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Panel10 = New System.Windows.Forms.Panel()
@@ -157,10 +157,10 @@ Partial Class TrianguloForm
         Me.Label20 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel10 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TableLayoutPanel8 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TableLayoutPanel9 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel9 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel8 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel13.SuspendLayout()
         Me.Panel12.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -174,10 +174,10 @@ Partial Class TrianguloForm
         Me.Panel8.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel10.SuspendLayout()
-        Me.TableLayoutPanel8.SuspendLayout()
-        Me.TableLayoutPanel9.SuspendLayout()
-        Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
+        Me.TableLayoutPanel2.SuspendLayout()
+        Me.TableLayoutPanel9.SuspendLayout()
+        Me.TableLayoutPanel8.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label45
@@ -190,7 +190,7 @@ Partial Class TrianguloForm
         Me.Label45.Location = New System.Drawing.Point(3, 0)
         Me.Label45.MinimumSize = New System.Drawing.Size(210, 31)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(235, 31)
+        Me.Label45.Size = New System.Drawing.Size(231, 31)
         Me.Label45.TabIndex = 5
         Me.Label45.Text = "Triangulo Equilatero"
         '
@@ -221,10 +221,10 @@ Partial Class TrianguloForm
         Me.Panel13.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel13.ForeColor = System.Drawing.Color.White
-        Me.Panel13.Location = New System.Drawing.Point(531, 397)
+        Me.Panel13.Location = New System.Drawing.Point(522, 457)
         Me.Panel13.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(378, 117)
+        Me.Panel13.Size = New System.Drawing.Size(370, 136)
         Me.Panel13.TabIndex = 5
         '
         'Label67
@@ -468,10 +468,10 @@ Partial Class TrianguloForm
         Me.Panel12.Controls.Add(Me.Label51)
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel12.ForeColor = System.Drawing.Color.White
-        Me.Panel12.Location = New System.Drawing.Point(253, 397)
+        Me.Panel12.Location = New System.Drawing.Point(249, 457)
         Me.Panel12.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(264, 117)
+        Me.Panel12.Size = New System.Drawing.Size(259, 136)
         Me.Panel12.TabIndex = 4
         '
         'Label40
@@ -565,7 +565,7 @@ Partial Class TrianguloForm
         Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.PictureBox4.ForeColor = System.Drawing.Color.White
         Me.PictureBox4.Image = Global.GeometriaProyecto.My.Resources.Resources.Triangulo_equilatero
-        Me.PictureBox4.Location = New System.Drawing.Point(3, 28)
+        Me.PictureBox4.Location = New System.Drawing.Point(3, 32)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(120, 95)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -582,7 +582,7 @@ Partial Class TrianguloForm
         Me.Label10.Location = New System.Drawing.Point(3, 0)
         Me.Label10.MinimumSize = New System.Drawing.Size(210, 31)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(235, 31)
+        Me.Label10.Size = New System.Drawing.Size(231, 31)
         Me.Label10.TabIndex = 6
         Me.Label10.Text = "Triangulo Rectangulo"
         '
@@ -604,11 +604,21 @@ Partial Class TrianguloForm
         Me.Panel6.Controls.Add(Me.Label1)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel6.ForeColor = System.Drawing.Color.White
-        Me.Panel6.Location = New System.Drawing.Point(253, 7)
+        Me.Panel6.Location = New System.Drawing.Point(249, 7)
         Me.Panel6.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(264, 116)
+        Me.Panel6.Size = New System.Drawing.Size(259, 136)
         Me.Panel6.TabIndex = 1
+        '
+        'T1P2
+        '
+        Me.T1P2.BackColor = System.Drawing.Color.White
+        Me.T1P2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.T1P2.ForeColor = System.Drawing.Color.Black
+        Me.T1P2.Location = New System.Drawing.Point(92, 70)
+        Me.T1P2.Name = "T1P2"
+        Me.T1P2.Size = New System.Drawing.Size(50, 20)
+        Me.T1P2.TabIndex = 8
         '
         'Label7
         '
@@ -692,16 +702,6 @@ Partial Class TrianguloForm
         Me.Resultado1.TabIndex = 5
         Me.Resultado1.Text = "="
         '
-        'T1P2
-        '
-        Me.T1P2.BackColor = System.Drawing.Color.White
-        Me.T1P2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.T1P2.ForeColor = System.Drawing.Color.Black
-        Me.T1P2.Location = New System.Drawing.Point(92, 70)
-        Me.T1P2.Name = "T1P2"
-        Me.T1P2.Size = New System.Drawing.Size(50, 20)
-        Me.T1P2.TabIndex = 8
-        '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.DodgerBlue
@@ -757,11 +757,42 @@ Partial Class TrianguloForm
         Me.Panel7.Controls.Add(Me.Button1)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel7.ForeColor = System.Drawing.Color.White
-        Me.Panel7.Location = New System.Drawing.Point(531, 7)
+        Me.Panel7.Location = New System.Drawing.Point(522, 7)
         Me.Panel7.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(378, 116)
+        Me.Panel7.Size = New System.Drawing.Size(370, 136)
         Me.Panel7.TabIndex = 2
+        '
+        'T1A2
+        '
+        Me.T1A2.BackColor = System.Drawing.Color.White
+        Me.T1A2.ForeColor = System.Drawing.Color.Black
+        Me.T1A2.Location = New System.Drawing.Point(137, 55)
+        Me.T1A2.Name = "T1A2"
+        Me.T1A2.Size = New System.Drawing.Size(70, 20)
+        Me.T1A2.TabIndex = 16
+        '
+        'T1A1
+        '
+        Me.T1A1.BackColor = System.Drawing.Color.White
+        Me.T1A1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.T1A1.ForeColor = System.Drawing.Color.Black
+        Me.T1A1.Location = New System.Drawing.Point(48, 55)
+        Me.T1A1.Name = "T1A1"
+        Me.T1A1.Size = New System.Drawing.Size(70, 20)
+        Me.T1A1.TabIndex = 14
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.Location = New System.Drawing.Point(115, 50)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(23, 30)
+        Me.Label9.TabIndex = 17
+        Me.Label9.Text = "*"
         '
         'Label13
         '
@@ -787,6 +818,18 @@ Partial Class TrianguloForm
         Me.Label12.TabIndex = 20
         Me.Label12.Text = "Base"
         '
+        'Resultado2
+        '
+        Me.Resultado2.AutoSize = True
+        Me.Resultado2.BackColor = System.Drawing.Color.Transparent
+        Me.Resultado2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Resultado2.ForeColor = System.Drawing.Color.White
+        Me.Resultado2.Location = New System.Drawing.Point(232, 46)
+        Me.Resultado2.Name = "Resultado2"
+        Me.Resultado2.Size = New System.Drawing.Size(28, 30)
+        Me.Resultado2.TabIndex = 7
+        Me.Resultado2.Text = "="
+        '
         'Label11
         '
         Me.Label11.AutoSize = True
@@ -810,37 +853,6 @@ Partial Class TrianguloForm
         Me.Label8.Size = New System.Drawing.Size(156, 25)
         Me.Label8.TabIndex = 18
         Me.Label8.Text = "__________________"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(115, 50)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(23, 30)
-        Me.Label9.TabIndex = 17
-        Me.Label9.Text = "*"
-        '
-        'T1A2
-        '
-        Me.T1A2.BackColor = System.Drawing.Color.White
-        Me.T1A2.ForeColor = System.Drawing.Color.Black
-        Me.T1A2.Location = New System.Drawing.Point(137, 55)
-        Me.T1A2.Name = "T1A2"
-        Me.T1A2.Size = New System.Drawing.Size(70, 20)
-        Me.T1A2.TabIndex = 16
-        '
-        'T1A1
-        '
-        Me.T1A1.BackColor = System.Drawing.Color.White
-        Me.T1A1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.T1A1.ForeColor = System.Drawing.Color.Black
-        Me.T1A1.Location = New System.Drawing.Point(48, 55)
-        Me.T1A1.Name = "T1A1"
-        Me.T1A1.Size = New System.Drawing.Size(70, 20)
-        Me.T1A1.TabIndex = 14
         '
         'Label2
         '
@@ -870,24 +882,12 @@ Partial Class TrianguloForm
         Me.Button1.Text = "Resolver"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Resultado2
-        '
-        Me.Resultado2.AutoSize = True
-        Me.Resultado2.BackColor = System.Drawing.Color.Transparent
-        Me.Resultado2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Resultado2.ForeColor = System.Drawing.Color.White
-        Me.Resultado2.Location = New System.Drawing.Point(232, 46)
-        Me.Resultado2.Name = "Resultado2"
-        Me.Resultado2.Size = New System.Drawing.Size(28, 30)
-        Me.Resultado2.TabIndex = 7
-        Me.Resultado2.Text = "="
-        '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.PictureBox1.ForeColor = System.Drawing.Color.White
         Me.PictureBox1.Image = Global.GeometriaProyecto.My.Resources.Resources.Triangulo_rectangulo
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 28)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 32)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(120, 94)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -904,7 +904,7 @@ Partial Class TrianguloForm
         Me.Label21.Location = New System.Drawing.Point(3, 0)
         Me.Label21.MinimumSize = New System.Drawing.Size(210, 31)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(235, 31)
+        Me.Label21.Size = New System.Drawing.Size(231, 31)
         Me.Label21.TabIndex = 5
         Me.Label21.Text = "Triangulo Escaleno"
         '
@@ -941,10 +941,10 @@ Partial Class TrianguloForm
         Me.Panel10.Controls.Add(Me.Button5)
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel10.ForeColor = System.Drawing.Color.White
-        Me.Panel10.Location = New System.Drawing.Point(531, 267)
+        Me.Panel10.Location = New System.Drawing.Point(522, 307)
         Me.Panel10.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(378, 116)
+        Me.Panel10.Size = New System.Drawing.Size(370, 136)
         Me.Panel10.TabIndex = 5
         '
         'RespuestaT3A
@@ -1273,10 +1273,10 @@ Partial Class TrianguloForm
         Me.Panel9.Controls.Add(Me.Label28)
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel9.ForeColor = System.Drawing.Color.White
-        Me.Panel9.Location = New System.Drawing.Point(253, 267)
+        Me.Panel9.Location = New System.Drawing.Point(249, 307)
         Me.Panel9.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(264, 116)
+        Me.Panel9.Size = New System.Drawing.Size(259, 136)
         Me.Panel9.TabIndex = 4
         '
         'T3P3
@@ -1414,7 +1414,7 @@ Partial Class TrianguloForm
         Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.PictureBox3.ForeColor = System.Drawing.Color.White
         Me.PictureBox3.Image = Global.GeometriaProyecto.My.Resources.Resources.Triangulo_escaleno01
-        Me.PictureBox3.Location = New System.Drawing.Point(3, 28)
+        Me.PictureBox3.Location = New System.Drawing.Point(3, 32)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(120, 94)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1431,7 +1431,7 @@ Partial Class TrianguloForm
         Me.Label59.Location = New System.Drawing.Point(3, 0)
         Me.Label59.MinimumSize = New System.Drawing.Size(210, 31)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(235, 31)
+        Me.Label59.Size = New System.Drawing.Size(231, 31)
         Me.Label59.TabIndex = 5
         Me.Label59.Text = "Triangulo Isosceles"
         '
@@ -1466,10 +1466,10 @@ Partial Class TrianguloForm
         Me.Panel11.Controls.Add(Me.LabelT2A)
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel11.ForeColor = System.Drawing.Color.White
-        Me.Panel11.Location = New System.Drawing.Point(531, 137)
+        Me.Panel11.Location = New System.Drawing.Point(522, 157)
         Me.Panel11.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(378, 116)
+        Me.Panel11.Size = New System.Drawing.Size(370, 136)
         Me.Panel11.TabIndex = 4
         '
         'Label41
@@ -1776,10 +1776,10 @@ Partial Class TrianguloForm
         Me.Panel8.Controls.Add(Me.Label20)
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel8.ForeColor = System.Drawing.Color.White
-        Me.Panel8.Location = New System.Drawing.Point(253, 137)
+        Me.Panel8.Location = New System.Drawing.Point(249, 157)
         Me.Panel8.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(264, 116)
+        Me.Panel8.Size = New System.Drawing.Size(259, 136)
         Me.Panel8.TabIndex = 2
         '
         'Label14
@@ -1907,7 +1907,7 @@ Partial Class TrianguloForm
         Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.PictureBox2.ForeColor = System.Drawing.Color.White
         Me.PictureBox2.Image = Global.GeometriaProyecto.My.Resources.Resources.triangulo_isosceles
-        Me.PictureBox2.Location = New System.Drawing.Point(3, 28)
+        Me.PictureBox2.Location = New System.Drawing.Point(3, 32)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(120, 94)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1941,8 +1941,56 @@ Partial Class TrianguloForm
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel10.Size = New System.Drawing.Size(916, 521)
+        Me.TableLayoutPanel10.Size = New System.Drawing.Size(899, 600)
         Me.TableLayoutPanel10.TabIndex = 5
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.ColumnCount = 1
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.PictureBox4, 0, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label45, 0, 0)
+        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 455)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(0, 5, 5, 0)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 2
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(237, 145)
+        Me.TableLayoutPanel1.TabIndex = 6
+        '
+        'TableLayoutPanel2
+        '
+        Me.TableLayoutPanel2.ColumnCount = 1
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel2.Controls.Add(Me.PictureBox3, 0, 1)
+        Me.TableLayoutPanel2.Controls.Add(Me.Label21, 0, 0)
+        Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 305)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(0, 5, 5, 0)
+        Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
+        Me.TableLayoutPanel2.RowCount = 2
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(237, 145)
+        Me.TableLayoutPanel2.TabIndex = 8
+        '
+        'TableLayoutPanel9
+        '
+        Me.TableLayoutPanel9.ColumnCount = 1
+        Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel9.Controls.Add(Me.Label59, 0, 0)
+        Me.TableLayoutPanel9.Controls.Add(Me.PictureBox2, 0, 1)
+        Me.TableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel9.Location = New System.Drawing.Point(0, 155)
+        Me.TableLayoutPanel9.Margin = New System.Windows.Forms.Padding(0, 5, 5, 0)
+        Me.TableLayoutPanel9.Name = "TableLayoutPanel9"
+        Me.TableLayoutPanel9.RowCount = 2
+        Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
+        Me.TableLayoutPanel9.Size = New System.Drawing.Size(237, 145)
+        Me.TableLayoutPanel9.TabIndex = 7
         '
         'TableLayoutPanel8
         '
@@ -1957,61 +2005,14 @@ Partial Class TrianguloForm
         Me.TableLayoutPanel8.RowCount = 2
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
-        Me.TableLayoutPanel8.Size = New System.Drawing.Size(241, 125)
+        Me.TableLayoutPanel8.Size = New System.Drawing.Size(237, 145)
         Me.TableLayoutPanel8.TabIndex = 7
-        '
-        'TableLayoutPanel9
-        '
-        Me.TableLayoutPanel9.ColumnCount = 1
-        Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel9.Controls.Add(Me.Label59, 0, 0)
-        Me.TableLayoutPanel9.Controls.Add(Me.PictureBox2, 0, 1)
-        Me.TableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel9.Location = New System.Drawing.Point(0, 135)
-        Me.TableLayoutPanel9.Margin = New System.Windows.Forms.Padding(0, 5, 5, 0)
-        Me.TableLayoutPanel9.Name = "TableLayoutPanel9"
-        Me.TableLayoutPanel9.RowCount = 2
-        Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
-        Me.TableLayoutPanel9.Size = New System.Drawing.Size(241, 125)
-        Me.TableLayoutPanel9.TabIndex = 7
-        '
-        'TableLayoutPanel2
-        '
-        Me.TableLayoutPanel2.ColumnCount = 1
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel2.Controls.Add(Me.PictureBox3, 0, 1)
-        Me.TableLayoutPanel2.Controls.Add(Me.Label21, 0, 0)
-        Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 265)
-        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(0, 5, 5, 0)
-        Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
-        Me.TableLayoutPanel2.RowCount = 2
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(241, 125)
-        Me.TableLayoutPanel2.TabIndex = 8
-        '
-        'TableLayoutPanel1
-        '
-        Me.TableLayoutPanel1.ColumnCount = 1
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.PictureBox4, 0, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label45, 0, 0)
-        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 395)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(0, 5, 5, 0)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 2
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(241, 126)
-        Me.TableLayoutPanel1.TabIndex = 6
         '
         'TrianguloForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScroll = True
         Me.AutoScrollMinSize = New System.Drawing.Size(0, 600)
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(916, 521)
@@ -2040,14 +2041,14 @@ Partial Class TrianguloForm
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel10.ResumeLayout(False)
         Me.TableLayoutPanel10.PerformLayout()
-        Me.TableLayoutPanel8.ResumeLayout(False)
-        Me.TableLayoutPanel8.PerformLayout()
-        Me.TableLayoutPanel9.ResumeLayout(False)
-        Me.TableLayoutPanel9.PerformLayout()
-        Me.TableLayoutPanel2.ResumeLayout(False)
-        Me.TableLayoutPanel2.PerformLayout()
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
+        Me.TableLayoutPanel2.ResumeLayout(False)
+        Me.TableLayoutPanel2.PerformLayout()
+        Me.TableLayoutPanel9.ResumeLayout(False)
+        Me.TableLayoutPanel9.PerformLayout()
+        Me.TableLayoutPanel8.ResumeLayout(False)
+        Me.TableLayoutPanel8.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
