@@ -1,7 +1,7 @@
 ﻿Public Class TrianguloForm
     Public BANDERA As Boolean
     Private formula As New Ecuaciones
-    Public a, b, c, d, Re As Int16
+    Public a, b, c, d, Re As Decimal
     Public raiz As Decimal
 
     'Validacion 
@@ -54,8 +54,10 @@
         If Validacion() = True Then
             a = T2A1.Text
             b = T2A2.Text
+            Label44.Text = b
             raiz = ((a ^ 2) - ((b ^ 2) / 4))
             raiz = Math.Sqrt(raiz)
+            c = ((b * raiz) / 2)
             LabelT2A.Text = (raiz)
         End If
     End Sub

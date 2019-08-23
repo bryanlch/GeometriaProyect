@@ -58,9 +58,12 @@ Partial Class CuadradoForm
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel27 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.P5A1 = New System.Windows.Forms.TextBox()
         Me.P5A2 = New System.Windows.Forms.TextBox()
+        Me.P5A3 = New System.Windows.Forms.TextBox()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.P5 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel28 = New System.Windows.Forms.TableLayoutPanel()
@@ -69,12 +72,12 @@ Partial Class CuadradoForm
         Me.TableLayoutPanel23 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel24 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label39 = New System.Windows.Forms.Label()
-        Me.P4P1 = New System.Windows.Forms.TextBox()
-        Me.P4P2 = New System.Windows.Forms.TextBox()
-        Me.A4 = New System.Windows.Forms.Label()
         Me.Label41 = New System.Windows.Forms.Label()
+        Me.P4P1 = New System.Windows.Forms.TextBox()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Label43 = New System.Windows.Forms.Label()
+        Me.P4P2 = New System.Windows.Forms.TextBox()
+        Me.A4 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel25 = New System.Windows.Forms.TableLayoutPanel()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -99,6 +102,14 @@ Partial Class CuadradoForm
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel11 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel12 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.P2P1 = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.P2P2 = New System.Windows.Forms.TextBox()
+        Me.Label24 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel13 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -116,7 +127,6 @@ Partial Class CuadradoForm
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.P1P1 = New System.Windows.Forms.TextBox()
-        Me.P1P2 = New System.Windows.Forms.TextBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.A1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
@@ -136,17 +146,7 @@ Partial Class CuadradoForm
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.P5A3 = New System.Windows.Forms.TextBox()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.TableLayoutPanel12 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.P2P1 = New System.Windows.Forms.TextBox()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.P2P2 = New System.Windows.Forms.TextBox()
-        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel14.SuspendLayout()
         Me.TableLayoutPanel16.SuspendLayout()
@@ -171,6 +171,7 @@ Partial Class CuadradoForm
         Me.TableLayoutPanel15.SuspendLayout()
         Me.TableLayoutPanel19.SuspendLayout()
         Me.TableLayoutPanel11.SuspendLayout()
+        Me.TableLayoutPanel12.SuspendLayout()
         Me.TableLayoutPanel13.SuspendLayout()
         Me.TableLayoutPanel8.SuspendLayout()
         Me.TableLayoutPanel9.SuspendLayout()
@@ -186,7 +187,6 @@ Partial Class CuadradoForm
         Me.TableLayoutPanel4.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TableLayoutPanel12.SuspendLayout()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -675,6 +675,29 @@ Partial Class CuadradoForm
         Me.TableLayoutPanel27.Size = New System.Drawing.Size(265, 25)
         Me.TableLayoutPanel27.TabIndex = 0
         '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(223, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(14, 20)
+        Me.Label17.TabIndex = 9
+        Me.Label17.Text = ")"
+        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(135, 0)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(38, 25)
+        Me.Label13.TabIndex = 10
+        Me.Label13.Text = "+"
+        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Label36
         '
         Me.Label36.AutoSize = True
@@ -700,6 +723,13 @@ Partial Class CuadradoForm
         Me.P5A2.Name = "P5A2"
         Me.P5A2.Size = New System.Drawing.Size(38, 20)
         Me.P5A2.TabIndex = 4
+        '
+        'P5A3
+        '
+        Me.P5A3.Location = New System.Drawing.Point(179, 3)
+        Me.P5A3.Name = "P5A3"
+        Me.P5A3.Size = New System.Drawing.Size(38, 20)
+        Me.P5A3.TabIndex = 9
         '
         'Label37
         '
@@ -826,34 +856,6 @@ Partial Class CuadradoForm
         Me.Label39.Text = "P ="
         Me.Label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'P4P1
-        '
-        Me.P4P1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.P4P1.Location = New System.Drawing.Point(99, 23)
-        Me.P4P1.Name = "P4P1"
-        Me.P4P1.Size = New System.Drawing.Size(70, 20)
-        Me.P4P1.TabIndex = 3
-        '
-        'P4P2
-        '
-        Me.P4P2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.P4P2.Location = New System.Drawing.Point(215, 23)
-        Me.P4P2.Name = "P4P2"
-        Me.P4P2.Size = New System.Drawing.Size(70, 20)
-        Me.P4P2.TabIndex = 4
-        '
-        'A4
-        '
-        Me.A4.AutoSize = True
-        Me.A4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.A4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.A4.Location = New System.Drawing.Point(291, 20)
-        Me.A4.Name = "A4"
-        Me.A4.Size = New System.Drawing.Size(71, 20)
-        Me.A4.TabIndex = 8
-        Me.A4.Text = "="
-        Me.A4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'Label41
         '
         Me.Label41.AutoSize = True
@@ -865,6 +867,14 @@ Partial Class CuadradoForm
         Me.Label41.TabIndex = 9
         Me.Label41.Text = "2"
         Me.Label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'P4P1
+        '
+        Me.P4P1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.P4P1.Location = New System.Drawing.Point(99, 23)
+        Me.P4P1.Name = "P4P1"
+        Me.P4P1.Size = New System.Drawing.Size(70, 20)
+        Me.P4P1.TabIndex = 3
         '
         'Label42
         '
@@ -888,6 +898,26 @@ Partial Class CuadradoForm
         Me.Label43.TabIndex = 11
         Me.Label43.Text = "2"
         Me.Label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'P4P2
+        '
+        Me.P4P2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.P4P2.Location = New System.Drawing.Point(215, 23)
+        Me.P4P2.Name = "P4P2"
+        Me.P4P2.Size = New System.Drawing.Size(70, 20)
+        Me.P4P2.TabIndex = 4
+        '
+        'A4
+        '
+        Me.A4.AutoSize = True
+        Me.A4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.A4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.A4.Location = New System.Drawing.Point(291, 20)
+        Me.A4.Name = "A4"
+        Me.A4.Size = New System.Drawing.Size(71, 20)
+        Me.A4.TabIndex = 8
+        Me.A4.Text = "="
+        Me.A4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TableLayoutPanel25
         '
@@ -1223,6 +1253,111 @@ Partial Class CuadradoForm
         Me.TableLayoutPanel11.Size = New System.Drawing.Size(371, 95)
         Me.TableLayoutPanel11.TabIndex = 16
         '
+        'TableLayoutPanel12
+        '
+        Me.TableLayoutPanel12.AutoSize = True
+        Me.TableLayoutPanel12.ColumnCount = 7
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel12.Controls.Add(Me.Label18, 0, 1)
+        Me.TableLayoutPanel12.Controls.Add(Me.Label19, 1, 1)
+        Me.TableLayoutPanel12.Controls.Add(Me.P2P1, 2, 1)
+        Me.TableLayoutPanel12.Controls.Add(Me.Label20, 3, 1)
+        Me.TableLayoutPanel12.Controls.Add(Me.Label21, 4, 1)
+        Me.TableLayoutPanel12.Controls.Add(Me.P2P2, 5, 1)
+        Me.TableLayoutPanel12.Controls.Add(Me.Label24, 6, 1)
+        Me.TableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel12.Location = New System.Drawing.Point(3, 31)
+        Me.TableLayoutPanel12.Name = "TableLayoutPanel12"
+        Me.TableLayoutPanel12.RowCount = 3
+        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel12.Size = New System.Drawing.Size(365, 61)
+        Me.TableLayoutPanel12.TabIndex = 15
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(3, 20)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(70, 20)
+        Me.Label18.TabIndex = 2
+        Me.Label18.Text = "P ="
+        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
+        Me.Label19.Location = New System.Drawing.Point(79, 20)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(14, 20)
+        Me.Label19.TabIndex = 9
+        Me.Label19.Text = "2"
+        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'P2P1
+        '
+        Me.P2P1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.P2P1.Location = New System.Drawing.Point(99, 23)
+        Me.P2P1.Name = "P2P1"
+        Me.P2P1.Size = New System.Drawing.Size(70, 20)
+        Me.P2P1.TabIndex = 3
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
+        Me.Label20.Location = New System.Drawing.Point(175, 20)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(14, 20)
+        Me.Label20.TabIndex = 10
+        Me.Label20.Text = "+"
+        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
+        Me.Label21.Location = New System.Drawing.Point(195, 20)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(14, 20)
+        Me.Label21.TabIndex = 11
+        Me.Label21.Text = "2"
+        Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'P2P2
+        '
+        Me.P2P2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.P2P2.Location = New System.Drawing.Point(215, 23)
+        Me.P2P2.Name = "P2P2"
+        Me.P2P2.Size = New System.Drawing.Size(70, 20)
+        Me.P2P2.TabIndex = 4
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(291, 20)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(71, 20)
+        Me.Label24.TabIndex = 8
+        Me.Label24.Text = "="
+        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TableLayoutPanel13
         '
         Me.TableLayoutPanel13.AutoSize = True
@@ -1423,14 +1558,14 @@ Partial Class CuadradoForm
         Me.TableLayoutPanel6.ColumnCount = 5
         Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.7438!))
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.90634!))
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 31.95592!))
         Me.TableLayoutPanel6.Controls.Add(Me.Label12, 0, 1)
-        Me.TableLayoutPanel6.Controls.Add(Me.P1P1, 1, 1)
-        Me.TableLayoutPanel6.Controls.Add(Me.P1P2, 3, 1)
         Me.TableLayoutPanel6.Controls.Add(Me.Label14, 2, 1)
         Me.TableLayoutPanel6.Controls.Add(Me.A1, 4, 1)
+        Me.TableLayoutPanel6.Controls.Add(Me.P1P1, 3, 1)
+        Me.TableLayoutPanel6.Controls.Add(Me.Label30, 1, 1)
         Me.TableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel6.Location = New System.Drawing.Point(4, 31)
         Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
@@ -1456,18 +1591,10 @@ Partial Class CuadradoForm
         'P1P1
         '
         Me.P1P1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.P1P1.Location = New System.Drawing.Point(75, 23)
+        Me.P1P1.Location = New System.Drawing.Point(185, 23)
         Me.P1P1.Name = "P1P1"
-        Me.P1P1.Size = New System.Drawing.Size(66, 20)
+        Me.P1P1.Size = New System.Drawing.Size(58, 20)
         Me.P1P1.TabIndex = 1
-        '
-        'P1P2
-        '
-        Me.P1P2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.P1P2.Location = New System.Drawing.Point(219, 23)
-        Me.P1P2.Name = "P1P2"
-        Me.P1P2.Size = New System.Drawing.Size(66, 20)
-        Me.P1P2.TabIndex = 2
         '
         'Label14
         '
@@ -1476,7 +1603,7 @@ Partial Class CuadradoForm
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
         Me.Label14.Location = New System.Drawing.Point(147, 20)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(66, 20)
+        Me.Label14.Size = New System.Drawing.Size(32, 20)
         Me.Label14.TabIndex = 4
         Me.Label14.Text = "*"
         Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1486,9 +1613,9 @@ Partial Class CuadradoForm
         Me.A1.AutoSize = True
         Me.A1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.A1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.A1.Location = New System.Drawing.Point(291, 20)
+        Me.A1.Location = New System.Drawing.Point(249, 20)
         Me.A1.Name = "A1"
-        Me.A1.Size = New System.Drawing.Size(69, 20)
+        Me.A1.Size = New System.Drawing.Size(111, 20)
         Me.A1.TabIndex = 3
         Me.A1.Text = "="
         Me.A1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1713,140 +1840,17 @@ Partial Class CuadradoForm
         Me.PictureBox2.TabIndex = 10
         Me.PictureBox2.TabStop = False
         '
-        'P5A3
+        'Label30
         '
-        Me.P5A3.Location = New System.Drawing.Point(179, 3)
-        Me.P5A3.Name = "P5A3"
-        Me.P5A3.Size = New System.Drawing.Size(38, 20)
-        Me.P5A3.TabIndex = 9
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(135, 0)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(38, 25)
-        Me.Label13.TabIndex = 10
-        Me.Label13.Text = "+"
-        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(223, 0)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(14, 20)
-        Me.Label17.TabIndex = 9
-        Me.Label17.Text = ")"
-        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TableLayoutPanel12
-        '
-        Me.TableLayoutPanel12.AutoSize = True
-        Me.TableLayoutPanel12.ColumnCount = 7
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel12.Controls.Add(Me.Label18, 0, 1)
-        Me.TableLayoutPanel12.Controls.Add(Me.Label19, 1, 1)
-        Me.TableLayoutPanel12.Controls.Add(Me.P2P1, 2, 1)
-        Me.TableLayoutPanel12.Controls.Add(Me.Label20, 3, 1)
-        Me.TableLayoutPanel12.Controls.Add(Me.Label21, 4, 1)
-        Me.TableLayoutPanel12.Controls.Add(Me.P2P2, 5, 1)
-        Me.TableLayoutPanel12.Controls.Add(Me.Label24, 6, 1)
-        Me.TableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel12.Location = New System.Drawing.Point(3, 31)
-        Me.TableLayoutPanel12.Name = "TableLayoutPanel12"
-        Me.TableLayoutPanel12.RowCount = 3
-        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel12.Size = New System.Drawing.Size(365, 61)
-        Me.TableLayoutPanel12.TabIndex = 15
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(3, 20)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(70, 20)
-        Me.Label18.TabIndex = 2
-        Me.Label18.Text = "P ="
-        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label19.Location = New System.Drawing.Point(79, 20)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(14, 20)
-        Me.Label19.TabIndex = 9
-        Me.Label19.Text = "2"
-        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'P2P1
-        '
-        Me.P2P1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.P2P1.Location = New System.Drawing.Point(99, 23)
-        Me.P2P1.Name = "P2P1"
-        Me.P2P1.Size = New System.Drawing.Size(70, 20)
-        Me.P2P1.TabIndex = 3
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label20.Location = New System.Drawing.Point(175, 20)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(14, 20)
-        Me.Label20.TabIndex = 10
-        Me.Label20.Text = "+"
-        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label21.Location = New System.Drawing.Point(195, 20)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(14, 20)
-        Me.Label21.TabIndex = 11
-        Me.Label21.Text = "2"
-        Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'P2P2
-        '
-        Me.P2P2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.P2P2.Location = New System.Drawing.Point(215, 23)
-        Me.P2P2.Name = "P2P2"
-        Me.P2P2.Size = New System.Drawing.Size(70, 20)
-        Me.P2P2.TabIndex = 4
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(291, 20)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(71, 20)
-        Me.Label24.TabIndex = 8
-        Me.Label24.Text = "="
-        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label30.AutoSize = True
+        Me.Label30.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
+        Me.Label30.Location = New System.Drawing.Point(75, 20)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(66, 20)
+        Me.Label30.TabIndex = 7
+        Me.Label30.Text = "4"
+        Me.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'CuadradoForm
         '
@@ -1859,6 +1863,8 @@ Partial Class CuadradoForm
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.ForeColor = System.Drawing.Color.White
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximumSize = New System.Drawing.Size(930, 555)
+        Me.MinimumSize = New System.Drawing.Size(930, 555)
         Me.Name = "CuadradoForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Cuadrado"
@@ -1910,6 +1916,8 @@ Partial Class CuadradoForm
         Me.TableLayoutPanel19.PerformLayout()
         Me.TableLayoutPanel11.ResumeLayout(False)
         Me.TableLayoutPanel11.PerformLayout()
+        Me.TableLayoutPanel12.ResumeLayout(False)
+        Me.TableLayoutPanel12.PerformLayout()
         Me.TableLayoutPanel13.ResumeLayout(False)
         Me.TableLayoutPanel13.PerformLayout()
         Me.TableLayoutPanel8.ResumeLayout(False)
@@ -1935,8 +1943,6 @@ Partial Class CuadradoForm
         Me.TableLayoutPanel4.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TableLayoutPanel12.ResumeLayout(False)
-        Me.TableLayoutPanel12.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2035,7 +2041,6 @@ Partial Class CuadradoForm
     Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
     Friend WithEvents Label12 As Label
     Friend WithEvents P1P1 As TextBox
-    Friend WithEvents P1P2 As TextBox
     Friend WithEvents Label14 As Label
     Friend WithEvents A1 As Label
     Friend WithEvents TableLayoutPanel7 As TableLayoutPanel
@@ -2066,4 +2071,5 @@ Partial Class CuadradoForm
     Friend WithEvents Label21 As Label
     Friend WithEvents P2P2 As TextBox
     Friend WithEvents Label24 As Label
+    Friend WithEvents Label30 As Label
 End Class

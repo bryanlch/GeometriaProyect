@@ -1,7 +1,7 @@
 ﻿Public Class SolidosForm
     Public BANDERA As Boolean
     Private formula As New Ecuaciones
-    Public a, b, c, d, R1, R2, R3 As Int16
+    Public a, b, c, d, R1, R2, R3 As Decimal
     'declaracion de la constante pi'
     Private Const PI = 3.14159265358979
 #Region "Comprobadores de campo"

@@ -73,7 +73,7 @@ Partial Class FormPrincipal
         Me.TableLayoutPanel2.ColumnCount = 3
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.3886!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.6114!))
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 124.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.Label2, 2, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.Label6, 0, 1)
@@ -104,7 +104,7 @@ Partial Class FormPrincipal
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(671, 0)
+        Me.Label2.Location = New System.Drawing.Point(670, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(112, 20)
         Me.Label2.TabIndex = 1
@@ -392,14 +392,16 @@ Partial Class FormPrincipal
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1184, 681)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Lateral)
         Me.Controls.Add(Me.Titulo)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "FormPrincipal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Proyecto De Geometria"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Titulo.ResumeLayout(False)
         Me.Titulo.PerformLayout()
         Me.TableLayoutPanel2.ResumeLayout(False)

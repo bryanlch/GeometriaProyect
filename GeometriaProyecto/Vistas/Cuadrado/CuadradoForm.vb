@@ -1,7 +1,7 @@
 ﻿Public Class CuadradoForm
     Public BANDERA As Boolean
     Private formula As New Ecuaciones
-    Public a, b, c, d, Re As Int16
+    Public a, b, c, d, Re As Decimal
     'Boton de area de rectangulo
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         NumeroCero()
@@ -147,16 +147,13 @@
         NumeroCero()
         If P1P1.Text.Length = 0 Then
             BANDERA = True
-        ElseIf P1P2.Text.Length = 0 Then
-            BANDERA = True
         Else
             BANDERA = False
         End If
 
         If Validacion() = True Then
             a = P1P1.Text
-            b = P1P2.Text
-            A1.Text = (a * b)
+            A1.Text = (a * 4)
         End If
 
     End Sub

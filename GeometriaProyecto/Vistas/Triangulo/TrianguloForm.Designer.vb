@@ -24,6 +24,7 @@ Partial Class TrianguloForm
     Private Sub InitializeComponent()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
+        Me.Label43 = New System.Windows.Forms.Label()
         Me.Label62 = New System.Windows.Forms.Label()
         Me.Label55 = New System.Windows.Forms.Label()
         Me.Label63 = New System.Windows.Forms.Label()
@@ -113,7 +114,8 @@ Partial Class TrianguloForm
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label59 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
         Me.T2A2 = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
@@ -128,6 +130,9 @@ Partial Class TrianguloForm
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.LabelT2A = New System.Windows.Forms.Label()
         Me.Panel8 = New System.Windows.Forms.Panel()
@@ -147,8 +152,6 @@ Partial Class TrianguloForm
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel9 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel8 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label43 = New System.Windows.Forms.Label()
         Me.Panel13.SuspendLayout()
         Me.Panel12.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -208,6 +211,18 @@ Partial Class TrianguloForm
         Me.Panel13.Name = "Panel13"
         Me.Panel13.Size = New System.Drawing.Size(378, 117)
         Me.Panel13.TabIndex = 5
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.BackColor = System.Drawing.Color.Transparent
+        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.ForeColor = System.Drawing.Color.White
+        Me.Label43.Location = New System.Drawing.Point(175, 49)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(13, 13)
+        Me.Label43.TabIndex = 29
+        Me.Label43.Text = "2"
         '
         'Label62
         '
@@ -1341,8 +1356,8 @@ Partial Class TrianguloForm
         Me.Panel11.AutoSize = True
         Me.Panel11.BackColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel11.Controls.Add(Me.Label44)
         Me.Panel11.Controls.Add(Me.Label30)
-        Me.Panel11.Controls.Add(Me.Label41)
         Me.Panel11.Controls.Add(Me.T2A2)
         Me.Panel11.Controls.Add(Me.Label19)
         Me.Panel11.Controls.Add(Me.Label35)
@@ -1357,6 +1372,9 @@ Partial Class TrianguloForm
         Me.Panel11.Controls.Add(Me.Label27)
         Me.Panel11.Controls.Add(Me.Label37)
         Me.Panel11.Controls.Add(Me.Label39)
+        Me.Panel11.Controls.Add(Me.Label48)
+        Me.Panel11.Controls.Add(Me.Label50)
+        Me.Panel11.Controls.Add(Me.Label41)
         Me.Panel11.Controls.Add(Me.Button6)
         Me.Panel11.Controls.Add(Me.LabelT2A)
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Fill
@@ -1366,6 +1384,218 @@ Partial Class TrianguloForm
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(378, 116)
         Me.Panel11.TabIndex = 4
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.BackColor = System.Drawing.Color.Transparent
+        Me.Label44.Font = New System.Drawing.Font("Candara", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.ForeColor = System.Drawing.Color.White
+        Me.Label44.Location = New System.Drawing.Point(184, 35)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(17, 18)
+        Me.Label44.TabIndex = 34
+        Me.Label44.Text = "B"
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.BackColor = System.Drawing.Color.Transparent
+        Me.Label30.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.ForeColor = System.Drawing.Color.White
+        Me.Label30.Location = New System.Drawing.Point(234, 15)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(22, 13)
+        Me.Label30.TabIndex = 33
+        Me.Label30.Text = "1/2"
+        '
+        'T2A2
+        '
+        Me.T2A2.BackColor = System.Drawing.Color.White
+        Me.T2A2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.T2A2.ForeColor = System.Drawing.Color.Black
+        Me.T2A2.Location = New System.Drawing.Point(65, 48)
+        Me.T2A2.Name = "T2A2"
+        Me.T2A2.Size = New System.Drawing.Size(31, 20)
+        Me.T2A2.TabIndex = 16
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.BackColor = System.Drawing.Color.Transparent
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.White
+        Me.Label19.Location = New System.Drawing.Point(206, 25)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(13, 13)
+        Me.Label19.TabIndex = 22
+        Me.Label19.Text = "2"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.BackColor = System.Drawing.Color.Transparent
+        Me.Label35.Font = New System.Drawing.Font("Segoe UI Semibold", 44.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.ForeColor = System.Drawing.Color.White
+        Me.Label35.Location = New System.Drawing.Point(205, 4)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(53, 78)
+        Me.Label35.TabIndex = 21
+        Me.Label35.Text = ")"
+        '
+        'Label58
+        '
+        Me.Label58.AutoSize = True
+        Me.Label58.BackColor = System.Drawing.Color.Transparent
+        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.ForeColor = System.Drawing.Color.White
+        Me.Label58.Location = New System.Drawing.Point(182, 12)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(17, 16)
+        Me.Label58.TabIndex = 32
+        Me.Label58.Text = "B"
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.BackColor = System.Drawing.Color.Transparent
+        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label60.ForeColor = System.Drawing.Color.White
+        Me.Label60.Location = New System.Drawing.Point(132, 14)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(17, 16)
+        Me.Label60.TabIndex = 31
+        Me.Label60.Text = "A"
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.BackColor = System.Drawing.Color.Transparent
+        Me.Label57.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.ForeColor = System.Drawing.Color.White
+        Me.Label57.Location = New System.Drawing.Point(235, 48)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(25, 25)
+        Me.Label57.TabIndex = 30
+        Me.Label57.Text = "="
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.BackColor = System.Drawing.Color.Transparent
+        Me.Label47.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.ForeColor = System.Drawing.Color.White
+        Me.Label47.Location = New System.Drawing.Point(228, 16)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(29, 19)
+        Me.Label47.TabIndex = 25
+        Me.Label47.Text = "1/2"
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.BackColor = System.Drawing.Color.Transparent
+        Me.Label36.Font = New System.Drawing.Font("Candara", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.ForeColor = System.Drawing.Color.White
+        Me.Label36.Location = New System.Drawing.Point(71, 23)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(17, 18)
+        Me.Label36.TabIndex = 20
+        Me.Label36.Text = "B"
+        '
+        'T2A1
+        '
+        Me.T2A1.BackColor = System.Drawing.Color.White
+        Me.T2A1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.T2A1.ForeColor = System.Drawing.Color.Black
+        Me.T2A1.Location = New System.Drawing.Point(125, 37)
+        Me.T2A1.Name = "T2A1"
+        Me.T2A1.Size = New System.Drawing.Size(31, 20)
+        Me.T2A1.TabIndex = 14
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.BackColor = System.Drawing.Color.Transparent
+        Me.Label38.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.ForeColor = System.Drawing.Color.White
+        Me.Label38.Location = New System.Drawing.Point(173, 41)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(68, 25)
+        Me.Label38.TabIndex = 18
+        Me.Label38.Text = "_______"
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.BackColor = System.Drawing.Color.Transparent
+        Me.Label42.Font = New System.Drawing.Font("Segoe UI Semibold", 44.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.ForeColor = System.Drawing.Color.White
+        Me.Label42.Location = New System.Drawing.Point(93, 6)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(53, 78)
+        Me.Label42.TabIndex = 24
+        Me.Label42.Text = "("
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.BackColor = System.Drawing.Color.Transparent
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.ForeColor = System.Drawing.Color.White
+        Me.Label27.Location = New System.Drawing.Point(188, 71)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(15, 16)
+        Me.Label27.TabIndex = 23
+        Me.Label27.Text = "4"
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.BackColor = System.Drawing.Color.Transparent
+        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.ForeColor = System.Drawing.Color.White
+        Me.Label37.Location = New System.Drawing.Point(157, 26)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(13, 13)
+        Me.Label37.TabIndex = 19
+        Me.Label37.Text = "2"
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.BackColor = System.Drawing.Color.Transparent
+        Me.Label39.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.ForeColor = System.Drawing.Color.White
+        Me.Label39.Location = New System.Drawing.Point(159, 31)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(22, 30)
+        Me.Label39.TabIndex = 17
+        Me.Label39.Text = "-"
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.BackColor = System.Drawing.Color.Transparent
+        Me.Label48.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.ForeColor = System.Drawing.Color.White
+        Me.Label48.Location = New System.Drawing.Point(147, 92)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(23, 25)
+        Me.Label48.TabIndex = 36
+        Me.Label48.Text = "2"
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.BackColor = System.Drawing.Color.Transparent
+        Me.Label50.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.ForeColor = System.Drawing.Color.White
+        Me.Label50.Location = New System.Drawing.Point(69, 66)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(164, 25)
+        Me.Label50.TabIndex = 35
+        Me.Label50.Text = "___________________"
         '
         'Label41
         '
@@ -1378,170 +1608,6 @@ Partial Class TrianguloForm
         Me.Label41.Size = New System.Drawing.Size(52, 25)
         Me.Label41.TabIndex = 6
         Me.Label41.Text = "Area"
-        '
-        'T2A2
-        '
-        Me.T2A2.BackColor = System.Drawing.Color.White
-        Me.T2A2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.T2A2.ForeColor = System.Drawing.Color.Black
-        Me.T2A2.Location = New System.Drawing.Point(153, 57)
-        Me.T2A2.Name = "T2A2"
-        Me.T2A2.Size = New System.Drawing.Size(31, 20)
-        Me.T2A2.TabIndex = 16
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.BackColor = System.Drawing.Color.Transparent
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.White
-        Me.Label19.Location = New System.Drawing.Point(181, 44)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(13, 13)
-        Me.Label19.TabIndex = 22
-        Me.Label19.Text = "2"
-        '
-        'Label35
-        '
-        Me.Label35.AutoSize = True
-        Me.Label35.BackColor = System.Drawing.Color.Transparent
-        Me.Label35.Font = New System.Drawing.Font("Segoe UI Semibold", 44.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.ForeColor = System.Drawing.Color.White
-        Me.Label35.Location = New System.Drawing.Point(180, 23)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(53, 78)
-        Me.Label35.TabIndex = 21
-        Me.Label35.Text = ")"
-        '
-        'Label58
-        '
-        Me.Label58.AutoSize = True
-        Me.Label58.BackColor = System.Drawing.Color.Transparent
-        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.ForeColor = System.Drawing.Color.White
-        Me.Label58.Location = New System.Drawing.Point(157, 31)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(17, 16)
-        Me.Label58.TabIndex = 32
-        Me.Label58.Text = "B"
-        '
-        'Label60
-        '
-        Me.Label60.AutoSize = True
-        Me.Label60.BackColor = System.Drawing.Color.Transparent
-        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label60.ForeColor = System.Drawing.Color.White
-        Me.Label60.Location = New System.Drawing.Point(107, 33)
-        Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(17, 16)
-        Me.Label60.TabIndex = 31
-        Me.Label60.Text = "A"
-        '
-        'Label57
-        '
-        Me.Label57.AutoSize = True
-        Me.Label57.BackColor = System.Drawing.Color.Transparent
-        Me.Label57.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.ForeColor = System.Drawing.Color.White
-        Me.Label57.Location = New System.Drawing.Point(210, 67)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(25, 25)
-        Me.Label57.TabIndex = 30
-        Me.Label57.Text = "="
-        '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.BackColor = System.Drawing.Color.Transparent
-        Me.Label47.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.ForeColor = System.Drawing.Color.White
-        Me.Label47.Location = New System.Drawing.Point(203, 35)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(29, 19)
-        Me.Label47.TabIndex = 25
-        Me.Label47.Text = "1/2"
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.BackColor = System.Drawing.Color.Transparent
-        Me.Label36.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.ForeColor = System.Drawing.Color.White
-        Me.Label36.Location = New System.Drawing.Point(52, 58)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(26, 25)
-        Me.Label36.TabIndex = 20
-        Me.Label36.Text = "H"
-        '
-        'T2A1
-        '
-        Me.T2A1.BackColor = System.Drawing.Color.White
-        Me.T2A1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.T2A1.ForeColor = System.Drawing.Color.Black
-        Me.T2A1.Location = New System.Drawing.Point(100, 56)
-        Me.T2A1.Name = "T2A1"
-        Me.T2A1.Size = New System.Drawing.Size(31, 20)
-        Me.T2A1.TabIndex = 14
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.BackColor = System.Drawing.Color.Transparent
-        Me.Label38.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.ForeColor = System.Drawing.Color.White
-        Me.Label38.Location = New System.Drawing.Point(148, 60)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(68, 25)
-        Me.Label38.TabIndex = 18
-        Me.Label38.Text = "_______"
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.BackColor = System.Drawing.Color.Transparent
-        Me.Label42.Font = New System.Drawing.Font("Segoe UI Semibold", 44.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.ForeColor = System.Drawing.Color.White
-        Me.Label42.Location = New System.Drawing.Point(68, 25)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(53, 78)
-        Me.Label42.TabIndex = 24
-        Me.Label42.Text = "("
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.BackColor = System.Drawing.Color.Transparent
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.ForeColor = System.Drawing.Color.White
-        Me.Label27.Location = New System.Drawing.Point(163, 90)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(15, 16)
-        Me.Label27.TabIndex = 23
-        Me.Label27.Text = "4"
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.BackColor = System.Drawing.Color.Transparent
-        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.ForeColor = System.Drawing.Color.White
-        Me.Label37.Location = New System.Drawing.Point(132, 45)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(13, 13)
-        Me.Label37.TabIndex = 19
-        Me.Label37.Text = "2"
-        '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.BackColor = System.Drawing.Color.Transparent
-        Me.Label39.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.ForeColor = System.Drawing.Color.White
-        Me.Label39.Location = New System.Drawing.Point(134, 50)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(22, 30)
-        Me.Label39.TabIndex = 17
-        Me.Label39.Text = "-"
         '
         'Button6
         '
@@ -1823,30 +1889,6 @@ Partial Class TrianguloForm
         Me.TableLayoutPanel8.Size = New System.Drawing.Size(241, 125)
         Me.TableLayoutPanel8.TabIndex = 7
         '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.BackColor = System.Drawing.Color.Transparent
-        Me.Label30.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.ForeColor = System.Drawing.Color.White
-        Me.Label30.Location = New System.Drawing.Point(209, 34)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(22, 13)
-        Me.Label30.TabIndex = 33
-        Me.Label30.Text = "1/2"
-        '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.BackColor = System.Drawing.Color.Transparent
-        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.ForeColor = System.Drawing.Color.White
-        Me.Label43.Location = New System.Drawing.Point(175, 49)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(13, 13)
-        Me.Label43.TabIndex = 29
-        Me.Label43.Text = "2"
-        '
         'TrianguloForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2018,4 +2060,7 @@ Partial Class TrianguloForm
     Friend WithEvents TableLayoutPanel8 As TableLayoutPanel
     Friend WithEvents Label30 As Label
     Friend WithEvents Label43 As Label
+    Friend WithEvents Label44 As Label
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label50 As Label
 End Class
