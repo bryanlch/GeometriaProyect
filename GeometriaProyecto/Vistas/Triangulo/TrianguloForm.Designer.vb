@@ -24,19 +24,12 @@ Partial Class TrianguloForm
     Private Sub InitializeComponent()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
-        Me.Label67 = New System.Windows.Forms.Label()
-        Me.T4A2 = New System.Windows.Forms.TextBox()
-        Me.T4A3 = New System.Windows.Forms.TextBox()
-        Me.Label68 = New System.Windows.Forms.Label()
-        Me.Label69 = New System.Windows.Forms.Label()
-        Me.Label66 = New System.Windows.Forms.Label()
         Me.Label62 = New System.Windows.Forms.Label()
         Me.Label55 = New System.Windows.Forms.Label()
         Me.Label63 = New System.Windows.Forms.Label()
         Me.Label64 = New System.Windows.Forms.Label()
         Me.Label65 = New System.Windows.Forms.Label()
         Me.T4A1 = New System.Windows.Forms.TextBox()
-        Me.Label44 = New System.Windows.Forms.Label()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.Label54 = New System.Windows.Forms.Label()
@@ -124,16 +117,9 @@ Partial Class TrianguloForm
         Me.T2A2 = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
-        Me.Label70 = New System.Windows.Forms.Label()
-        Me.Label71 = New System.Windows.Forms.Label()
-        Me.T2R2 = New System.Windows.Forms.TextBox()
-        Me.Label61 = New System.Windows.Forms.Label()
         Me.Label58 = New System.Windows.Forms.Label()
         Me.Label60 = New System.Windows.Forms.Label()
         Me.Label57 = New System.Windows.Forms.Label()
-        Me.T2R1 = New System.Windows.Forms.TextBox()
-        Me.Label48 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
         Me.Label47 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.T2A1 = New System.Windows.Forms.TextBox()
@@ -161,6 +147,8 @@ Partial Class TrianguloForm
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel9 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel8 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
         Me.Panel13.SuspendLayout()
         Me.Panel12.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -190,7 +178,7 @@ Partial Class TrianguloForm
         Me.Label45.Location = New System.Drawing.Point(3, 0)
         Me.Label45.MinimumSize = New System.Drawing.Size(210, 31)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(231, 31)
+        Me.Label45.Size = New System.Drawing.Size(235, 31)
         Me.Label45.TabIndex = 5
         Me.Label45.Text = "Triangulo Equilatero"
         '
@@ -199,19 +187,13 @@ Partial Class TrianguloForm
         Me.Panel13.AutoSize = True
         Me.Panel13.BackColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel13.Controls.Add(Me.Label67)
-        Me.Panel13.Controls.Add(Me.T4A2)
-        Me.Panel13.Controls.Add(Me.T4A3)
-        Me.Panel13.Controls.Add(Me.Label68)
-        Me.Panel13.Controls.Add(Me.Label69)
-        Me.Panel13.Controls.Add(Me.Label66)
+        Me.Panel13.Controls.Add(Me.Label43)
         Me.Panel13.Controls.Add(Me.Label62)
         Me.Panel13.Controls.Add(Me.Label55)
         Me.Panel13.Controls.Add(Me.Label63)
         Me.Panel13.Controls.Add(Me.Label64)
         Me.Panel13.Controls.Add(Me.Label65)
         Me.Panel13.Controls.Add(Me.T4A1)
-        Me.Panel13.Controls.Add(Me.Label44)
         Me.Panel13.Controls.Add(Me.Label52)
         Me.Panel13.Controls.Add(Me.Label53)
         Me.Panel13.Controls.Add(Me.Label54)
@@ -221,80 +203,11 @@ Partial Class TrianguloForm
         Me.Panel13.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel13.ForeColor = System.Drawing.Color.White
-        Me.Panel13.Location = New System.Drawing.Point(522, 457)
+        Me.Panel13.Location = New System.Drawing.Point(531, 397)
         Me.Panel13.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(370, 136)
+        Me.Panel13.Size = New System.Drawing.Size(378, 117)
         Me.Panel13.TabIndex = 5
-        '
-        'Label67
-        '
-        Me.Label67.AutoSize = True
-        Me.Label67.BackColor = System.Drawing.Color.Transparent
-        Me.Label67.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.ForeColor = System.Drawing.Color.White
-        Me.Label67.Location = New System.Drawing.Point(190, 50)
-        Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(23, 30)
-        Me.Label67.TabIndex = 31
-        Me.Label67.Text = "*"
-        '
-        'T4A2
-        '
-        Me.T4A2.BackColor = System.Drawing.Color.White
-        Me.T4A2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.T4A2.ForeColor = System.Drawing.Color.Black
-        Me.T4A2.Location = New System.Drawing.Point(147, 54)
-        Me.T4A2.Name = "T4A2"
-        Me.T4A2.Size = New System.Drawing.Size(40, 22)
-        Me.T4A2.TabIndex = 29
-        '
-        'T4A3
-        '
-        Me.T4A3.BackColor = System.Drawing.Color.White
-        Me.T4A3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.T4A3.ForeColor = System.Drawing.Color.Black
-        Me.T4A3.Location = New System.Drawing.Point(216, 54)
-        Me.T4A3.Name = "T4A3"
-        Me.T4A3.Size = New System.Drawing.Size(40, 22)
-        Me.T4A3.TabIndex = 16
-        '
-        'Label68
-        '
-        Me.Label68.AutoSize = True
-        Me.Label68.BackColor = System.Drawing.Color.Transparent
-        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.ForeColor = System.Drawing.Color.White
-        Me.Label68.Location = New System.Drawing.Point(189, 87)
-        Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(15, 16)
-        Me.Label68.TabIndex = 33
-        Me.Label68.Text = "2"
-        '
-        'Label69
-        '
-        Me.Label69.AutoSize = True
-        Me.Label69.BackColor = System.Drawing.Color.Transparent
-        Me.Label69.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label69.ForeColor = System.Drawing.Color.White
-        Me.Label69.Location = New System.Drawing.Point(157, 62)
-        Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(100, 25)
-        Me.Label69.TabIndex = 32
-        Me.Label69.Text = "___________"
-        Me.Label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label66
-        '
-        Me.Label66.AutoSize = True
-        Me.Label66.BackColor = System.Drawing.Color.Transparent
-        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.ForeColor = System.Drawing.Color.White
-        Me.Label66.Location = New System.Drawing.Point(219, 32)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(40, 16)
-        Me.Label66.TabIndex = 30
-        Me.Label66.Text = "Base"
         '
         'Label62
         '
@@ -302,7 +215,7 @@ Partial Class TrianguloForm
         Me.Label62.BackColor = System.Drawing.Color.Transparent
         Me.Label62.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label62.ForeColor = System.Drawing.Color.White
-        Me.Label62.Location = New System.Drawing.Point(17, 41)
+        Me.Label62.Location = New System.Drawing.Point(58, 36)
         Me.Label62.Name = "Label62"
         Me.Label62.Size = New System.Drawing.Size(23, 25)
         Me.Label62.TabIndex = 22
@@ -314,7 +227,7 @@ Partial Class TrianguloForm
         Me.Label55.BackColor = System.Drawing.Color.Transparent
         Me.Label55.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label55.ForeColor = System.Drawing.Color.White
-        Me.Label55.Location = New System.Drawing.Point(46, 44)
+        Me.Label55.Location = New System.Drawing.Point(104, 51)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(23, 30)
         Me.Label55.TabIndex = 17
@@ -326,7 +239,7 @@ Partial Class TrianguloForm
         Me.Label63.BackColor = System.Drawing.Color.Transparent
         Me.Label63.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label63.ForeColor = System.Drawing.Color.White
-        Me.Label63.Location = New System.Drawing.Point(41, 33)
+        Me.Label63.Location = New System.Drawing.Point(82, 28)
         Me.Label63.Name = "Label63"
         Me.Label63.Size = New System.Drawing.Size(22, 13)
         Me.Label63.TabIndex = 28
@@ -338,7 +251,7 @@ Partial Class TrianguloForm
         Me.Label64.BackColor = System.Drawing.Color.Transparent
         Me.Label64.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label64.ForeColor = System.Drawing.Color.White
-        Me.Label64.Location = New System.Drawing.Point(5, 37)
+        Me.Label64.Location = New System.Drawing.Point(46, 32)
         Me.Label64.Name = "Label64"
         Me.Label64.Size = New System.Drawing.Size(20, 30)
         Me.Label64.TabIndex = 27
@@ -350,7 +263,7 @@ Partial Class TrianguloForm
         Me.Label65.BackColor = System.Drawing.Color.Transparent
         Me.Label65.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label65.ForeColor = System.Drawing.Color.White
-        Me.Label65.Location = New System.Drawing.Point(35, 37)
+        Me.Label65.Location = New System.Drawing.Point(76, 32)
         Me.Label65.Name = "Label65"
         Me.Label65.Size = New System.Drawing.Size(20, 30)
         Me.Label65.TabIndex = 26
@@ -361,22 +274,10 @@ Partial Class TrianguloForm
         Me.T4A1.BackColor = System.Drawing.Color.White
         Me.T4A1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.T4A1.ForeColor = System.Drawing.Color.Black
-        Me.T4A1.Location = New System.Drawing.Point(69, 44)
+        Me.T4A1.Location = New System.Drawing.Point(126, 54)
         Me.T4A1.Name = "T4A1"
-        Me.T4A1.Size = New System.Drawing.Size(30, 22)
+        Me.T4A1.Size = New System.Drawing.Size(43, 22)
         Me.T4A1.TabIndex = 14
-        '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.BackColor = System.Drawing.Color.Transparent
-        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.ForeColor = System.Drawing.Color.White
-        Me.Label44.Location = New System.Drawing.Point(144, 33)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(42, 16)
-        Me.Label44.TabIndex = 21
-        Me.Label44.Text = "Altura"
         '
         'Label52
         '
@@ -384,7 +285,7 @@ Partial Class TrianguloForm
         Me.Label52.BackColor = System.Drawing.Color.Transparent
         Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label52.ForeColor = System.Drawing.Color.White
-        Me.Label52.Location = New System.Drawing.Point(67, 27)
+        Me.Label52.Location = New System.Drawing.Point(126, 32)
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(39, 16)
         Me.Label52.TabIndex = 20
@@ -394,13 +295,13 @@ Partial Class TrianguloForm
         '
         Me.Label53.AutoSize = True
         Me.Label53.BackColor = System.Drawing.Color.Transparent
-        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label53.ForeColor = System.Drawing.Color.White
-        Me.Label53.Location = New System.Drawing.Point(46, 87)
+        Me.Label53.Location = New System.Drawing.Point(63, 73)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(15, 16)
+        Me.Label53.Size = New System.Drawing.Size(20, 24)
         Me.Label53.TabIndex = 19
-        Me.Label53.Text = "2"
+        Me.Label53.Text = "4"
         '
         'Label54
         '
@@ -408,11 +309,11 @@ Partial Class TrianguloForm
         Me.Label54.BackColor = System.Drawing.Color.Transparent
         Me.Label54.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label54.ForeColor = System.Drawing.Color.White
-        Me.Label54.Location = New System.Drawing.Point(19, 55)
+        Me.Label54.Location = New System.Drawing.Point(40, 42)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(84, 25)
+        Me.Label54.Size = New System.Drawing.Size(60, 25)
         Me.Label54.TabIndex = 18
-        Me.Label54.Text = "_________"
+        Me.Label54.Text = "______"
         '
         'Label56
         '
@@ -468,10 +369,10 @@ Partial Class TrianguloForm
         Me.Panel12.Controls.Add(Me.Label51)
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel12.ForeColor = System.Drawing.Color.White
-        Me.Panel12.Location = New System.Drawing.Point(249, 457)
+        Me.Panel12.Location = New System.Drawing.Point(253, 397)
         Me.Panel12.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(259, 136)
+        Me.Panel12.Size = New System.Drawing.Size(264, 117)
         Me.Panel12.TabIndex = 4
         '
         'Label40
@@ -565,7 +466,7 @@ Partial Class TrianguloForm
         Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.PictureBox4.ForeColor = System.Drawing.Color.White
         Me.PictureBox4.Image = Global.GeometriaProyecto.My.Resources.Resources.Triangulo_equilatero
-        Me.PictureBox4.Location = New System.Drawing.Point(3, 32)
+        Me.PictureBox4.Location = New System.Drawing.Point(3, 28)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(120, 95)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -582,7 +483,7 @@ Partial Class TrianguloForm
         Me.Label10.Location = New System.Drawing.Point(3, 0)
         Me.Label10.MinimumSize = New System.Drawing.Size(210, 31)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(231, 31)
+        Me.Label10.Size = New System.Drawing.Size(235, 31)
         Me.Label10.TabIndex = 6
         Me.Label10.Text = "Triangulo Rectangulo"
         '
@@ -604,10 +505,10 @@ Partial Class TrianguloForm
         Me.Panel6.Controls.Add(Me.Label1)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel6.ForeColor = System.Drawing.Color.White
-        Me.Panel6.Location = New System.Drawing.Point(249, 7)
+        Me.Panel6.Location = New System.Drawing.Point(253, 7)
         Me.Panel6.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(259, 136)
+        Me.Panel6.Size = New System.Drawing.Size(264, 116)
         Me.Panel6.TabIndex = 1
         '
         'T1P2
@@ -757,10 +658,10 @@ Partial Class TrianguloForm
         Me.Panel7.Controls.Add(Me.Button1)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel7.ForeColor = System.Drawing.Color.White
-        Me.Panel7.Location = New System.Drawing.Point(522, 7)
+        Me.Panel7.Location = New System.Drawing.Point(531, 7)
         Me.Panel7.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(370, 136)
+        Me.Panel7.Size = New System.Drawing.Size(378, 116)
         Me.Panel7.TabIndex = 2
         '
         'T1A2
@@ -824,7 +725,7 @@ Partial Class TrianguloForm
         Me.Resultado2.BackColor = System.Drawing.Color.Transparent
         Me.Resultado2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Resultado2.ForeColor = System.Drawing.Color.White
-        Me.Resultado2.Location = New System.Drawing.Point(232, 46)
+        Me.Resultado2.Location = New System.Drawing.Point(310, 52)
         Me.Resultado2.Name = "Resultado2"
         Me.Resultado2.Size = New System.Drawing.Size(28, 30)
         Me.Resultado2.TabIndex = 7
@@ -887,7 +788,7 @@ Partial Class TrianguloForm
         Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.PictureBox1.ForeColor = System.Drawing.Color.White
         Me.PictureBox1.Image = Global.GeometriaProyecto.My.Resources.Resources.Triangulo_rectangulo
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 32)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 28)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(120, 94)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -904,7 +805,7 @@ Partial Class TrianguloForm
         Me.Label21.Location = New System.Drawing.Point(3, 0)
         Me.Label21.MinimumSize = New System.Drawing.Size(210, 31)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(231, 31)
+        Me.Label21.Size = New System.Drawing.Size(235, 31)
         Me.Label21.TabIndex = 5
         Me.Label21.Text = "Triangulo Escaleno"
         '
@@ -941,10 +842,10 @@ Partial Class TrianguloForm
         Me.Panel10.Controls.Add(Me.Button5)
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel10.ForeColor = System.Drawing.Color.White
-        Me.Panel10.Location = New System.Drawing.Point(522, 307)
+        Me.Panel10.Location = New System.Drawing.Point(531, 267)
         Me.Panel10.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(370, 136)
+        Me.Panel10.Size = New System.Drawing.Size(378, 116)
         Me.Panel10.TabIndex = 5
         '
         'RespuestaT3A
@@ -1273,10 +1174,10 @@ Partial Class TrianguloForm
         Me.Panel9.Controls.Add(Me.Label28)
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel9.ForeColor = System.Drawing.Color.White
-        Me.Panel9.Location = New System.Drawing.Point(249, 307)
+        Me.Panel9.Location = New System.Drawing.Point(253, 267)
         Me.Panel9.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(259, 136)
+        Me.Panel9.Size = New System.Drawing.Size(264, 116)
         Me.Panel9.TabIndex = 4
         '
         'T3P3
@@ -1414,7 +1315,7 @@ Partial Class TrianguloForm
         Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.PictureBox3.ForeColor = System.Drawing.Color.White
         Me.PictureBox3.Image = Global.GeometriaProyecto.My.Resources.Resources.Triangulo_escaleno01
-        Me.PictureBox3.Location = New System.Drawing.Point(3, 32)
+        Me.PictureBox3.Location = New System.Drawing.Point(3, 28)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(120, 94)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1431,7 +1332,7 @@ Partial Class TrianguloForm
         Me.Label59.Location = New System.Drawing.Point(3, 0)
         Me.Label59.MinimumSize = New System.Drawing.Size(210, 31)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(231, 31)
+        Me.Label59.Size = New System.Drawing.Size(235, 31)
         Me.Label59.TabIndex = 5
         Me.Label59.Text = "Triangulo Isosceles"
         '
@@ -1440,20 +1341,14 @@ Partial Class TrianguloForm
         Me.Panel11.AutoSize = True
         Me.Panel11.BackColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel11.Controls.Add(Me.Label30)
         Me.Panel11.Controls.Add(Me.Label41)
         Me.Panel11.Controls.Add(Me.T2A2)
         Me.Panel11.Controls.Add(Me.Label19)
         Me.Panel11.Controls.Add(Me.Label35)
-        Me.Panel11.Controls.Add(Me.Label70)
-        Me.Panel11.Controls.Add(Me.Label71)
-        Me.Panel11.Controls.Add(Me.T2R2)
-        Me.Panel11.Controls.Add(Me.Label61)
         Me.Panel11.Controls.Add(Me.Label58)
         Me.Panel11.Controls.Add(Me.Label60)
         Me.Panel11.Controls.Add(Me.Label57)
-        Me.Panel11.Controls.Add(Me.T2R1)
-        Me.Panel11.Controls.Add(Me.Label48)
-        Me.Panel11.Controls.Add(Me.Label50)
         Me.Panel11.Controls.Add(Me.Label47)
         Me.Panel11.Controls.Add(Me.Label36)
         Me.Panel11.Controls.Add(Me.T2A1)
@@ -1466,10 +1361,10 @@ Partial Class TrianguloForm
         Me.Panel11.Controls.Add(Me.LabelT2A)
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel11.ForeColor = System.Drawing.Color.White
-        Me.Panel11.Location = New System.Drawing.Point(522, 157)
+        Me.Panel11.Location = New System.Drawing.Point(531, 137)
         Me.Panel11.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(370, 136)
+        Me.Panel11.Size = New System.Drawing.Size(378, 116)
         Me.Panel11.TabIndex = 4
         '
         'Label41
@@ -1489,7 +1384,7 @@ Partial Class TrianguloForm
         Me.T2A2.BackColor = System.Drawing.Color.White
         Me.T2A2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.T2A2.ForeColor = System.Drawing.Color.Black
-        Me.T2A2.Location = New System.Drawing.Point(106, 61)
+        Me.T2A2.Location = New System.Drawing.Point(153, 57)
         Me.T2A2.Name = "T2A2"
         Me.T2A2.Size = New System.Drawing.Size(31, 20)
         Me.T2A2.TabIndex = 16
@@ -1500,7 +1395,7 @@ Partial Class TrianguloForm
         Me.Label19.BackColor = System.Drawing.Color.Transparent
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.White
-        Me.Label19.Location = New System.Drawing.Point(134, 48)
+        Me.Label19.Location = New System.Drawing.Point(181, 44)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(13, 13)
         Me.Label19.TabIndex = 22
@@ -1512,57 +1407,11 @@ Partial Class TrianguloForm
         Me.Label35.BackColor = System.Drawing.Color.Transparent
         Me.Label35.Font = New System.Drawing.Font("Segoe UI Semibold", 44.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.ForeColor = System.Drawing.Color.White
-        Me.Label35.Location = New System.Drawing.Point(133, 27)
+        Me.Label35.Location = New System.Drawing.Point(180, 23)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(53, 78)
         Me.Label35.TabIndex = 21
         Me.Label35.Text = ")"
-        '
-        'Label70
-        '
-        Me.Label70.AutoSize = True
-        Me.Label70.BackColor = System.Drawing.Color.Transparent
-        Me.Label70.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.ForeColor = System.Drawing.Color.White
-        Me.Label70.Location = New System.Drawing.Point(271, 30)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(39, 15)
-        Me.Label70.TabIndex = 35
-        Me.Label70.Text = "Base"
-        '
-        'Label71
-        '
-        Me.Label71.AutoSize = True
-        Me.Label71.BackColor = System.Drawing.Color.Transparent
-        Me.Label71.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.ForeColor = System.Drawing.Color.White
-        Me.Label71.Location = New System.Drawing.Point(199, 31)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(47, 15)
-        Me.Label71.TabIndex = 34
-        Me.Label71.Text = "Altura"
-        '
-        'T2R2
-        '
-        Me.T2R2.BackColor = System.Drawing.Color.White
-        Me.T2R2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.T2R2.ForeColor = System.Drawing.Color.Black
-        Me.T2R2.Location = New System.Drawing.Point(279, 53)
-        Me.T2R2.Name = "T2R2"
-        Me.T2R2.Size = New System.Drawing.Size(24, 20)
-        Me.T2R2.TabIndex = 27
-        '
-        'Label61
-        '
-        Me.Label61.AutoSize = True
-        Me.Label61.BackColor = System.Drawing.Color.Transparent
-        Me.Label61.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.ForeColor = System.Drawing.Color.White
-        Me.Label61.Location = New System.Drawing.Point(259, 51)
-        Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(23, 30)
-        Me.Label61.TabIndex = 33
-        Me.Label61.Text = "*"
         '
         'Label58
         '
@@ -1570,7 +1419,7 @@ Partial Class TrianguloForm
         Me.Label58.BackColor = System.Drawing.Color.Transparent
         Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label58.ForeColor = System.Drawing.Color.White
-        Me.Label58.Location = New System.Drawing.Point(110, 35)
+        Me.Label58.Location = New System.Drawing.Point(157, 31)
         Me.Label58.Name = "Label58"
         Me.Label58.Size = New System.Drawing.Size(17, 16)
         Me.Label58.TabIndex = 32
@@ -1582,7 +1431,7 @@ Partial Class TrianguloForm
         Me.Label60.BackColor = System.Drawing.Color.Transparent
         Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label60.ForeColor = System.Drawing.Color.White
-        Me.Label60.Location = New System.Drawing.Point(60, 37)
+        Me.Label60.Location = New System.Drawing.Point(107, 33)
         Me.Label60.Name = "Label60"
         Me.Label60.Size = New System.Drawing.Size(17, 16)
         Me.Label60.TabIndex = 31
@@ -1594,45 +1443,11 @@ Partial Class TrianguloForm
         Me.Label57.BackColor = System.Drawing.Color.Transparent
         Me.Label57.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label57.ForeColor = System.Drawing.Color.White
-        Me.Label57.Location = New System.Drawing.Point(163, 71)
+        Me.Label57.Location = New System.Drawing.Point(210, 67)
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(25, 25)
         Me.Label57.TabIndex = 30
         Me.Label57.Text = "="
-        '
-        'T2R1
-        '
-        Me.T2R1.BackColor = System.Drawing.Color.White
-        Me.T2R1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.T2R1.ForeColor = System.Drawing.Color.Black
-        Me.T2R1.Location = New System.Drawing.Point(189, 54)
-        Me.T2R1.Name = "T2R1"
-        Me.T2R1.Size = New System.Drawing.Size(71, 20)
-        Me.T2R1.TabIndex = 26
-        '
-        'Label48
-        '
-        Me.Label48.AutoSize = True
-        Me.Label48.BackColor = System.Drawing.Color.Transparent
-        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.ForeColor = System.Drawing.Color.White
-        Me.Label48.Location = New System.Drawing.Point(233, 86)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(15, 16)
-        Me.Label48.TabIndex = 29
-        Me.Label48.Text = "2"
-        '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.BackColor = System.Drawing.Color.Transparent
-        Me.Label50.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.ForeColor = System.Drawing.Color.White
-        Me.Label50.Location = New System.Drawing.Point(197, 61)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(108, 25)
-        Me.Label50.TabIndex = 28
-        Me.Label50.Text = "____________"
         '
         'Label47
         '
@@ -1640,7 +1455,7 @@ Partial Class TrianguloForm
         Me.Label47.BackColor = System.Drawing.Color.Transparent
         Me.Label47.Font = New System.Drawing.Font("Segoe UI Semibold", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label47.ForeColor = System.Drawing.Color.White
-        Me.Label47.Location = New System.Drawing.Point(156, 39)
+        Me.Label47.Location = New System.Drawing.Point(203, 35)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(29, 19)
         Me.Label47.TabIndex = 25
@@ -1652,7 +1467,7 @@ Partial Class TrianguloForm
         Me.Label36.BackColor = System.Drawing.Color.Transparent
         Me.Label36.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.ForeColor = System.Drawing.Color.White
-        Me.Label36.Location = New System.Drawing.Point(5, 62)
+        Me.Label36.Location = New System.Drawing.Point(52, 58)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(26, 25)
         Me.Label36.TabIndex = 20
@@ -1663,7 +1478,7 @@ Partial Class TrianguloForm
         Me.T2A1.BackColor = System.Drawing.Color.White
         Me.T2A1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.T2A1.ForeColor = System.Drawing.Color.Black
-        Me.T2A1.Location = New System.Drawing.Point(53, 60)
+        Me.T2A1.Location = New System.Drawing.Point(100, 56)
         Me.T2A1.Name = "T2A1"
         Me.T2A1.Size = New System.Drawing.Size(31, 20)
         Me.T2A1.TabIndex = 14
@@ -1674,11 +1489,11 @@ Partial Class TrianguloForm
         Me.Label38.BackColor = System.Drawing.Color.Transparent
         Me.Label38.Font = New System.Drawing.Font("Segoe UI Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.ForeColor = System.Drawing.Color.White
-        Me.Label38.Location = New System.Drawing.Point(103, 72)
+        Me.Label38.Location = New System.Drawing.Point(148, 60)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(36, 25)
+        Me.Label38.Size = New System.Drawing.Size(68, 25)
         Me.Label38.TabIndex = 18
-        Me.Label38.Text = "___"
+        Me.Label38.Text = "_______"
         '
         'Label42
         '
@@ -1686,7 +1501,7 @@ Partial Class TrianguloForm
         Me.Label42.BackColor = System.Drawing.Color.Transparent
         Me.Label42.Font = New System.Drawing.Font("Segoe UI Semibold", 44.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.ForeColor = System.Drawing.Color.White
-        Me.Label42.Location = New System.Drawing.Point(21, 29)
+        Me.Label42.Location = New System.Drawing.Point(68, 25)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(53, 78)
         Me.Label42.TabIndex = 24
@@ -1698,7 +1513,7 @@ Partial Class TrianguloForm
         Me.Label27.BackColor = System.Drawing.Color.Transparent
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.Color.White
-        Me.Label27.Location = New System.Drawing.Point(110, 95)
+        Me.Label27.Location = New System.Drawing.Point(163, 90)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(15, 16)
         Me.Label27.TabIndex = 23
@@ -1710,7 +1525,7 @@ Partial Class TrianguloForm
         Me.Label37.BackColor = System.Drawing.Color.Transparent
         Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label37.ForeColor = System.Drawing.Color.White
-        Me.Label37.Location = New System.Drawing.Point(85, 49)
+        Me.Label37.Location = New System.Drawing.Point(132, 45)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(13, 13)
         Me.Label37.TabIndex = 19
@@ -1722,7 +1537,7 @@ Partial Class TrianguloForm
         Me.Label39.BackColor = System.Drawing.Color.Transparent
         Me.Label39.Font = New System.Drawing.Font("Segoe UI Semibold", 16.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.ForeColor = System.Drawing.Color.White
-        Me.Label39.Location = New System.Drawing.Point(87, 54)
+        Me.Label39.Location = New System.Drawing.Point(134, 50)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(22, 30)
         Me.Label39.TabIndex = 17
@@ -1750,7 +1565,7 @@ Partial Class TrianguloForm
         Me.LabelT2A.BackColor = System.Drawing.Color.Transparent
         Me.LabelT2A.Font = New System.Drawing.Font("Segoe UI Semibold", 15.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelT2A.ForeColor = System.Drawing.Color.White
-        Me.LabelT2A.Location = New System.Drawing.Point(315, 54)
+        Me.LabelT2A.Location = New System.Drawing.Point(310, 51)
         Me.LabelT2A.MaximumSize = New System.Drawing.Size(40, 30)
         Me.LabelT2A.MinimumSize = New System.Drawing.Size(30, 30)
         Me.LabelT2A.Name = "LabelT2A"
@@ -1776,10 +1591,10 @@ Partial Class TrianguloForm
         Me.Panel8.Controls.Add(Me.Label20)
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel8.ForeColor = System.Drawing.Color.White
-        Me.Panel8.Location = New System.Drawing.Point(249, 157)
+        Me.Panel8.Location = New System.Drawing.Point(253, 137)
         Me.Panel8.Margin = New System.Windows.Forms.Padding(7)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(259, 136)
+        Me.Panel8.Size = New System.Drawing.Size(264, 116)
         Me.Panel8.TabIndex = 2
         '
         'Label14
@@ -1907,7 +1722,7 @@ Partial Class TrianguloForm
         Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.PictureBox2.ForeColor = System.Drawing.Color.White
         Me.PictureBox2.Image = Global.GeometriaProyecto.My.Resources.Resources.triangulo_isosceles
-        Me.PictureBox2.Location = New System.Drawing.Point(3, 32)
+        Me.PictureBox2.Location = New System.Drawing.Point(3, 28)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(120, 94)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1941,7 +1756,7 @@ Partial Class TrianguloForm
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel10.Size = New System.Drawing.Size(899, 600)
+        Me.TableLayoutPanel10.Size = New System.Drawing.Size(916, 521)
         Me.TableLayoutPanel10.TabIndex = 5
         '
         'TableLayoutPanel1
@@ -1951,13 +1766,13 @@ Partial Class TrianguloForm
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox4, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label45, 0, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 455)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 395)
         Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(0, 5, 5, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(237, 145)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(241, 126)
         Me.TableLayoutPanel1.TabIndex = 6
         '
         'TableLayoutPanel2
@@ -1967,13 +1782,13 @@ Partial Class TrianguloForm
         Me.TableLayoutPanel2.Controls.Add(Me.PictureBox3, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Label21, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 305)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 265)
         Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(0, 5, 5, 0)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(237, 145)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(241, 125)
         Me.TableLayoutPanel2.TabIndex = 8
         '
         'TableLayoutPanel9
@@ -1983,13 +1798,13 @@ Partial Class TrianguloForm
         Me.TableLayoutPanel9.Controls.Add(Me.Label59, 0, 0)
         Me.TableLayoutPanel9.Controls.Add(Me.PictureBox2, 0, 1)
         Me.TableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel9.Location = New System.Drawing.Point(0, 155)
+        Me.TableLayoutPanel9.Location = New System.Drawing.Point(0, 135)
         Me.TableLayoutPanel9.Margin = New System.Windows.Forms.Padding(0, 5, 5, 0)
         Me.TableLayoutPanel9.Name = "TableLayoutPanel9"
         Me.TableLayoutPanel9.RowCount = 2
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
-        Me.TableLayoutPanel9.Size = New System.Drawing.Size(237, 145)
+        Me.TableLayoutPanel9.Size = New System.Drawing.Size(241, 125)
         Me.TableLayoutPanel9.TabIndex = 7
         '
         'TableLayoutPanel8
@@ -2005,15 +1820,38 @@ Partial Class TrianguloForm
         Me.TableLayoutPanel8.RowCount = 2
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
-        Me.TableLayoutPanel8.Size = New System.Drawing.Size(237, 145)
+        Me.TableLayoutPanel8.Size = New System.Drawing.Size(241, 125)
         Me.TableLayoutPanel8.TabIndex = 7
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.BackColor = System.Drawing.Color.Transparent
+        Me.Label30.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.ForeColor = System.Drawing.Color.White
+        Me.Label30.Location = New System.Drawing.Point(209, 34)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(22, 13)
+        Me.Label30.TabIndex = 33
+        Me.Label30.Text = "1/2"
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.BackColor = System.Drawing.Color.Transparent
+        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.ForeColor = System.Drawing.Color.White
+        Me.Label43.Location = New System.Drawing.Point(175, 49)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(13, 13)
+        Me.Label43.TabIndex = 29
+        Me.Label43.Text = "2"
         '
         'TrianguloForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.AutoScrollMinSize = New System.Drawing.Size(0, 600)
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(916, 521)
         Me.Controls.Add(Me.TableLayoutPanel10)
@@ -2055,19 +1893,12 @@ Partial Class TrianguloForm
     End Sub
     Friend WithEvents Label45 As Label
     Friend WithEvents Panel13 As Panel
-    Friend WithEvents Label67 As Label
-    Friend WithEvents T4A2 As TextBox
-    Friend WithEvents T4A3 As TextBox
-    Friend WithEvents Label68 As Label
-    Friend WithEvents Label69 As Label
-    Friend WithEvents Label66 As Label
     Friend WithEvents Label62 As Label
     Friend WithEvents Label55 As Label
     Friend WithEvents Label63 As Label
     Friend WithEvents Label64 As Label
     Friend WithEvents Label65 As Label
     Friend WithEvents T4A1 As TextBox
-    Friend WithEvents Label44 As Label
     Friend WithEvents Label52 As Label
     Friend WithEvents Label53 As Label
     Friend WithEvents Label54 As Label
@@ -2155,16 +1986,9 @@ Partial Class TrianguloForm
     Friend WithEvents T2A2 As TextBox
     Friend WithEvents Label19 As Label
     Friend WithEvents Label35 As Label
-    Friend WithEvents Label70 As Label
-    Friend WithEvents Label71 As Label
-    Friend WithEvents T2R2 As TextBox
-    Friend WithEvents Label61 As Label
     Friend WithEvents Label58 As Label
     Friend WithEvents Label60 As Label
     Friend WithEvents Label57 As Label
-    Friend WithEvents T2R1 As TextBox
-    Friend WithEvents Label48 As Label
-    Friend WithEvents Label50 As Label
     Friend WithEvents Label47 As Label
     Friend WithEvents Label36 As Label
     Friend WithEvents T2A1 As TextBox
@@ -2192,4 +2016,6 @@ Partial Class TrianguloForm
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel9 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel8 As TableLayoutPanel
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label43 As Label
 End Class

@@ -56,10 +56,7 @@
             b = T2A2.Text
             raiz = ((a ^ 2) - ((b ^ 2) / 4))
             raiz = Math.Sqrt(raiz)
-
-            T2R1.Text = (raiz)
-            T2R2.Text = (b)
-            LabelT2A.Text = ((raiz * b) / 2)
+            LabelT2A.Text = (raiz)
         End If
     End Sub
     '/////////////////////////////////////////////////////////////////////////////////////
@@ -153,11 +150,9 @@
         If Validacion() = True Then
             a = T4A1.Text
             raiz = Math.Sqrt(3)
-            b = raiz * a
-            b = b / 2
-            T4A2.Text = b
-            T4A3.Text = a
-            LabelT4A.Text = ((b * a) / 2)
+            b = raiz / 4
+            c = (b * (a ^ 2))
+            LabelT4A.Text = (c)
         End If
 
     End Sub

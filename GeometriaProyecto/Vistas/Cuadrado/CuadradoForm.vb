@@ -24,10 +24,15 @@
         NumeroCero()
         If P2P1.Text.Length = 0 Then
             BANDERA = True
+        ElseIf P2P2.Text.Length = 0 Then
+            BANDERA = True
+        Else
+            BANDERA = False
         End If
         If Validacion() = True Then
             a = P2P1.Text
-            A2.Text = (a * 4)
+            b = P2P1.Text
+            Label24.Text = ((2 * a) * (2 * b))
         End If
     End Sub
     'boton area de un rombo'
@@ -83,10 +88,6 @@
             BANDERA = True
         ElseIf P4P2.Text.Length = 0 Then
             BANDERA = True
-        ElseIf P4P3.Text.Length = 0 Then
-            BANDERA = True
-        ElseIf P4P4.Text.Length = 0 Then
-            BANDERA = True
         Else
             BANDERA = False
         End If
@@ -94,9 +95,7 @@
         If Validacion() = True Then
             a = P4P1.Text
             b = P4P2.Text
-            c = P4P3.Text
-            d = P4P4.Text
-            A4.Text = (a + b + c + d)
+            A4.Text = ((2 * a) + (2 * b))
         End If
     End Sub
     'boton de area DE UN TRAPECIO
@@ -106,6 +105,8 @@
             BANDERA = True
         ElseIf P5A2.Text.Length = 0 Then
             BANDERA = True
+        ElseIf P5A3.Text.Length = 0 Then
+            BANDERA = True
         Else
             BANDERA = False
         End If
@@ -113,7 +114,8 @@
         If Validacion() = True Then
             a = P5A1.Text
             b = P5A2.Text
-            A5.Text = ((a * b) / 2)
+            c = P5A2.Text
+            A5.Text = ((a * (b + c)) / 2)
         End If
     End Sub
     'BOTON DE UN PERIMETRO DE UN TRAPECIO
