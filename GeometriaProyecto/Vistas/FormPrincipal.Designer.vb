@@ -374,7 +374,6 @@ Partial Class FormPrincipal
         '
         'Contenedor
         '
-        Me.Contenedor.AutoScrollMargin = New System.Drawing.Size(0, 700)
         Me.Contenedor.AutoSize = True
         Me.Contenedor.BackColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Contenedor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
